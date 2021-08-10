@@ -1147,7 +1147,7 @@ text-decoration: none;
 
 /* Responsive Ipad */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
 
   html, body {
     font-family: Railways;
@@ -1231,9 +1231,11 @@ text-decoration: none;
     position: absolute;
     top: 15rem;
 
+  }
 
-
-
+  .icone span i {
+    position: absolute;
+    top: -0.3rem;
   }
 
 
@@ -1558,16 +1560,14 @@ font-size: 1.7rem;
 
 
 
-/* Responsive iphone X */
-
 
 
 /* Responsive iPhone 8 */
 
 
-@media (min-width:375px) and (max-width:667px) {
+@media screen and (max-width:667px) {
 
-
+  
 
   html, body {
     font-family: Railways;
@@ -1646,11 +1646,10 @@ font-size: 1.7rem;
 /* Barre de Recherche mobile */
 
 input{
-border-radius: 0.5rem;
-position:relative;
- bottom: 0rem;
- right: 3rem;
- display: flex;
+  border-radius: 0.5rem;
+  position:relative;
+  right: 3rem;
+  display: flex;
 }
 
 button{
@@ -2172,6 +2171,7 @@ height: 15rem;
         }
 
       
+      
         
 
     /* Footer mobile */
@@ -2231,3 +2231,4 @@ height: 15rem;
 }
 
 }
+
