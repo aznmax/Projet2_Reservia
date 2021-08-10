@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
- 
+  height: 100%;
 
 
 }
@@ -112,7 +112,7 @@ left: 8rem;
   position: relative;
   display: flex;
   bottom: 5rem;
-  left: 7rem;
+  left: 7.5rem;
 
 }
 
@@ -156,7 +156,7 @@ button{
 .filter{
   position: relative;
   bottom: 3.5rem;
-  left: 7.8rem;
+  left: 8rem;
   display: flex;
   font-size: 1.8rem;
  
@@ -164,7 +164,6 @@ button{
 }
 
 .filter h4{
-
     font-size: 1.8rem;
 }
 
@@ -236,19 +235,29 @@ position: relative;
 /* Informations complémentaires Desktop */
 
 .icone span {
-  position: relative;
+  position: absolute;
   top: 8rem;
-  right: 80rem;
+  left: 3rem;
   font-size: 1.6rem;
 }
 
 .icone i {
+  position: absolute;
+  margin-left: -3rem;
+  margin-top: 0.1rem;
   color: #0065fc;
+ font-size: 1.9rem;
+ background: white;
+  
 }
 
 .numero1{
-  display: none;
+  opacity: 0;
 }
+
+
+
+
 
 /* Container 1 -- Hébergement à Marseille */
 
@@ -256,12 +265,13 @@ position: relative;
   width: 100rem;
   height: 70rem;
   background: #F2F2F2;
-  margin-left: 7.3rem;
+  margin-left: 10rem;
   display: flex;
   flex-wrap: wrap;
   border-radius: 3rem;
   position: relative;
   top: 2rem;
+  right: 3rem;
 }
 
 .titre2{
@@ -675,7 +685,6 @@ text-decoration: none;
   left: 133rem;
   bottom: 74.5rem;
   border-radius: 3rem;
-  padding: 0;
 }
 
 
@@ -879,7 +888,7 @@ color: #0065fc;
 .titre3{
   position: relative;
   bottom: 65rem;
-  left: 8.5rem;
+  left: 7.8rem;
   font-size: 1.5rem;
 }
 
@@ -1217,7 +1226,7 @@ text-decoration: none;
   .container{
     position: relative;
     top: 15rem;
-    right: 4rem;
+    right: 7rem;
     width: 70rem;
     height: 175rem;
   }
@@ -1352,21 +1361,18 @@ text-decoration: none;
 .logementpop1{
     position: relative;
     top: 3rem;
-    left: 5.6rem;
     width: 50rem;
 }
 
 .logementpop2{
     position: relative;
     top: 6rem;
-    left: 5.6rem;
   width: 50rem;
 }
 
 .logementpop3{
   position: relative;
   top: 10rem;
-  left: 5.6rem;
   width: 50rem;
 }
 
@@ -1530,14 +1536,13 @@ font-size: 1.7rem;
 
 
 
-
 /* Responsive iPhone */
 
 
-@media (min-width:375px) and (max-width:500px) {
+@media (min-width:375px) and (max-width:480px) {
 
 
- 
+
   html, body {
     font-family: Railways;
     overflow-x: hidden;
@@ -1562,7 +1567,7 @@ font-size: 1.7rem;
 .menu ul li:nth-child(3){
 
   position: absolute;
-  left: 28rem;
+  left: 25rem;
   bottom: 6rem;
 
 }
@@ -1583,42 +1588,39 @@ font-size: 1.7rem;
 .logo{
   position: absolute;
  top: 0.5rem;
- left: 2.5rem;
+ left: 3.8rem;
   
 }
 
 /* Titre & Sous Titre mobile */
-.titre{
+.titre2{
   position: absolute;
-  top: 8rem;
- left: 2rem;
+  top: 8.2rem;
+  left: 4rem;
+ font-size: 1.8rem;
+  display: block;
 }
 
 .informations{
   position: absolute;
-  top: 14rem;
-  left: 2rem;
-  
+  top: 15rem;
+  left: 4rem;
+  white-space: nowrap;
 }
 
 .iconeparent{
   position: absolute;
   bottom: 43rem;
-
+  
 }
-
-
 /* Barre de Recherche mobile */
 
 input{
-  border-radius: 0.5rem;
-  position: absolute;
-  z-index: 7;
-  top: -408rem;
+border-radius: 0.5rem;
+position:relative;
+ bottom: 0rem;
+ right: 3rem;
  display: flex;
- width: 19rem;
- height: 3rem;
- text-align: center;
 }
 
 button{
@@ -1627,10 +1629,9 @@ button{
 
 
 .icone2{
-  z-index: 8 ;
-  position: absolute;
-  bottom: 408.5rem;
-  right: 5rem;
+  position: relative;
+  bottom: 0rem;
+  right: 10rem;
   display: flex;
   justify-content: end;
   align-content: flex-end;
@@ -1639,21 +1640,20 @@ button{
 }
 
 .iconegeo i {
-  z-index: 8;
   display: flex;
   position: relative;
-  bottom: 408rem;
-  right: 0.5rem;
+  bottom: 0rem;
+  right: 3rem;
   font-size: 1.4rem;
 }
 
 .icone2 i {
   position: relative;
-  left: 20.8rem;
-  top:0.5rem;
+  left: 5rem;
   background: #0065fc;
   font-size: 1.3rem;
 }
+
 
 
 
@@ -1665,28 +1665,28 @@ button{
   position: absolute;
   display: block;
 top: 20rem;
-
+left: 3rem;
 }
 
 .filter h4{
 position: relative;
 bottom: -1.8rem;
-right: 5rem;
+right: -1rem;
 
 }
 
 .css_ul_liste_filtres{
-  left: 2rem;
+  left: -10rem;
   top: 1rem;
 }
 
 .css_ul_liste_filtres  {
   position: relative;
-  left: -10rem;
+  left: -6rem;
 }
 
 .css_ul_liste_filtres :nth-child(2){
-  left: 2rem;
+  left: -1rem;
 }
 
 .css_ul_liste_filtres :nth-child(3){
@@ -1704,8 +1704,8 @@ right: 5rem;
   .icone span{
     position: absolute;
     top: 25rem;
-    right: 48rem;
-    left: -1rem;
+    right: 45rem;
+    left: 2rem;
     font-size: 1.9rem;
     display: block;
     white-space: wrap;
@@ -1713,19 +1713,11 @@ right: 5rem;
     
   }
 
-.icone span i{
-left: -2.5rem;
-position: absolute;
- display: block;
-}
-
-.numero1{
-  opacity: 0;
-}
-
-.numero2{
-  opacity: 0;
-}
+  .icone span i{
+    position: absolute;
+   top: 0.1rem;
+   right: 29rem
+  }
 
   /* Logement Populaire mobile */
 
@@ -1839,7 +1831,7 @@ position: absolute;
   .container{
     position: absolute;
     top: 130rem;
-    left: -8rem;
+    left: -10rem;
     width: 38rem;
     height: 173rem;
   }
