@@ -1134,24 +1134,41 @@
         @media screen and (max-width:1280px) {
 
 
-              /* Menu Desktop */
+              /* Menu  Responsive  Desktop 1280px */
               .menu {
-                margin-left: 130rem;
+                margin-left: 125rem;
             }
 
             .icone1 {
                 margin-left: -9rem;
             }
 
+            /* Container Hébergement Desktop 1280px */
 
-            /* Grande photo 2 Media Desktop */
+            .container{
+                margin-left: 3rem;
+            }
+
+            /* Container Populaire Desktop 1280px  */
+            .container2 {
+                width: 25%;
+                height: 70rem;
+                margin-left: 95rem;
+                margin-top: -67rem;
+                background: #f2f2f2;
+                border-radius: 3rem;
+            }
+    
+
+
+            /* Grande photo 2 Media Responsive  Desktop 1280px */
 
             .grandephoto2 {
                 margin-left: 65rem;
             }
 
 
-            /* Petite photo 2 media desktop */
+            /* Petite photo 2 media Responsive  Desktop 1280px*/
 
             .petitephoto1 {
                 margin-left: 38rem;
