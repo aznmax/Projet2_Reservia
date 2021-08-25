@@ -604,7 +604,7 @@
             position: relative;
             width: 25%;
             height: 70rem;
-            margin-left: 98rem;
+            margin-left: 118rem;
             margin-top: -67rem;
             background: #f2f2f2;
             border-radius: 3rem;
@@ -1005,7 +1005,17 @@
 
         @media screen and (max-width:1366px){
 
+            /* Container Hébergement */
 
+            .container{
+                margin-left: 5rem;
+            }
+
+            /* Container POpulaire */
+
+            .container2{
+                margin-left: 98rem;
+            }
 
             .icone1 {
                 margin-left: -6rem;
