@@ -1055,6 +1055,43 @@
         /* Media Querie Desktop */
 
 
+        @media screen and (max-width: 1440px){
+
+             /* Menu Desktop */
+             .menu {
+                margin-left: 130rem;
+            }
+
+            /* Icone Dekstop */
+
+            .icone1 {
+                margin-left: -6rem;
+            }
+
+              /* Container POpulaire */
+
+              .container2 {
+                margin-left: 98rem;
+            }
+
+                /* Petite photo 3 Media Desktop */
+
+                .petitephoto3 {
+                    margin-left: 110rem;
+                }
+
+             /* Petite photo 4 Media Desktop */
+
+             .petitephoto4 {
+                margin-left: 110rem;
+            }
+            
+
+
+
+        }
+
+
 
         @media screen and (max-width:1366px) {
 
@@ -1070,7 +1107,7 @@
                 margin-left: 5rem;
             }
 
-            /* Container POpulaire */
+            /* Container Populaire */
 
             .container2 {
                 margin-left: 98rem;
