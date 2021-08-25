@@ -271,7 +271,6 @@
             margin-top: 4rem;
             padding: 5rem;
 
-
         }
 
         .location img {
@@ -620,8 +619,6 @@
             top: -0.5rem;
             font-size: 2rem;
 
-
-
         }
 
         .populaire h2 {
@@ -966,7 +963,7 @@
         /* Footer Desktop */
 
 
-        .backtest{
+        .backtest {
             position: relative;
             width: 100%;
             height: 25rem;
@@ -975,15 +972,15 @@
         }
 
 
-        .footerleft{
+        .footerleft {
             margin-left: 5rem;
             margin-top: 10rem;
 
         }
 
-        .footerleft h3{
-           position: relative;
-           top: 5rem;
+        .footerleft h3 {
+            position: relative;
+            top: 5rem;
             font-size: 1.8rem;
         }
 
@@ -993,14 +990,14 @@
             font-size: 1.5rem;
         }
 
-          .footercenter{
-              position: absolute;
-              left: 90rem;
-              bottom: 10rem;
+        .footercenter {
+            position: absolute;
+            left: 90rem;
+            bottom: 10rem;
 
         }
 
-        .footercenter h3{
+        .footercenter h3 {
             position: relative;
             right: 35rem;
             font-size: 1.8rem;
@@ -1012,17 +1009,17 @@
             font-size: 1.5rem;
         }
 
-        .footercenter h3{
+        .footercenter h3 {
             font-size: 1.8rem;
-        } 
+        }
 
-        .footercenter p{
+        .footercenter p {
             font-size: 1.5rem;
-        } 
+        }
 
 
 
-        .footerright h3{
+        .footerright h3 {
             position: relative;
             left: 110rem;
             bottom: 10rem;
@@ -1036,29 +1033,29 @@
             font-size: 1.5rem;
         }
 
-        .footerright h3{
-         
+        .footerright h3 {
+
             font-size: 1.8rem;
-        } 
+        }
 
-        .footerright p{
+        .footerright p {
             font-size: 1.5rem;
-        } 
+        }
 
 
-    
-       
 
-        
+
+
+
 
 
         /* Media Querie Desktop */
 
 
-        @media screen and (max-width: 1440px){
+        @media screen and (max-width: 1440px) {
 
-             /* Menu Desktop */
-             .menu {
+            /* Menu Desktop */
+            .menu {
                 margin-left: 130rem;
             }
 
@@ -1068,24 +1065,24 @@
                 margin-left: -6rem;
             }
 
-              /* Container POpulaire */
+            /* Container POpulaire */
 
-              .container2 {
+            .container2 {
                 margin-left: 98rem;
             }
 
-                /* Petite photo 3 Media Desktop */
+            /* Petite photo 3 Media Desktop */
 
-                .petitephoto3 {
-                    margin-left: 110rem;
-                }
-
-             /* Petite photo 4 Media Desktop */
-
-             .petitephoto4 {
+            .petitephoto3 {
                 margin-left: 110rem;
             }
-            
+
+            /* Petite photo 4 Media Desktop */
+
+            .petitephoto4 {
+                margin-left: 110rem;
+            }
+
 
 
 
@@ -1156,11 +1153,11 @@
 
             /* Footer Media Desktop */
 
-            .backtest{
+            .backtest {
                 position: relative;
                 width: 120%;
                 height: 25rem;
-               
+
             }
 
 
@@ -1171,8 +1168,8 @@
         @media screen and (max-width:1280px) {
 
 
-              /* Menu  Responsive  Desktop 1280px */
-              .menu {
+            /* Menu  Responsive  Desktop 1280px */
+            .menu {
                 margin-left: 125rem;
             }
 
@@ -1182,7 +1179,7 @@
 
             /* Container Hébergement Desktop 1280px */
 
-            .container{
+            .container {
                 margin-left: 3rem;
             }
 
@@ -1196,55 +1193,55 @@
                 border-radius: 3rem;
             }
 
-        /* Logement Populaire 1  */
-
-            
-        .logementpop1 {
-            width: 70%;
-            height: 13rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: 4rem;
-            margin-top: 1rem;
-            padding: 2rem;
-        }
+            /* Logement Populaire 1  */
 
 
+            .logementpop1 {
+                width: 70%;
+                height: 13rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: 4rem;
+                margin-top: 1rem;
+                padding: 2rem;
+            }
 
-        .logementpop1 img {
-            border-bottom-left-radius: 2rem;
-            border-top-left-radius: 2rem;
-            width: 15rem;
-            height: 17rem;
-            object-fit: cover;
-            margin-left: -1.9rem;
-            margin-top: -2rem;
-        }
 
-        .logementpop1 h3 {
 
-            font-size: 1.6rem;
-            font-weight: bolder;
-            margin-left: 15rem;
-            margin-top: -15rem;
-        }
+            .logementpop1 img {
+                border-bottom-left-radius: 2rem;
+                border-top-left-radius: 2rem;
+                width: 15rem;
+                height: 17rem;
+                object-fit: cover;
+                margin-left: -1.9rem;
+                margin-top: -2rem;
+            }
 
-        .logementpop1 p {
-            margin-left: 15rem;
-            margin-top: -1rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-        }
+            .logementpop1 h3 {
 
-        .logementpop1 i {
-            position: relative;
-            bottom: 0.5rem;
-            left: 15rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-            color: #0065fc;
-        }
-    
+                font-size: 1.6rem;
+                font-weight: bolder;
+                margin-left: 15rem;
+                margin-top: -15rem;
+            }
+
+            .logementpop1 p {
+                margin-left: 15rem;
+                margin-top: -1rem;
+                font-size: 1.3rem;
+                font-weight: bolder;
+            }
+
+            .logementpop1 i {
+                position: relative;
+                bottom: 0.5rem;
+                left: 15rem;
+                font-size: 1.3rem;
+                font-weight: bolder;
+                color: #0065fc;
+            }
+
 
 
             /* Grande photo 2 Media Responsive  Desktop 1280px */
@@ -1290,364 +1287,522 @@
 
         /* Responsive Ipad */
 
-        @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        @media screen and (max-width: 768px) {
+
 
             html,
             body {
                 font-family: Railways;
                 overflow-x: hidden;
             }
-
+            
+            
+            
             body {
+                height: 100vh;
+                width: 100%;
                 position: relative;
             }
 
             /* Logo & Menu iPad */
+
+
             .logo {
-                position: relative;
-                bottom: 6rem;
-            }
-
-            .menu ul {
-                position: relative;
-                right: 120rem;
-                top: 4rem;
-                font-size: 1.8rem;
-            }
-
-            .titre {
-                font-size: 1.5rem;
-                position: relative;
-                bottom: 4rem;
-            }
-
-            .informations {
-                position: relative;
-                bottom: 9rem;
-            }
-
-            /* Barre de recherche iPad */
-            /* Filtre iPad */
-            .filter {
                 position: absolute;
-                display: block;
-                top: 28rem;
-                left: 10rem;
+                margin-left: 8rem;
+                margin-top: -6rem;
+                display: flex;
+            }
+
+            .menu {
+                margin-left: 75rem;
+                margin-top: 3rem;
+            }
+
+            .titre h3 {
+                margin-top: -5rem;
+            }
+
+
+
+            .iconeparent {
+
+                display: flex;
+                margin-top: 4rem;
+                margin-left: 9rem;
+
+            }
+
+            .iconeparent i {
+                display: flex;
+                width: 4rem;
+                height: 4rem;
+                font-size: 1.8rem;
+                background: #f2f2f2;
+                justify-content: center;
+                margin-left: -0.5rem;
+                align-items: center;
+                border-top-left-radius: 0.9rem;
+                border-bottom-left-radius: 0.9rem;
+            }
+
+            button {
+                display: flex;
+                align-items: center;
+                background: #0065fc;
+                color: white;
+                margin-left: 0rem;
+                cursor: pointer;
+                font-size: 1.8rem;
+                border-top-right-radius: 1.2rem;
+                border-bottom-right-radius: 1.2rem;
+            }
+
+
+            /* Filtre de Recherche Ipad */
+
+            .icone2 {
+                display: none;
             }
 
             .filter h4 {
-                position: absolute;
-                top: -3rem;
-                right: 70rem;
+                font-size: 2.1rem;
+                margin-left: 20rem;
+                margin-top: 3rem;
             }
 
             .css_ul_liste_filtres {
-                left: -7rem;
-                top: 1rem;
+                margin-right: 3rem;
+                margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
             }
 
-            .css_ul_liste_filtres :nth-child(3) {
-                top: 5rem;
-                right: 30rem;
+            .css_ul_liste_filtres li span i:hover {
+                top: 3px;
             }
 
-            .css_ul_liste_filtres :nth-child(4) {
-                top: 5rem;
-                right: 30rem;
+            .css_ul_liste_filtres li:hover {
+                top: 3px;
             }
 
-            .icone span {
-                position: absolute;
-                top: 40rem;
+            .css_ul_liste_filtres li {
+                margin-left: 1rem;
+                padding: 0.6rem;
+                border: 2px solid #dedede;
+                background: white;
+                margin-right: 2rem;
+                border-radius: 5rem;
+                display: flex;
+                align-items: center;
             }
 
-            .icone span i {
-                position: absolute;
-                top: -0.3rem;
+            .css_ul_liste_filtres li:nth-child(1) {
+                width: 15rem;
+                margin-left: -9rem;
             }
 
-            /* Hébergement à Marseille iPad */
-            .container {
+            .css_ul_liste_filtres li:nth-child(2) {
+                width: 11.5rem;
+            }
+
+            .css_ul_liste_filtres li:nth-child(3) {
+                width: 15rem;
+                margin-top: 12rem;
+                margin-left: -35rem;
+            }
+
+            .css_ul_liste_filtres li:nth-child(4) {
+                width: 20rem;
+                margin-top: 12rem;
+            }
+
+            .css_ul_liste_filtres span {
+                margin-left: 0.5rem;
+            }
+
+            .css_ul_liste_filtres li i {
+                width: 3rem;
+                height: 3rem;
+                background: #DEEBFF;
+                border-radius: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 position: relative;
-                top: 15rem;
-                right: 7rem;
-                width: 70rem;
-                height: 175rem;
+                right: 0.5rem;
+                background: #DEEBFF;
+                color: #0065fc;
             }
 
-            .titre2 h2 {
-                position: relative;
-                left: 13rem;
-                font-size: 3rem;
-            }
+        
+        /* Hébergement Location P1 ipad*/
 
-            .premier {
-                position: absolute;
-                bottom: 150rem;
-                left: 1rem;
-                top: 9rem;
-                width: 40rem;
-            }
-
-            .premier img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .deuxieme {
-                position: absolute;
-                bottom: 100rem;
-                left: 0rem;
-                top: 36rem;
-                width: 40rem;
-            }
-
-            .deuxieme img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .troisieme {
-                position: absolute;
-                bottom: 100rem;
-                left: 1rem;
-                top: 62rem;
-                width: 40rem;
-            }
-
-            .troisieme img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .quatrieme {
-                position: absolute;
-                bottom: 100rem;
-                left: 5rem;
-                top: 88rem;
-                width: 40rem;
-            }
-
-            .quatrieme img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .cinquieme {
-                position: absolute;
-                bottom: 100rem;
-                left: 1rem;
-                top: 115rem;
-                width: 40rem;
-            }
-
-            .cinquieme img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .sixieme {
-                position: absolute;
-                bottom: 100rem;
-                left: 0rem;
-                top: 142rem;
-                width: 40rem;
-            }
-
-            .sixieme img {
-                width: 50rem;
-                object-fit: cover;
-            }
-
-            .infosup {
-                position: relative;
-                top: 10rem;
-                left: 31rem;
-                font-size: 1.8rem;
-            }
-
-            /* Les Plus Populaire iPad */
-            .container2 {
-                position: relative;
-                top: 15rem;
-                left: 3em;
-                width: 70rem;
-                height: 73rem;
-            }
-
-            .populaire h2 {
-                position: relative;
-                font-size: 3rem;
-                top: 0rem;
-                left: 13rem;
-            }
-
-            .icone1 {
-                position: relative;
-                left: 55rem;
-            }
-
-            .logementpop1 {
-                position: relative;
-                top: 3rem;
-                width: 50rem;
-            }
-
-            .logementpop2 {
-                position: relative;
-                top: 6rem;
-                width: 50rem;
-            }
-
-            .logementpop3 {
-                position: relative;
-                top: 10rem;
-                width: 50rem;
-            }
-
-            /* Activité à Marseille  iPad*/
-            .titre3 {
-                position: absolute;
-                top: 300rem;
-                left: 25rem;
-                font-size: 2rem;
-            }
-
-            .grandephoto {
-                position: absolute;
-                top: 310rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .grandephoto img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .grandephoto h4 {
-                font-size: 1.8rem;
-            }
-
-            .petitephoto {
-                position: absolute;
-                top: 298rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .petitephoto img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .petitephoto h4 {
-                font-size: 1.8rem;
-            }
-
-            .petitephoto1 {
-                position: absolute;
-                top: 280rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .petitephoto1 img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .petitephoto1 h4 {
-                font-size: 1.8rem;
-            }
-
-            .grandephoto2 {
-                position: absolute;
-                top: 368rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .grandephoto2 h4 {
-                position: relative;
-                top: 10rem;
-                font-size: 1.8rem;
-            }
-
-            .grandephoto2 img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .petitephoto3 {
-                position: absolute;
-                top: 315rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .petitephoto3 img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .petitephoto3 h4 {
-                font-size: 1.8rem;
-            }
-
-            .petitephoto4 {
-                position: absolute;
-                top: 340rem;
-                left: 15rem;
-                width: 45rem;
-                height: 15rem;
-            }
-
-            .petitephoto4 img {
-                width: 45rem;
-                height: 10rem;
-                object-fit: cover;
-            }
-
-            .petitephoto4 h4 {
-                font-size: 1.8rem;
-            }
-
-            /* Footer iPad */
-            .backtest {
-                position: relative;
-                height: 40rem;
-                width: 500rem;
-                top: 150rem;
-            }
-
-            .footerleft {
-                position: absolute;
-                left: 5rem;
-                font-size: 1.7rem;
-            }
-
-            .footercenter {
-                position: absolute;
-                left: -18rem;
-                font-size: 1.7rem;
-            }
-
-            .footerright {
-                position: absolute;
-                left: -33rem;
-            }
+        .container{
+            width: 70rem;
+            height:190rem;
+            margin-top: 2rem;
         }
+
+        .location {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .location img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .location h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .location p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .location i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .location i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Hébergement Location P2 */
+
+        .locationp2 {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .locationp2 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .locationp2 h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .locationp2 p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .locationp2 i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .locationp2 i:nth-child(8) {
+            color: #dedede;
+        }
+
+
+          /* Hébergement Location P3 ipad */
+
+
+        .locationp3 {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .locationp3 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .locationp3 h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .locationp3 p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .locationp3 i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .locationp3 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Hébergement Location P4 ipad */
+
+        .locationp4 {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .locationp4 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .locationp4 h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .locationp4 p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .locationp4 i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .locationp4 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Hébergement  location P5 ipad  */
+
+        .locationp5 {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .locationp5 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .locationp5 h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .locationp5 p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .locationp5 i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .locationp5 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Hébergement Location P6 ipad */
+
+        .locationp6 {
+            width: 50rem;
+            height: 14rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -3rem;
+            margin-top: 3rem;
+            padding: 5rem;
+
+        }
+
+        .locationp6 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 60rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .locationp6 h5 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            margin-left: -3rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .locationp6 p {
+            margin-top: -3rem;
+            margin-left: -3rem;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+
+        .locationp6 i {
+            position: relative;
+            bottom: 1rem;
+            right: 2.8rem;
+            margin-bottom: -28rem;
+            font-size: 1.5rem;
+            color: #0065fc;
+        }
+
+        .locationp4 i:nth-child(8) {
+            color: #dedede;
+        }
+
+         /* Container 2 Ipad  */
+
+         .container2{
+            width: 70rem;
+            height:80rem;
+            margin-top: 6rem;
+            margin-left: 3.5rem;
+        } 
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        }
+
+
 
         /* Responsive iPhone 8 */
 
