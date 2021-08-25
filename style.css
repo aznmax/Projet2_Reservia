@@ -1,0 +1,2042 @@
+        * ::before,
+        ::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+
+
+
+        html {
+            font-family: Raleway;
+            font-size: 10px;
+        }
+
+        /* Header Menu & Logo Desktop  */
+
+        .menu {
+            font-size: 1.8rem;
+            margin-left: 120rem;
+            display: flex;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu :nth-child(1) {
+            list-style: none;
+            margin-left: -10rem;
+            margin-top: 2rem;
+
+        }
+
+
+
+        .menu :nth-child(2) {
+            list-style: none;
+            margin-left: 7rem;
+            margin-top: -2rem;
+
+        }
+
+        .menu :nth-child(3) {
+            list-style: none;
+            margin-left: 18rem;
+            margin-top: -2rem;
+        }
+
+        .couleur a {
+            color: #0065fc;
+
+        }
+
+        .couleur:nth-child(2) a {
+            color: black;
+        }
+
+        .couleur:hover a {
+            border-top: 5px solid #0065fc;
+        }
+
+        .logo {
+            margin-top: -5rem;
+            margin-left: 7.5rem;
+        }
+
+        /* Titre et Sous Titre Desktop */
+
+        .titre {
+            margin-top: 5rem;
+            margin-left: 8rem;
+            font-size: 1.8rem;
+        }
+
+        .titre2header {
+            opacity: 0;
+        }
+
+        .informations {
+            margin-top: -5rem;
+            margin-left: 8rem;
+            font-size: 1.6rem;
+        }
+
+        /* Barre de recherche Desktop */
+
+        .iconeparent {
+
+            display: flex;
+            margin-left: 9rem;
+        }
+
+        .iconeparent i {
+            display: flex;
+            width: 4rem;
+            height: 4rem;
+            font-size: 1.8rem;
+            background: #f2f2f2;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 0.9rem;
+            border-bottom-left-radius: 0.9rem;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            background: #0065fc;
+            color: white;
+            cursor: pointer;
+            font-size: 1.8rem;
+            border-top-right-radius: 1.2rem;
+            border-bottom-right-radius: 1.2rem;
+        }
+
+
+
+        .icone2 {
+            display: none;
+        }
+
+        /* Filtre de recherche Desktop */
+
+        .filter {
+            margin-top: 1.5rem;
+            margin-left: -13rem;
+            display: flex;
+            font-size: 1.8rem;
+        }
+
+        .filter h4 {
+            font-size: 1.8rem;
+            margin-left: 20rem;
+            margin-top: 3rem;
+        }
+
+        .css_ul_liste_filtres {
+            margin-right: 3rem;
+            display: flex;
+            list-style: none;
+
+        }
+
+        .css_ul_liste_filtres li span i:hover {
+            top: 3px;
+        }
+
+        .css_ul_liste_filtres li:hover {
+            top: 3px;
+        }
+
+        .css_ul_liste_filtres li {
+            padding: 0.6rem;
+            border: 2px solid #dedede;
+            background: white;
+            margin-right: 2rem;
+            border-radius: 5rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .css_ul_liste_filtres li:nth-child(1) {
+            width: 15rem;
+        }
+
+        .css_ul_liste_filtres li:nth-child(2) {
+            width: 11.5rem;
+        }
+
+        .css_ul_liste_filtres li:nth-child(3) {
+            width: 15rem;
+        }
+
+        .css_ul_liste_filtres li:nth-child(4) {
+            width: 20rem;
+        }
+
+        .css_ul_liste_filtres span {
+            margin-left: 0.5rem;
+        }
+
+        .css_ul_liste_filtres li i {
+            width: 3rem;
+            height: 3rem;
+            background: #DEEBFF;
+            border-radius: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            right: 0.5rem;
+            background: #DEEBFF;
+            color: #0065fc;
+        }
+
+        /* Informations complémentaires Desktop */
+
+        .icone span {
+            font-size: 1.6rem;
+        }
+
+        .icone i {
+            margin-top: 2rem;
+            margin-left: 7.5rem;
+            color: #0065fc;
+            font-size: 1.9rem;
+            background: white;
+        }
+
+        .numero2 {
+            opacity: 0;
+        }
+
+        .numero1 {
+            margin-left: 0.5rem;
+            margin-top: 15rem;
+            white-space: nowrap;
+
+        }
+
+
+
+
+
+        /* Container 1 -- Hébergement à Marseille */
+
+        .container {
+            width: 87rem;
+            height: 70rem;
+            background: #F2F2F2;
+            margin-left: 4rem;
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 3rem;
+
+
+        }
+
+        .titre h2 {
+            margin-top: -0.5rem;
+            margin-left: -2rem;
+            font-size: 2.2rem;
+
+        }
+
+        .click {
+            text-decoration: none;
+        }
+
+        .location {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: -5rem;
+            margin-top: 4rem;
+            padding: 5rem;
+
+
+        }
+
+        .location img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+            height: 14rem;
+            object-fit: cover;
+
+        }
+
+        .location h5 {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            margin-left: -4rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .location p {
+            margin-top: -2rem;
+            margin-left: -4rem;
+            color: black;
+            font-size: 1.3rem;
+            right: 2rem;
+        }
+
+        .location i {
+            position: relative;
+            bottom: 1rem;
+            right: rem;
+            margin-bottom: -28rem;
+            font-size: 1.3rem;
+            color: #0065fc;
+
+        }
+
+        .location i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Location 2 */
+
+        .locationp2 {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: -22.5rem;
+            margin-left: 23rem;
+            padding: 5rem;
+        }
+
+        .locationp2 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            height: 14rem;
+            margin-top: -5rem;
+            margin-left: -5rem;
+        }
+
+
+        .locationp2 h5 {
+            margin-top: 1rem;
+            margin-left: -3rem;
+            font-size: 1.5rem;
+        }
+
+        .locationp2 p {
+            margin-top: -2rem;
+            margin-left: -3rem;
+            color: black;
+            color: black;
+            font-size: 1.3rem;
+
+        }
+
+        .locationp2 i {
+            position: relative;
+            right: 3rem;
+            bottom: 1rem;
+            font-size: 1.3rem;
+            color: #0065fc;
+
+        }
+
+        .click2 {
+            text-decoration: none;
+        }
+
+        /* Location 3  */
+
+        .locationp3 {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: -22rem;
+            margin-left: 51rem;
+            padding: 5rem;
+        }
+
+        .locationp3 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            height: 14rem;
+            margin-right: 2rem;
+            object-fit: cover;
+            margin-left: 0.3rem;
+        }
+
+        .locationp3 img {
+            margin-left: -5rem;
+            margin-top: -5rem;
+        }
+
+        .locationp3 h5 {
+
+            font-size: 1.5rem;
+            white-space: nowrap;
+            color: black;
+            margin-top: 1rem;
+            margin-left: -4rem;
+            font-weight: bold;
+
+        }
+
+        .locationp3 p {
+            margin-top: -2rem;
+            margin-left: -4rem;
+            color: black;
+            font-size: 1.3rem;
+            right: 2rem;
+        }
+
+        .locationp3 i {
+            position: relative;
+            bottom: 1rem;
+            right: 4rem;
+            font-size: 1.3rem;
+            color: #0065fc;
+        }
+
+        .locationp3 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        .click {
+            text-decoration: none;
+        }
+
+        .locationp4 {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: 4rem;
+            margin-left: -5rem;
+            padding: 5rem;
+        }
+
+        .locationp4 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            height: 14rem;
+            object-fit: cover;
+            margin-left: -5rem;
+            margin-top: -5rem;
+        }
+
+        .locationp4 h5 {
+            font-size: 1.5rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-left: -4rem;
+        }
+
+        .locationp4 p {
+            margin-top: -2rem;
+            margin-left: -4rem;
+            color: black;
+            font-size: 1.3rem;
+
+        }
+
+        .locationp4 i {
+            position: relative;
+            bottom: 1rem;
+            right: 4rem;
+            color: #0065fc;
+            font-size: 1.3rem;
+        }
+
+        .locationp4 i:nth-child(7) {
+            color: #dedede;
+        }
+
+        .locationp4 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        .click4 {
+            text-decoration: none;
+        }
+
+        /* Location 5 */
+
+        .locationp5 {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: -22rem;
+            margin-left: 23rem;
+            padding: 5rem;
+        }
+
+        .locationp5 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            height: 14rem;
+            object-fit: cover;
+            margin-left: -5rem;
+            margin-top: -5rem;
+        }
+
+        .locationp5 h5 {
+            font-size: 1.5rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-left: -4rem;
+        }
+
+        .locationp5 p {
+            margin-top: -2rem;
+            margin-left: -4rem;
+            color: black;
+            font-size: 1.3rem;
+
+        }
+
+        .locationp5 i {
+            position: relative;
+            bottom: 1rem;
+            right: 4rem;
+            font-size: 1.3rem;
+            color: #0065fc;
+        }
+
+        .locationp5 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        .click5 {
+            text-decoration: none;
+        }
+
+        .locationp6 {
+            width: 15rem;
+            height: 12rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: -22rem;
+            margin-left: 51rem;
+            padding: 5rem;
+        }
+
+        .locationp6 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 25rem;
+            height: 14rem;
+            object-fit: cover;
+            margin-left: -5rem;
+            margin-top: -5rem;
+        }
+
+        .locationp6 h5 {
+            font-size: 1.8rem;
+            white-space: nowrap;
+            color: black;
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-left: -4rem;
+        }
+
+        .locationp6 p {
+            margin-top: -2.5rem;
+            margin-left: -4rem;
+            color: black;
+            font-size: 1.3rem;
+        }
+
+        .locationp6 i {
+            position: relative;
+            right: 4rem;
+            top: -1.3rem;
+            color: #0065fc;
+            font-size: 1.3rem;
+        }
+
+        .click6 {
+            text-decoration: none;
+        }
+
+        /* Afficher plus Desktop */
+
+        .infosup {
+            margin-top: -8rem;
+            margin-left: 7rem;
+            font-size: 1.5rem;
+        }
+
+
+        /* Les plus populaire Desktop */
+
+        .container2 {
+            position: relative;
+            width: 25%;
+            height: 70rem;
+            margin-left: 95rem;
+            margin-top: -67rem;
+            background: #f2f2f2;
+            border-radius: 3rem;
+        }
+
+
+
+
+
+        .icone1 {
+            position: relative;
+            left: 36rem;
+            top: -0.5rem;
+            font-size: 2rem;
+
+
+
+        }
+
+        .populaire h2 {
+
+            position: relative;
+            top: 3rem;
+            left: 2rem;
+
+
+        }
+
+        .populaire h2 {
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+
+        /* Logement Populaire 1  Desktop */
+
+        .logementpop1 {
+            width: 70%;
+            height: 13rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: 4rem;
+            margin-top: 1rem;
+            padding: 2rem;
+        }
+
+
+
+        .logementpop1 img {
+            border-bottom-left-radius: 2rem;
+            border-top-left-radius: 2rem;
+            width: 15rem;
+            height: 17rem;
+            object-fit: cover;
+            margin-left: -1.9rem;
+            margin-top: -2rem;
+        }
+
+        .logementpop1 h3 {
+
+            font-size: 1.6rem;
+            font-weight: bolder;
+            margin-left: 15rem;
+            margin-top: -15rem;
+        }
+
+        .logementpop1 p {
+            margin-left: 15rem;
+            margin-top: -1rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+
+        .logementpop1 i {
+            position: relative;
+            bottom: 0.5rem;
+            left: 15rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+            color: #0065fc;
+        }
+
+        /* Logement Populaire 2  */
+
+        .logementpop2 {
+            width: 70%;
+            height: 13rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-top: 4rem;
+            margin-left: 4rem;
+            padding: 2rem;
+        }
+
+        .logementpop2 img {
+            border-bottom-left-radius: 2rem;
+            border-top-left-radius: 2rem;
+            width: 15rem;
+            height: 17rem;
+            object-fit: cover;
+            margin-top: -2rem;
+            margin-left: -2rem;
+        }
+
+        .logementpop2 h3 {
+            margin-left: 15rem;
+            margin-top: -15rem;
+            font-size: 1.6rem;
+            font-weight: bolder;
+        }
+
+        .logementpop2 p {
+            margin-left: 15rem;
+            margin-top: -1rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+
+        .logementpop2 i {
+            position: relative;
+            bottom: 0.5rem;
+            left: 15rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+            color: #0065fc;
+        }
+
+        .logementpop2 i:nth-child(8) {
+            color: #dedede;
+        }
+
+
+        .logementpop3 {
+            width: 70%;
+            height: 13rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: 4rem;
+            margin-top: 4rem;
+            padding: 2rem;
+            top: 8rem;
+        }
+
+        .logementpop3 img {
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            width: 16rem;
+            height: 16rem;
+            object-fit: cover;
+            position: relative;
+            bottom: 1.5rem;
+            right: 2rem;
+            margin-left: 0.3rem;
+        }
+
+        .logementpop3 h3 {
+            margin-left: 15rem;
+            margin-top: -15rem;
+            font-size: 1.6rem;
+            font-weight: bolder;
+        }
+
+        .logementpop3 p {
+            margin-left: 15rem;
+            margin-top: -1rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+        }
+
+        .logementpop3 i {
+            position: relative;
+            bottom: 0.5rem;
+            left: 15rem;
+            font-size: 1.3rem;
+            font-weight: bolder;
+            color: #0065fc;
+        }
+
+        .logementpop3 i:nth-child(8) {
+            color: #dedede;
+        }
+
+        /* Activité à Marseille Desktop */
+        /* Activité à Marseille */
+
+        .titre3 {
+            margin-top: 5rem;
+            margin-left: 4rem;
+            font-size: 1.5rem;
+        }
+
+        /* Grande Photo 1 activité Marseille Desktop */
+
+        .grandephoto {
+            width: 20%;
+            height: 55rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-left: 5rem;
+            border-top-right-radius: 2rem;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+        }
+
+        .grandephoto h4 {
+            margin-left: 2rem;
+            margin-top: -28.5rem;
+            font-size: 1.5rem;
+        }
+
+
+        .grandephoto img {
+            margin-bottom: 30rem;
+            width: 100%;
+            object-fit: cover;
+            height: 50rem;
+            border-top-right-radius: 2rem;
+            border-top-left-radius: 2rem;
+        }
+
+
+
+        /* Grande Photo 2 activité Marseille Desktop */
+
+        .grandephoto2 {
+            width: 20%;
+            height: 55rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: -48rem;
+            margin-left: 85rem;
+            border-radius: 2rem;
+
+        }
+
+
+        .grandephoto2 img {
+            margin-bottom: 30rem;
+            width: 100%;
+            object-fit: cover;
+            height: 50rem;
+            border-top-right-radius: 2rem;
+            border-top-left-radius: 2rem;
+
+        }
+
+        .grandephoto2 h4 {
+            margin-top: -28.5rem;
+            margin-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        /* Petite Photo 1 Desktop */
+
+        .petitephoto1 {
+            width: 16%;
+            height: 25rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: -55rem;
+            margin-left: 48rem;
+            border-radius: 2rem;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto1 img {
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto1 h4 {
+            margin-left: 2rem;
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+
+        /* Petite Photo2 Desktop */
+
+        .petitephoto2 {
+            width: 18%;
+            height: 17rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-left: 46rem;
+            margin-top: 5rem;
+            border-radius: 2rem;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto2 img {
+            width: 100%;
+            height: 12rem;
+            object-fit: cover;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto2 h4{
+            margin-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        /* Petite Photo 2 Desktop */
+
+        .petitephoto3 {
+            width: 18%;
+            height: 19rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: -55rem;
+            margin-left: 130rem;
+            border-radius: 2rem;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto3 img {
+            width: 100%;
+            height: 13rem;
+            object-fit: cover;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto3 h4{
+            margin-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        
+        /* Petite Photo 3  */
+
+        .petitephoto4 {
+            width: 18%;
+            height: 19rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 2rem;
+            margin-left: 130rem;
+            margin-top: 17rem;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto4 img {
+            width: 100%;
+            height: 13rem;
+            object-fit: cover;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+
+        .petitephoto4 h4{
+            margin-left: 2rem;
+            font-size: 1.5rem;
+        }
+
+        
+
+
+
+
+        /* Footer Desktop */
+        /* 
+        .backtest {
+            background-color: #f2f2f2;
+            width: 1905px;
+            height: 200px;
+            margin-top: 15rem;
+
+        }
+
+        .footerleft {
+        
+            margin-top: 20px;
+    
+            font-size: 1.8rem;
+        }
+
+        .footercenter {
+           
+   
+            margin-left: 500px;
+            margin-top: 20px;
+            font-size: 1.8rem;
+        }
+
+        .footerright {
+      
+            margin-left: 900px;
+            margin-top: 20px;
+            font-size: 1.8rem;
+        } */
+
+        @media screen and (max-width:1280px) {
+
+
+
+            .icone1 {
+                margin-left: -9rem;
+            }
+
+            /* Grande photo 2 Media Desktop */
+
+            .grandephoto2 {
+                margin-left: 65rem;
+            }
+
+
+            /* Petite photo 2 media desktop */
+
+            .petitephoto1{
+                margin-left: 38rem;
+            }
+
+            /* Petite photo 2 Media Desktop */
+
+            .petitephoto2{
+                margin-left: 37rem;
+            }
+
+            /* Petite photo 3 Media Desktop */
+            .petitephoto3{
+                margin-left: 95rem;
+            }
+
+            /* Petite photo 4 Media Desktop */
+
+            .petitephoto4{
+                margin-left:95rem;
+            }
+
+        }
+
+
+        /* Responsive Ipad */
+
+        @media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+            html,
+            body {
+                font-family: Railways;
+                overflow-x: hidden;
+            }
+
+            body {
+                position: relative;
+            }
+
+            /* Logo & Menu iPad */
+            .logo {
+                position: relative;
+                bottom: 6rem;
+            }
+
+            .menu ul {
+                position: relative;
+                right: 120rem;
+                top: 4rem;
+                font-size: 1.8rem;
+            }
+
+            .titre {
+                font-size: 1.5rem;
+                position: relative;
+                bottom: 4rem;
+            }
+
+            .informations {
+                position: relative;
+                bottom: 9rem;
+            }
+
+            /* Barre de recherche iPad */
+            /* Filtre iPad */
+            .filter {
+                position: absolute;
+                display: block;
+                top: 28rem;
+                left: 10rem;
+            }
+
+            .filter h4 {
+                position: absolute;
+                top: -3rem;
+                right: 70rem;
+            }
+
+            .css_ul_liste_filtres {
+                left: -7rem;
+                top: 1rem;
+            }
+
+            .css_ul_liste_filtres :nth-child(3) {
+                top: 5rem;
+                right: 30rem;
+            }
+
+            .css_ul_liste_filtres :nth-child(4) {
+                top: 5rem;
+                right: 30rem;
+            }
+
+            .icone span {
+                position: absolute;
+                top: 40rem;
+            }
+
+            .icone span i {
+                position: absolute;
+                top: -0.3rem;
+            }
+
+            /* Hébergement à Marseille iPad */
+            .container {
+                position: relative;
+                top: 15rem;
+                right: 7rem;
+                width: 70rem;
+                height: 175rem;
+            }
+
+            .titre2 h2 {
+                position: relative;
+                left: 13rem;
+                font-size: 3rem;
+            }
+
+            .premier {
+                position: absolute;
+                bottom: 150rem;
+                left: 1rem;
+                top: 9rem;
+                width: 40rem;
+            }
+
+            .premier img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .deuxieme {
+                position: absolute;
+                bottom: 100rem;
+                left: 0rem;
+                top: 36rem;
+                width: 40rem;
+            }
+
+            .deuxieme img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .troisieme {
+                position: absolute;
+                bottom: 100rem;
+                left: 1rem;
+                top: 62rem;
+                width: 40rem;
+            }
+
+            .troisieme img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .quatrieme {
+                position: absolute;
+                bottom: 100rem;
+                left: 5rem;
+                top: 88rem;
+                width: 40rem;
+            }
+
+            .quatrieme img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .cinquieme {
+                position: absolute;
+                bottom: 100rem;
+                left: 1rem;
+                top: 115rem;
+                width: 40rem;
+            }
+
+            .cinquieme img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .sixieme {
+                position: absolute;
+                bottom: 100rem;
+                left: 0rem;
+                top: 142rem;
+                width: 40rem;
+            }
+
+            .sixieme img {
+                width: 50rem;
+                object-fit: cover;
+            }
+
+            .infosup {
+                position: relative;
+                top: 10rem;
+                left: 31rem;
+                font-size: 1.8rem;
+            }
+
+            /* Les Plus Populaire iPad */
+            .container2 {
+                position: relative;
+                top: 15rem;
+                left: 3em;
+                width: 70rem;
+                height: 73rem;
+            }
+
+            .populaire h2 {
+                position: relative;
+                font-size: 3rem;
+                top: 0rem;
+                left: 13rem;
+            }
+
+            .icone1 {
+                position: relative;
+                left: 55rem;
+            }
+
+            .logementpop1 {
+                position: relative;
+                top: 3rem;
+                width: 50rem;
+            }
+
+            .logementpop2 {
+                position: relative;
+                top: 6rem;
+                width: 50rem;
+            }
+
+            .logementpop3 {
+                position: relative;
+                top: 10rem;
+                width: 50rem;
+            }
+
+            /* Activité à Marseille  iPad*/
+            .titre3 {
+                position: absolute;
+                top: 300rem;
+                left: 25rem;
+                font-size: 2rem;
+            }
+
+            .grandephoto {
+                position: absolute;
+                top: 310rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .grandephoto img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .grandephoto h4 {
+                font-size: 1.8rem;
+            }
+
+            .petitephoto {
+                position: absolute;
+                top: 298rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .petitephoto img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto h4 {
+                font-size: 1.8rem;
+            }
+
+            .petitephoto1 {
+                position: absolute;
+                top: 280rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .petitephoto1 img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto1 h4 {
+                font-size: 1.8rem;
+            }
+
+            .grandephoto2 {
+                position: absolute;
+                top: 368rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .grandephoto2 h4 {
+                position: relative;
+                top: 10rem;
+                font-size: 1.8rem;
+            }
+
+            .grandephoto2 img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto3 {
+                position: absolute;
+                top: 315rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .petitephoto3 img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto3 h4 {
+                font-size: 1.8rem;
+            }
+
+            .petitephoto4 {
+                position: absolute;
+                top: 340rem;
+                left: 15rem;
+                width: 45rem;
+                height: 15rem;
+            }
+
+            .petitephoto4 img {
+                width: 45rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto4 h4 {
+                font-size: 1.8rem;
+            }
+
+            /* Footer iPad */
+            .backtest {
+                position: relative;
+                height: 40rem;
+                width: 500rem;
+                top: 150rem;
+            }
+
+            .footerleft {
+                position: absolute;
+                left: 5rem;
+                font-size: 1.7rem;
+            }
+
+            .footercenter {
+                position: absolute;
+                left: -18rem;
+                font-size: 1.7rem;
+            }
+
+            .footerright {
+                position: absolute;
+                left: -33rem;
+            }
+        }
+
+        /* Responsive iPhone 8 */
+
+        @media only screen and (max-width:667px) {
+
+            html,
+            body {
+                font-family: Railways;
+                overflow-x: hidden;
+            }
+
+            body {
+                position: relative
+            }
+
+            /* Menu & Logo mobile*/
+            .menu {
+                position: absolute;
+                top: 4rem;
+                left: 0.3rem;
+                font-size: 1.7rem;
+            }
+
+            .menu ul li:nth-child(3) {
+                position: absolute;
+                left: 25rem;
+                bottom: 6rem;
+            }
+
+            .menu ul :nth-child(2) {
+                border-bottom: transparent;
+            }
+
+            .menu ul :nth-child(3) {
+                border-bottom: transparent;
+            }
+
+            .logo {
+                position: absolute;
+                top: 0.5rem;
+                left: 3.8rem;
+            }
+
+            /* Titre & Sous Titre mobile */
+            .titre {
+                font-size: 2rem;
+                margin-left: 5rem;
+                opacity: 1;
+                margin-top: 14rem;
+                position: relative;
+                left: -1rem;
+            }
+
+            .informations {
+                position: absolute;
+                top: 15rem;
+                left: 4rem;
+                white-space: nowrap;
+            }
+
+            .iconeparent {
+                /* A.M 
+  position: absolute;
+  bottom: 43rem;
+  */
+                position: relative;
+                bottom: 6rem;
+            }
+
+            /* Barre de Recherche mobile */
+            input {
+                border-radius: 0.5rem;
+                position: relative;
+                right: 3rem;
+                display: flex;
+            }
+
+            button {
+                display: none;
+            }
+
+            .icone2 {
+                position: relative;
+                bottom: 0rem;
+                right: 10rem;
+                display: flex;
+                justify-content: end;
+                align-content: flex-end;
+                color: #f2f2f2;
+                font-size: 1rem;
+            }
+
+            .iconegeo i {
+                display: flex;
+                position: relative;
+                bottom: 0rem;
+                right: 3rem;
+                font-size: 1.4rem;
+            }
+
+            .icone2 i {
+                position: relative;
+                left: 5rem;
+                background: #0065fc;
+                font-size: 1.3rem;
+            }
+
+            /* Filtre de Recherche mobile */
+            .filter {
+                position: absolute;
+                display: block;
+                top: 20rem;
+                left: 3rem;
+            }
+
+            .filter h4 {
+                position: relative;
+                bottom: -1.8rem;
+                right: 16rem;
+            }
+
+            .css_ul_liste_filtres {
+                left: -10rem;
+                top: 1rem;
+            }
+
+            .css_ul_liste_filtres {
+                position: relative;
+                left: -6rem;
+            }
+
+            .css_ul_liste_filtres :nth-child(2) {
+                left: -1rem;
+            }
+
+            .css_ul_liste_filtres :nth-child(3) {
+                top: 5rem;
+                right: 30.5rem;
+            }
+
+            .css_ul_liste_filtres :nth-child(4) {
+                top: 10rem;
+                right: 48rem;
+            }
+
+            /* Informations suupplémentaire mobile */
+            .icone span {
+                position: absolute;
+                top: 25rem;
+                right: 45rem;
+                left: 2rem;
+                font-size: 1.9rem;
+                display: block;
+                font-size: 1.7rem;
+
+
+            }
+
+            .icone span i {
+                position: relative;
+                margin-top: 20rem;
+            }
+
+
+
+            .numero1 {
+                opacity: 0;
+            }
+
+            .numero2 {
+                opacity: 1;
+                position: relative;
+                margin-top: 20rem;
+                margin-left: 3rem;
+                white-space: nowrap;
+            }
+
+
+            /* Logement Populaire mobile */
+            .container2 {
+                position: absolute;
+                top: 53rem;
+                left: 0rem;
+                right: 0rem;
+                height: 75rem;
+                width: 38rem;
+            }
+
+            .populaire h2 {
+                position: relative;
+                bottom: 1rem;
+                right: 4rem;
+            }
+
+            .icone1 {
+                position: relative;
+                left: 32rem;
+                bottom: 3.2rem;
+            }
+
+            .logementpop1 {
+                position: relative;
+                right: 3.5rem;
+                width: 30rem;
+            }
+
+            .logementpop1 h3 {
+                position: absolute;
+                bottom: 30rem;
+                font-size: 1.7rem;
+                white-space: nowrap;
+            }
+
+            .logementpop1 p {
+                position: absolute;
+                top: 7rem;
+                font-size: 1.5rem;
+            }
+
+            .logementpop1 i {
+                position: relative;
+                bottom: 2rem;
+                color: #0065fc;
+            }
+
+            .logementpop2 {
+                position: relative;
+                right: 3.5rem;
+                width: 30rem;
+            }
+
+            .logementpop2 h3 {
+                position: absolute;
+                bottom: 30rem;
+                font-size: 1.7rem;
+                white-space: nowrap;
+            }
+
+            .logementpop2 p {
+                position: absolute;
+                top: 7rem;
+                font-size: 1.5rem;
+            }
+
+            .logementpop2 i {
+                position: relative;
+                bottom: 2rem;
+                color: #0065fc;
+            }
+
+            .logementpop2 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            .logementpop3 {
+                position: relative;
+                right: 3.5rem;
+                width: 30rem;
+            }
+
+            .logementpop3 h3 {
+                position: absolute;
+                bottom: 30rem;
+                font-size: 1.7rem;
+                white-space: nowrap;
+            }
+
+            .logementpop3 p {
+                position: absolute;
+                top: 7rem;
+                font-size: 1.5rem;
+            }
+
+            .logementpop3 i {
+                position: relative;
+                bottom: 2rem;
+                color: #0065fc;
+            }
+
+            .logementpop3 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Hébergement à Marseille mobile*/
+            .container {
+                position: absolute;
+                top: 130rem;
+                left: -10rem;
+                width: 38rem;
+                height: 175rem;
+            }
+
+            .premier {
+                width: 25rem;
+                position: relative;
+                right: 7rem;
+            }
+
+            .premier img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .premier h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .premier p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .premier i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .premier i:nth-child(8) {
+                color: #dedede;
+            }
+
+            .deuxieme {
+                width: 25rem;
+                position: relative;
+                top: 5rem;
+                left: -8rem;
+            }
+
+            .deuxieme img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .deuxieme h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .deuxieme p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .deuxieme i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .troisieme {
+                width: 25rem;
+                position: relative;
+                left: -7rem;
+                top: 7.5rem;
+            }
+
+            .troisieme img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .troisieme h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .troisieme p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .troisieme i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .troisieme i:nth-child(8) {
+                color: #dedede;
+            }
+
+            .quatrieme {
+                width: 25rem;
+                position: relative;
+                left: -3rem;
+                top: 10rem;
+            }
+
+            .quatrieme img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .quatrieme h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .quatrieme p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .quatrieme i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .quatrieme i:nth-child(7) {
+                color: #dedede;
+            }
+
+            .quatrieme i:nth-child(8) {
+                color: #dedede;
+            }
+
+            .cinquieme {
+                width: 25rem;
+                position: relative;
+                left: -7rem;
+                top: 13rem;
+            }
+
+            .cinquieme img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .cinquieme h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .cinquieme p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .cinquieme i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .cinquieme i:nth-child(8) {
+                color: #dedede;
+            }
+
+            .sixieme {
+                width: 25rem;
+                position: relative;
+                top: 16rem;
+                left: -8rem;
+            }
+
+            .sixieme img {
+                width: 33.8rem;
+                object-fit: cover;
+            }
+
+            .sixieme h5 {
+                position: relative;
+                right: 3rem;
+            }
+
+            .sixieme p {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            .sixieme i {
+                position: relative;
+                right: 3rem;
+                font-size: 1.5rem;
+            }
+
+            /* Afficher Plus mobile */
+            .infosup {
+                position: absolute;
+                top: 299rem;
+                white-space: nowrap;
+                left: 3rem;
+            }
+
+            /* Activité à Marseille mobile */
+            .titre3 {
+                position: absolute;
+                top: 305rem;
+                left: 3rem;
+            }
+
+            .grandephoto {
+                position: absolute;
+                top: 312rem;
+                left: 2.5rem;
+                right: 3rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .grandephoto img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto {
+                position: absolute;
+                top: 298rem;
+                left: 2.5rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .petitephoto img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto1 {
+                position: absolute;
+                top: 280rem;
+                left: 2.2rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .petitephoto1 img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .grandephoto2 {
+                position: absolute;
+                top: 366rem;
+                left: 2.2rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .grandephoto2 h4 {
+                position: relative;
+                top: 10rem;
+            }
+
+            .grandephoto2 img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto3 {
+                position: absolute;
+                top: 312rem;
+                left: 2.2rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .petitephoto3 img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            .petitephoto4 {
+                position: absolute;
+                top: 335rem;
+                left: 2.2rem;
+                width: 33rem;
+                height: 15rem;
+            }
+
+            .petitephoto4 img {
+                width: 33rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+
+            /* Footer mobile */
+            .backtest {
+                display: flex;
+                width: 40rem;
+                height: 50rem;
+                background: #F2F2F2;
+                margin-top: 400rem;
+            }
+
+            .footerleft h3 {
+                position: relative;
+                right: 18rem;
+                font-size: 2rem;
+            }
+
+            .footerleft p {
+                position: relative;
+                right: 18rem;
+                font-size: 1.7rem;
+            }
+
+            .footercenter h3 {
+                position: relative;
+                right: 78rem;
+                top: 20rem;
+                white-space: nowrap;
+                font-size: 2rem;
+            }
+
+            .footercenter p {
+                position: relative;
+                right: 78rem;
+                top: 20rem;
+                font-size: 1.7rem;
+            }
+
+            .footerright h3 {
+                position: relative;
+                right: 148rem;
+                top: 32rem;
+                font-size: 2rem;
+            }
+
+            .footerright p {
+                position: relative;
+                right: 148rem;
+                top: 32rem;
+                white-space: nowrap;
+                font-size: 1.7rem;
+            }
+        }
