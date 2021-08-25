@@ -1001,17 +1001,63 @@
 
         /* Media Querie Desktop */
 
+
+
+        @media screen and (max-width:1366px){
+
+
+
+            .icone1 {
+                margin-left: -6rem;
+            }
+
+              /* Grande photo 2 Media Desktop */
+
+              .grandephoto2 {
+                margin-left: 65rem;
+            }
+
+
+            /* Petite photo 2 media desktop */
+
+            .petitephoto1{
+                margin-left: 38rem;
+            }
+
+            /* Petite photo 2 Media Desktop */
+
+            .petitephoto2{
+                margin-left: 37rem;
+                margin-top: 13rem;
+            }
+
+            /* Petite photo 3 Media Desktop */
+            .petitephoto3{
+                margin-left: 95rem;
+            }
+
+            /* Petite photo 4 Media Desktop */
+
+            .petitephoto4{
+                margin-left:95rem;
+            }
+
+            /* Grande photo 2  */
+            .grandephoto2{
+                margin-top:-55rem;
+            }
+
+
+
+        }
+
+
         @media screen and (max-width:1280px) {
 
-
-            /* Menu Populaire  */
-
-         
-          
-    
             .icone1 {
                 margin-left: -9rem;
             }
+
 
             /* Grande photo 2 Media Desktop */
 
