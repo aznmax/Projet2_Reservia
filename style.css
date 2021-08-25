@@ -1266,13 +1266,13 @@
 
             /* Petite photo 3 Media Desktop */
             .petitephoto3 {
-                margin-left: 95rem;
+                margin-left: 100rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
-                margin-left: 95rem;
+                margin-left: 100rem;
             }
 
             /* Grande photo 2  */
@@ -1781,7 +1781,7 @@
          .container2{
             width: 70rem;
             height:80rem;
-            margin-top: 6rem;
+            margin-top: 8rem;
             margin-left: 3.5rem;
         } 
 
