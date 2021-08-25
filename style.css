@@ -23,7 +23,7 @@
 
         .menu {
             font-size: 1.8rem;
-            margin-left: 120rem;
+            margin-left: 150rem;
             display: flex;
         }
 
@@ -604,7 +604,7 @@
             position: relative;
             width: 25%;
             height: 70rem;
-            margin-left: 118rem;
+            margin-left: 105rem;
             margin-top: -67rem;
             background: #f2f2f2;
             border-radius: 3rem;
@@ -798,10 +798,10 @@
         /* Grande Photo 1 activité Marseille Desktop */
 
         .grandephoto {
-            width: 20%;
+            width: 19%;
             height: 55rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-left: 5rem;
+            margin-left: 4rem;
             border-top-right-radius: 2rem;
             border-top-left-radius: 2rem;
             border-bottom-left-radius: 2rem;
@@ -829,11 +829,11 @@
         /* Grande Photo 2 activité Marseille Desktop */
 
         .grandephoto2 {
-            width: 20%;
+            width: 19%;
             height: 55rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-top: -48rem;
-            margin-left: 85rem;
+            margin-top: -55rem;
+            margin-left: 78rem;
             border-radius: 2rem;
 
         }
@@ -862,7 +862,7 @@
             height: 25rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-top: -55rem;
-            margin-left: 48rem;
+            margin-left: 44rem;
             border-radius: 2rem;
             border-top-left-radius: 2rem;
             border-top-right-radius: 2rem;
@@ -885,11 +885,11 @@
         /* Petite Photo2 Desktop */
 
         .petitephoto2 {
-            width: 18%;
+            width: 16%;
             height: 17rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-left: 46rem;
-            margin-top: 5rem;
+            margin-left: 44rem;
+            margin-top: 13rem;
             border-radius: 2rem;
             border-top-left-radius: 2rem;
             border-top-right-radius: 2rem;
@@ -912,10 +912,10 @@
 
         .petitephoto3 {
             width: 18%;
-            height: 19rem;
+            height: 17rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-top: -55rem;
-            margin-left: 130rem;
+            margin-left: 118rem;
             border-radius: 2rem;
             border-top-left-radius: 2rem;
             border-top-right-radius: 2rem;
@@ -931,6 +931,7 @@
 
         .petitephoto3 h4{
             margin-left: 2rem;
+            margin-top: 1rem;
             font-size: 1.5rem;
         }
 
@@ -939,11 +940,11 @@
 
         .petitephoto4 {
             width: 18%;
-            height: 19rem;
+            height: 17rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             border-radius: 2rem;
-            margin-left: 130rem;
-            margin-top: 17rem;
+            margin-left: 118rem;
+            margin-top: 21rem;
             border-top-left-radius: 2rem;
             border-top-right-radius: 2rem;
         }
@@ -958,6 +959,7 @@
 
         .petitephoto4 h4{
             margin-left: 2rem;
+            margin-top: 1rem;
             font-size: 1.5rem;
         }
 
@@ -1005,6 +1007,12 @@
 
         @media screen and (max-width:1366px){
 
+            /* Menu Desktop */
+            .menu{
+                margin-left: 130rem;
+            }
+
+
             /* Container Hébergement */
 
             .container{
@@ -1043,18 +1051,19 @@
 
             /* Petite photo 3 Media Desktop */
             .petitephoto3{
-                margin-left: 95rem;
+                margin-left: 103rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4{
-                margin-left:95rem;
+                margin-left:102rem;
             }
 
             /* Grande photo 2  */
             .grandephoto2{
                 margin-top:-55rem;
+                margin-left: 67rem;
             }
 
 
