@@ -1133,6 +1133,12 @@
 
         @media screen and (max-width:1280px) {
 
+
+              /* Menu Desktop */
+              .menu {
+                margin-left: 130rem;
+            }
+
             .icone1 {
                 margin-left: -9rem;
             }
