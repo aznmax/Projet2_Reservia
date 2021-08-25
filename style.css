@@ -903,7 +903,7 @@
             border-top-right-radius: 2rem;
         }
 
-        .petitephoto2 h4{
+        .petitephoto2 h4 {
             margin-left: 2rem;
             font-size: 1.5rem;
         }
@@ -929,13 +929,13 @@
             border-top-right-radius: 2rem;
         }
 
-        .petitephoto3 h4{
+        .petitephoto3 h4 {
             margin-left: 2rem;
             margin-top: 1rem;
             font-size: 1.5rem;
         }
 
-        
+
         /* Petite Photo 3  */
 
         .petitephoto4 {
@@ -957,71 +957,122 @@
             border-top-right-radius: 2rem;
         }
 
-        .petitephoto4 h4{
+        .petitephoto4 h4 {
             margin-left: 2rem;
             margin-top: 1rem;
             font-size: 1.5rem;
         }
 
-        
-
-
-
-
         /* Footer Desktop */
-        /* 
-        .backtest {
-            background-color: #f2f2f2;
-            width: 1905px;
-            height: 200px;
-            margin-top: 15rem;
+
+
+        .backtest{
+            position: relative;
+            width: 100%;
+            height: 25rem;
+            background: #f1f1f1f1;
+            margin-top: -2rem;
+        }
+
+
+        .footerleft{
+            margin-left: 5rem;
+            margin-top: 10rem;
 
         }
 
-        .footerleft {
-        
-            margin-top: 20px;
+        .footerleft h3{
+           position: relative;
+           top: 5rem;
+            font-size: 1.8rem;
+        }
+
+        .footerleft p {
+            position: relative;
+            top: 5rem;
+            font-size: 1.5rem;
+        }
+
+          .footercenter{
+              position: absolute;
+              left: 90rem;
+              bottom: 10rem;
+
+        }
+
+        .footercenter h3{
+            position: relative;
+            right: 35rem;
+            font-size: 1.8rem;
+        }
+
+        .footercenter p {
+            position: relative;
+            right: 35rem;
+            font-size: 1.5rem;
+        }
+
+        .footercenter h3{
+            font-size: 1.8rem;
+        } 
+
+        .footercenter p{
+            font-size: 1.5rem;
+        } 
+
+
+
+        .footerright h3{
+            position: relative;
+            left: 110rem;
+            bottom: 10rem;
+            font-size: 1.8rem;
+        }
+
+        .footerright p {
+            position: relative;
+            left: 110rem;
+            bottom: 10rem;
+            font-size: 1.5rem;
+        }
+
+        .footerright h3{
+         
+            font-size: 1.8rem;
+        } 
+
+        .footerright p{
+            font-size: 1.5rem;
+        } 
+
+
     
-            font-size: 1.8rem;
-        }
+       
 
-        .footercenter {
-           
-   
-            margin-left: 500px;
-            margin-top: 20px;
-            font-size: 1.8rem;
-        }
-
-        .footerright {
-      
-            margin-left: 900px;
-            margin-top: 20px;
-            font-size: 1.8rem;
-        } */
+        
 
 
         /* Media Querie Desktop */
 
 
 
-        @media screen and (max-width:1366px){
+        @media screen and (max-width:1366px) {
 
             /* Menu Desktop */
-            .menu{
+            .menu {
                 margin-left: 130rem;
             }
 
 
             /* Container Hébergement */
 
-            .container{
+            .container {
                 margin-left: 5rem;
             }
 
             /* Container POpulaire */
 
-            .container2{
+            .container2 {
                 margin-left: 98rem;
             }
 
@@ -1029,41 +1080,50 @@
                 margin-left: -6rem;
             }
 
-              /* Grande photo 2 Media Desktop */
+            /* Grande photo 2 Media Desktop */
 
-              .grandephoto2 {
+            .grandephoto2 {
                 margin-left: 65rem;
             }
 
 
             /* Petite photo 2 media desktop */
 
-            .petitephoto1{
+            .petitephoto1 {
                 margin-left: 38rem;
             }
 
             /* Petite photo 2 Media Desktop */
 
-            .petitephoto2{
+            .petitephoto2 {
                 margin-left: 37rem;
                 margin-top: 13rem;
             }
 
             /* Petite photo 3 Media Desktop */
-            .petitephoto3{
+            .petitephoto3 {
                 margin-left: 103rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
-            .petitephoto4{
-                margin-left:102rem;
+            .petitephoto4 {
+                margin-left: 102rem;
             }
 
             /* Grande photo 2  */
-            .grandephoto2{
-                margin-top:-55rem;
+            .grandephoto2 {
+                margin-top: -55rem;
                 margin-left: 67rem;
+            }
+
+            /* Footer Media Desktop */
+
+            .backtest{
+                position: relative;
+                width: 120%;
+                height: 25rem;
+               
             }
 
 
@@ -1087,31 +1147,31 @@
 
             /* Petite photo 2 media desktop */
 
-            .petitephoto1{
+            .petitephoto1 {
                 margin-left: 38rem;
             }
 
             /* Petite photo 2 Media Desktop */
 
-            .petitephoto2{
+            .petitephoto2 {
                 margin-left: 37rem;
                 margin-top: 13rem;
             }
 
             /* Petite photo 3 Media Desktop */
-            .petitephoto3{
+            .petitephoto3 {
                 margin-left: 95rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
-            .petitephoto4{
-                margin-left:95rem;
+            .petitephoto4 {
+                margin-left: 95rem;
             }
 
             /* Grande photo 2  */
-            .grandephoto2{
-                margin-top:-55rem;
+            .grandephoto2 {
+                margin-top: -55rem;
             }
 
 
