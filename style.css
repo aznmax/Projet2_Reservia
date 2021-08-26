@@ -2522,31 +2522,30 @@
 
             .backtest {
                 width: 60rem;
-                height: 60rem;
+                height:58rem;
                 background: #F2F2F2;
                 position: relative;
-                margin-top: 5rem;
+                margin-top: -5rem;
+                
 
             }
 
-            .footerleft  {
-                margin-top: 3rem;
-                margin-left: 3rem;
-              
-            }
 
            
 
             .footercenter  {
-                
-                margin-bottom: 8rem;
-                margin-left: -27rem;
+                position: relative;
+                left: 40rem;
+                top: 8rem;
+            }
+
+            .footerright{
+                position: relative;
+                right: 50rem;
+                bottom: -22rem;
             }
 
           
 
-            .footerright  {
-                margin-left: -52rem;
-                margin-top: 33rem;
-            } 
+          
         }
