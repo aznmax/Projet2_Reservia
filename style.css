@@ -74,14 +74,14 @@
 
         .logo {
             margin-top: -5rem;
-            margin-left: 7.5rem;
+            margin-left: 5rem;
         }
 
         /* Titre et Sous Titre Desktop */
 
         .titre {
             margin-top: 5rem;
-            margin-left: 8rem;
+            margin-left: 5rem;
             font-size: 1.8rem;
         }
 
@@ -91,7 +91,7 @@
 
         .informations {
             margin-top: -5rem;
-            margin-left: 8rem;
+            margin-left: 5rem;
             font-size: 1.6rem;
         }
 
@@ -100,7 +100,7 @@
         .iconeparent {
 
             display: flex;
-            margin-left: 9rem;
+            margin-left: 4rem;
         }
 
         .iconeparent i {
@@ -136,7 +136,7 @@
 
         .filter {
             margin-top: 1.5rem;
-            margin-left: -13rem;
+            margin-left: -15.5rem;
             display: flex;
             font-size: 1.8rem;
         }
@@ -215,7 +215,7 @@
 
         .icone i {
             margin-top: 2rem;
-            margin-left: 7.5rem;
+            margin-left: 4rem;
             color: #0065fc;
             font-size: 1.9rem;
             background: white;
