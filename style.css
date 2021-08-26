@@ -1295,9 +1295,9 @@
                 font-family: Railways;
                 overflow-x: hidden;
             }
-            
-            
-            
+
+
+
             body {
                 height: 100vh;
                 width: 100%;
@@ -1439,548 +1439,548 @@
 
             /* Hébergement titre Ipad */
 
-            .titre h2{
+            .titre h2 {
                 font-size: 2.5rem;
             }
 
-        
-        /* Hébergement Location P1 ipad*/
-
-        .container{
-            width: 70rem;
-            height:180rem;
-            margin-top: 2rem;
-        }
-
-        .location {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .location img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .location h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .location p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .location i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .location i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Hébergement Location P2 */
-
-        .locationp2 {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .locationp2 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .locationp2 h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .locationp2 p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .locationp2 i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .locationp2 i:nth-child(8) {
-            color: #dedede;
-        }
-
-
-          /* Hébergement Location P3 ipad */
-
-
-        .locationp3 {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .locationp3 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .locationp3 h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .locationp3 p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .locationp3 i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .locationp3 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Hébergement Location P4 ipad */
-
-        .locationp4 {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .locationp4 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .locationp4 h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .locationp4 p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .locationp4 i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .locationp4 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Hébergement  location P5 ipad  */
-
-        .locationp5 {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .locationp5 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .locationp5 h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .locationp5 p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .locationp5 i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .locationp5 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Hébergement Location P6 ipad */
-
-        .locationp6 {
-            width: 50rem;
-            height: 14rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -3rem;
-            margin-top: 3rem;
-            padding: 5rem;
-
-        }
-
-        .locationp6 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 60rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .locationp6 h5 {
-            font-size: 2rem;
-            margin-top: 1rem;
-            margin-left: -3rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .locationp6 p {
-            margin-top: -3rem;
-            margin-left: -3rem;
-            color: black;
-            font-size: 1.5rem;
-            
-        }
-
-        .locationp6 i {
-            position: relative;
-            bottom: 1rem;
-            right: 2.8rem;
-            margin-bottom: -28rem;
-            font-size: 1.5rem;
-            color: #0065fc;
-        }
-
-        .locationp4 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Information Supplémentaire Ipad */
-
-        .infosup{
-            font-size: 1.8rem;
-            margin-left: 8rem;
-        }
-
-         /* Container 2 Ipad  */
-
-         .container2{
-            width: 70rem;
-            height:80rem;
-            margin-top: 8rem;
-            margin-left: 3.5rem;
-        } 
-
-        .populaire h2 {
-            margin-left: 3.5rem;
-            font-size: 2.5rem;
-        }
-
-        .icone1{
-            margin-left: 18rem;
-        }
-
-        /* Activité Marseille iPad Grande Photo */
-
-        .grandephoto{
-            width: 60rem;
-            height: 25rem;
-
-        }
-
-        .grandephoto img{
-            width: 100%;
-            height: 20rem;
-
-        }
-
-        .petitephoto1{
-            width: 60rem;
-            height: 25rem;
-            margin-top: 5rem;
-            margin-left: 3.5rem;
-        }
-
-        /* Activité Marseille Petite Photo 2 Ipad  */
-
-        .petitephoto2{
-            width: 60rem;
-            height: 25rem;
-            margin-top: 5rem;
-            margin-left: 3.5rem;
-        }
-
-        .petitephoto2 img{
-            width: 100%;
-            height: 20rem;
-
-        }
-
-         /* Activité Marseille iPad Grande Photo 2 */
-
-        .grandephoto2{
-            width: 60rem;
-            height: 25rem;
-            margin-top: 5rem;
-            margin-left: 3.5rem;
-        }
-
-        .grandephoto2 img{
-            width: 100%;
-            height: 20rem;
-
-        }
-
-        /* Activité Marseille Petite Photo 3 iPad */
-        .petitephoto3{
-            width: 60rem;
-            height: 25rem;
-            margin-top: 5rem;
-            margin-left: 3.5rem;
-        }
-
-        .petitephoto3 img{
-            width: 100%;
-            height: 20rem;
-
-        }
-
-        /* Activité Marseille Petite Photo 4 ipad */
-
-        .petitephoto4{
-            width: 60rem;
-            height: 25rem;
-            margin-top: 5rem;
-            margin-left: 3.5rem;
-        }
-
-        .petitephoto4 img{
-            width: 100%;
-            height: 20rem;
-
-        }
-
-        /* Footer Ipad  */
-
-        .backtest {
-            position: relative;
-            width: 100%;
-            height: 35rem;
-            background: #f1f1f1f1;
-            margin-top: -2rem;
-        }
-
-
-        .footerleft {
-            margin-left: 5rem;
-            margin-top: 10rem;
-
-        }
-
-        .footerleft h3 {
-            position: relative;
-            top: 5rem;
-            font-size: 2rem;
-        }
-
-        .footerleft p {
-            position: relative;
-            top: 5rem;
-            font-size: 1.6rem;
-        }
-
-        .footercenter {
-            position: absolute;
-            left: 65rem;
-            white-space: nowrap;
-            bottom: 19rem;
-
-        }
-
-        .footercenter h3 {
-            position: relative;
-            right: 35rem;
-            font-size: 2.1rem;
-        }
-
-        .footercenter p {
-            position: relative;
-            right: 35rem;
-            font-size: 3rem;
-        }
-
-        .footercenter h3 {
-            font-size: 2rem;
-        }
-
-        .footercenter p {
-            font-size: 1.6rem;
-        }
-
-
-
-        .footerright h3 {
-            position: relative;
-            left: 55rem;
-            bottom: 10rem;
-            font-size: 2rem;
-        }
-
-        .footerright p {
-            position: relative;
-            left: 55rem;
-            bottom: 10rem;
-            font-size: 1.6rem;
-        }
-
-        .footerright h3 {
-
-            font-size: 1.8rem;
-        }
-
-        .footerright p {
-            font-size: 1.5rem;
-        }
-
-        
-
-
-    
-
-        }
-
-
-
-        /* Responsive iPhone 8 */
 
-        @media only screen and (max-width:667px) {
+            /* Hébergement Location P1 ipad*/
+
+            .container {
+                width: 70rem;
+                height: 180rem;
+                margin-top: 2rem;
+            }
+
+            .location {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .location img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .location h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .location p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .location i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .location i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Hébergement Location P2 */
+
+            .locationp2 {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .locationp2 img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .locationp2 h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .locationp2 p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .locationp2 i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .locationp2 i:nth-child(8) {
+                color: #dedede;
+            }
+
+
+            /* Hébergement Location P3 ipad */
+
+
+            .locationp3 {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .locationp3 img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .locationp3 h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .locationp3 p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .locationp3 i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .locationp3 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Hébergement Location P4 ipad */
+
+            .locationp4 {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .locationp4 img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .locationp4 h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .locationp4 p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .locationp4 i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .locationp4 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Hébergement  location P5 ipad  */
+
+            .locationp5 {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .locationp5 img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .locationp5 h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .locationp5 p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .locationp5 i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .locationp5 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Hébergement Location P6 ipad */
+
+            .locationp6 {
+                width: 50rem;
+                height: 14rem;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 2rem;
+                margin-left: -3rem;
+                margin-top: 3rem;
+                padding: 5rem;
+
+            }
+
+            .locationp6 img {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+                width: 60rem;
+                margin-top: -5rem;
+                margin-left: -5rem;
+                height: 14rem;
+                object-fit: cover;
+
+            }
+
+            .locationp6 h5 {
+                font-size: 2rem;
+                margin-top: 1rem;
+                margin-left: -3rem;
+                white-space: nowrap;
+                color: black;
+                font-weight: bold;
+
+            }
+
+            .locationp6 p {
+                margin-top: -3rem;
+                margin-left: -3rem;
+                color: black;
+                font-size: 1.5rem;
+
+            }
+
+            .locationp6 i {
+                position: relative;
+                bottom: 1rem;
+                right: 2.8rem;
+                margin-bottom: -28rem;
+                font-size: 1.5rem;
+                color: #0065fc;
+            }
+
+            .locationp4 i:nth-child(8) {
+                color: #dedede;
+            }
+
+            /* Information Supplémentaire Ipad */
+
+            .infosup {
+                font-size: 1.8rem;
+                margin-left: 8rem;
+            }
+
+            /* Container 2 Ipad  */
+
+            .container2 {
+                width: 70rem;
+                height: 80rem;
+                margin-top: 8rem;
+                margin-left: 3.5rem;
+            }
+
+            .populaire h2 {
+                margin-left: 3.5rem;
+                font-size: 2.5rem;
+            }
+
+            .icone1 {
+                margin-left: 18rem;
+            }
+
+            /* Activité Marseille iPad Grande Photo */
+
+            .grandephoto {
+                width: 60rem;
+                height: 25rem;
+
+            }
+
+            .grandephoto img {
+                width: 100%;
+                height: 20rem;
+
+            }
+
+            .petitephoto1 {
+                width: 60rem;
+                height: 25rem;
+                margin-top: 5rem;
+                margin-left: 3.5rem;
+            }
+
+            /* Activité Marseille Petite Photo 2 Ipad  */
+
+            .petitephoto2 {
+                width: 60rem;
+                height: 25rem;
+                margin-top: 5rem;
+                margin-left: 3.5rem;
+            }
+
+            .petitephoto2 img {
+                width: 100%;
+                height: 20rem;
+
+            }
+
+            /* Activité Marseille iPad Grande Photo 2 */
+
+            .grandephoto2 {
+                width: 60rem;
+                height: 25rem;
+                margin-top: 5rem;
+                margin-left: 3.5rem;
+            }
+
+            .grandephoto2 img {
+                width: 100%;
+                height: 20rem;
+
+            }
+
+            /* Activité Marseille Petite Photo 3 iPad */
+            .petitephoto3 {
+                width: 60rem;
+                height: 25rem;
+                margin-top: 5rem;
+                margin-left: 3.5rem;
+            }
+
+            .petitephoto3 img {
+                width: 100%;
+                height: 20rem;
+
+            }
+
+            /* Activité Marseille Petite Photo 4 ipad */
+
+            .petitephoto4 {
+                width: 60rem;
+                height: 25rem;
+                margin-top: 5rem;
+                margin-left: 3.5rem;
+            }
+
+            .petitephoto4 img {
+                width: 100%;
+                height: 20rem;
+
+            }
+
+            /* Footer Ipad  */
+
+            .backtest {
+                position: relative;
+                width: 100%;
+                height: 35rem;
+                background: #f1f1f1f1;
+                margin-top: -2rem;
+            }
+
+
+            .footerleft {
+                margin-left: 5rem;
+                margin-top: 10rem;
+
+            }
+
+            .footerleft h3 {
+                position: relative;
+                top: 5rem;
+                font-size: 2rem;
+            }
+
+            .footerleft p {
+                position: relative;
+                top: 5rem;
+                font-size: 1.6rem;
+            }
+
+            .footercenter {
+                position: absolute;
+                left: 65rem;
+                white-space: nowrap;
+                bottom: 19rem;
+
+            }
+
+            .footercenter h3 {
+                position: relative;
+                right: 35rem;
+                font-size: 2.1rem;
+            }
+
+            .footercenter p {
+                position: relative;
+                right: 35rem;
+                font-size: 3rem;
+            }
+
+            .footercenter h3 {
+                font-size: 2rem;
+            }
+
+            .footercenter p {
+                font-size: 1.6rem;
+            }
+
+
+
+            .footerright h3 {
+                position: relative;
+                left: 55rem;
+                bottom: 10rem;
+                font-size: 2rem;
+            }
+
+            .footerright p {
+                position: relative;
+                left: 55rem;
+                bottom: 10rem;
+                font-size: 1.6rem;
+            }
+
+            .footerright h3 {
+
+                font-size: 1.8rem;
+            }
+
+            .footerright p {
+                font-size: 1.5rem;
+            }
+
+
+
+
+
+
+        }
+
+
+
+        /* Responsive iPhone 8 iPhone X  */
+
+        @media only screen and (max-width:375px) {
 
             html,
             body {
@@ -1993,64 +1993,58 @@
             }
 
             /* Menu & Logo mobile*/
+
+
+
             .menu {
-                position: absolute;
-                top: 4rem;
-                left: 0.3rem;
-                font-size: 1.7rem;
+                margin-left: 40rem;
+                margin-top: 3rem;
             }
 
-            .menu ul li:nth-child(3) {
-                position: absolute;
-                left: 25rem;
-                bottom: 6rem;
+            .menu .navbar :nth-child(2) {
+                margin-top: -2rem;
+                margin-left: 12.6rem;
             }
 
-            .menu ul :nth-child(2) {
-                border-bottom: transparent;
-            }
-
-            .menu ul :nth-child(3) {
-                border-bottom: transparent;
+            .menu .navbar :nth-child(3) {
+                margin-top: -6rem;
+                margin-left: 13rem;
             }
 
             .logo {
                 position: absolute;
-                top: 0.5rem;
-                left: 3.8rem;
+                top: 7rem;
+                left: -4rem;
             }
 
             /* Titre & Sous Titre mobile */
             .titre {
-                font-size: 2rem;
-                margin-left: 5rem;
+                font-size: 1.6rem;
+                margin-left: 4rem;
                 opacity: 1;
-                margin-top: 14rem;
-                position: relative;
-                left: -1rem;
+                margin-top: 8rem;
+
+
             }
 
             .informations {
-                position: absolute;
-                top: 15rem;
-                left: 4rem;
+                margin-top: -5rem;
+                margin-left: 4rem;
                 white-space: nowrap;
             }
 
             .iconeparent {
-                /* A.M 
-  position: absolute;
-  bottom: 43rem;
-  */
                 position: relative;
                 bottom: 6rem;
             }
 
             /* Barre de Recherche mobile */
+
             input {
                 border-radius: 0.5rem;
                 position: relative;
                 right: 3rem;
+                top: 4rem;
                 display: flex;
             }
 
@@ -2060,7 +2054,7 @@
 
             .icone2 {
                 position: relative;
-                bottom: 0rem;
+                top: 4rem;
                 right: 10rem;
                 display: flex;
                 justify-content: end;
@@ -2072,7 +2066,7 @@
             .iconegeo i {
                 display: flex;
                 position: relative;
-                bottom: 0rem;
+                top: 4rem;
                 right: 3rem;
                 font-size: 1.4rem;
             }
@@ -2085,47 +2079,55 @@
             }
 
             /* Filtre de Recherche mobile */
+
             .filter {
                 position: absolute;
                 display: block;
-                top: 20rem;
+                top: 5rem;
                 left: 3rem;
             }
 
             .filter h4 {
-                position: relative;
-                bottom: -1.8rem;
-                right: 16rem;
+                margin-top: 22rem;
+                margin-left: 13.5rem;
+                font-size: 2rem;
+
             }
 
             .css_ul_liste_filtres {
-                left: -10rem;
-                top: 1rem;
+                margin-left: 25rem;
+                top: -7.5rem;
             }
 
             .css_ul_liste_filtres {
                 position: relative;
+                width: 27rem;
                 left: -6rem;
             }
 
             .css_ul_liste_filtres :nth-child(2) {
+                position: relative;
                 left: -1rem;
             }
 
             .css_ul_liste_filtres :nth-child(3) {
-                top: 5rem;
-                right: 30.5rem;
+                position: relative;
+                left: 3rem;
+
             }
 
             .css_ul_liste_filtres :nth-child(4) {
-                top: 10rem;
-                right: 48rem;
+                position: relative;
+                left: -15rem;
+                top: 6rem;
+
             }
 
-            /* Informations suupplémentaire mobile */
+            /* Informations supplémentaire mobile */
+
             .icone span {
                 position: absolute;
-                top: 25rem;
+                top: 32rem;
                 right: 45rem;
                 left: 2rem;
                 font-size: 1.9rem;
@@ -2138,6 +2140,7 @@
             .icone span i {
                 position: relative;
                 margin-top: 20rem;
+                margin-left: 0.2rem;
             }
 
 
@@ -2156,14 +2159,15 @@
 
 
             /* Logement Populaire mobile */
+
             .container2 {
-                position: absolute;
-                top: 53rem;
-                left: 0rem;
-                right: 0rem;
-                height: 75rem;
-                width: 38rem;
+                width: 45rem;
+                height: 68rem;
+                margin-top: 32rem;
+                margin-left: -2rem;
             }
+
+
 
 
             .icone1 {
@@ -2172,28 +2176,31 @@
                 bottom: 3.2rem;
             }
 
-            
+            .logementpop1 {
+
+                width: 30rem;
+            }
+
+
 
             .logementpop1 h3 {
-               
+
                 font-size: 1.7rem;
                 white-space: nowrap;
             }
 
             .logementpop1 p {
-               
+
                 font-size: 1.5rem;
             }
 
             .logementpop1 i {
                 position: relative;
-                bottom: 2rem;
                 color: #0065fc;
             }
 
             .logementpop2 {
-                position: relative;
-                right: 3.5rem;
+                margin-top: 1rem;
                 width: 30rem;
             }
 
@@ -2203,13 +2210,12 @@
             }
 
             .logementpop2 p {
-                
+
                 font-size: 1.5rem;
             }
 
             .logementpop2 i {
-                position: relative;
-                bottom: 2rem;
+
                 color: #0065fc;
             }
 
@@ -2218,25 +2224,24 @@
             }
 
             .logementpop3 {
+                margin-top: 2rem;
                 width: 30rem;
             }
 
             .logementpop3 h3 {
-                position: absolute;
-                bottom: 30rem;
+
                 font-size: 1.7rem;
                 white-space: nowrap;
             }
 
             .logementpop3 p {
-                position: absolute;
-                top: 7rem;
+
                 font-size: 1.5rem;
             }
 
             .logementpop3 i {
                 position: relative;
-                bottom: 2rem;
+                bottom: 0rem;
                 color: #0065fc;
             }
 
@@ -2245,205 +2250,125 @@
             }
 
             /* Hébergement à Marseille mobile*/
+
             .container {
                 position: absolute;
                 top: 130rem;
-                left: -10rem;
-                width: 38rem;
-                height: 175rem;
+                left: -5rem;
+                width: 50rem;
+                height: 168rem;
             }
 
-            .premier {
+            .container .titre {
+                margin-top: 5rem;
+                margin-left: 5rem;
+            }
+
+
+            .location {
                 width: 25rem;
-                position: relative;
-                right: 7rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
             }
 
-            .premier img {
-                width: 33.8rem;
-                object-fit: cover;
+            .location img {
+                width: 140%;
+                height: 12rem;
+
             }
 
-            .premier h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .premier p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .premier i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .premier i:nth-child(8) {
+            .location i:nth-child(8) {
                 color: #dedede;
             }
 
-            .deuxieme {
+            .locationp2 {
                 width: 25rem;
-                position: relative;
-                top: 5rem;
-                left: -8rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
             }
 
-            .deuxieme img {
-                width: 33.8rem;
-                object-fit: cover;
+            .locationp2 img {
+                width: 140%;
+                height: 12rem;
+
             }
 
-            .deuxieme h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .deuxieme p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .deuxieme i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .troisieme {
-                width: 25rem;
-                position: relative;
-                left: -7rem;
-                top: 7.5rem;
-            }
-
-            .troisieme img {
-                width: 33.8rem;
-                object-fit: cover;
-            }
-
-            .troisieme h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .troisieme p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .troisieme i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .troisieme i:nth-child(8) {
+            .locationp2 i:nth-child(8) {
                 color: #dedede;
             }
 
-            .quatrieme {
+            .locationp3 {
                 width: 25rem;
-                position: relative;
-                left: -3rem;
-                top: 10rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
             }
 
-            .quatrieme img {
-                width: 33.8rem;
-                object-fit: cover;
+            .locationp3 img {
+                width: 140%;
+                height: 12rem;
+
             }
 
-            .quatrieme h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .quatrieme p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .quatrieme i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .quatrieme i:nth-child(7) {
+            .locationp3 i:nth-child(8) {
                 color: #dedede;
             }
 
-            .quatrieme i:nth-child(8) {
+
+
+            .locationp4 {
+                width: 25rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
+            }
+
+            .locationp4 img {
+                width: 140%;
+                height: 12rem;
+
+            }
+
+            .locationp4 i:nth-child(8) {
                 color: #dedede;
             }
 
-            .cinquieme {
+
+
+            .locationp5 {
                 width: 25rem;
-                position: relative;
-                left: -7rem;
-                top: 13rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
             }
 
-            .cinquieme img {
-                width: 33.8rem;
-                object-fit: cover;
+            .locationp5 img {
+                width: 140%;
+                height: 12rem;
+
             }
 
-            .cinquieme h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .cinquieme p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .cinquieme i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .cinquieme i:nth-child(8) {
+            .locationp5 i:nth-child(8) {
                 color: #dedede;
             }
 
-            .sixieme {
+            .locationp6 {
                 width: 25rem;
-                position: relative;
-                top: 16rem;
-                left: -8rem;
+                height: 10rem;
+                margin-top: 5rem;
+                margin-left: -2rem;
             }
 
-            .sixieme img {
-                width: 33.8rem;
-                object-fit: cover;
+            .locationp6 img {
+                width: 140%;
+                height: 12rem;
+
             }
 
-            .sixieme h5 {
-                position: relative;
-                right: 3rem;
-            }
-
-            .sixieme p {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
-            }
-
-            .sixieme i {
-                position: relative;
-                right: 3rem;
-                font-size: 1.5rem;
+            .locationp6 i:nth-child(8) {
+                color: #dedede;
             }
 
             /* Afficher Plus mobile */
@@ -2451,156 +2376,177 @@
                 position: absolute;
                 top: 299rem;
                 white-space: nowrap;
-                left: 3rem;
+                left: -7rem;
             }
 
             /* Activité à Marseille mobile */
             .titre3 {
                 position: absolute;
-                top: 305rem;
+                top: 300rem;
                 left: 3rem;
-            /* }
+            }
 
             .grandephoto {
-                position: absolute;
-                top: 312rem;
-                left: 2.5rem;
-                right: 3rem;
-                width: 33rem;
-                height: 15rem;
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 185rem;
+                margin-left: 1rem;
+
             }
 
             .grandephoto img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
+                width: 100%;
+                height: 12rem;
+
             }
 
-            .petitephoto {
-                position: absolute;
-                top: 298rem;
-                left: 2.5rem;
-                width: 33rem;
-                height: 15rem;
+
+
+            .grandephoto h4 {
+                margin-left: 2rem;
+                font-size: 1.8rem;
             }
 
-            .petitephoto img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
-            }
+            /* Activité mobile Petite Photo1 iPhone  */
 
             .petitephoto1 {
-                position: absolute;
-                top: 280rem;
-                left: 2.2rem;
-                width: 33rem;
-                height: 15rem;
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 3rem;
+                margin-left: 1rem;
             }
+
+            .petitephoto1 h4 {
+                margin-left: 2rem;
+                font-size: 1.8rem;
+            }
+
+
 
             .petitephoto1 img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
+                width: 100%;
+                height: 12rem;
+
             }
 
+            /* Activité mobile Petite Photo2 iPhone */
+
+            .petitephoto2 {
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 3rem;
+                margin-left: 1rem;
+            }
+
+            .petitephoto2 h4 {
+                margin-left: 2rem;
+                font-size: 1.8rem;
+            }
+
+
+
+            .petitephoto2 img {
+                width: 100%;
+                height: 12rem;
+
+            }
+
+            /* Activité mobile Grande Photo 2  */
+
             .grandephoto2 {
-                position: absolute;
-                top: 366rem;
-                left: 2.2rem;
-                width: 33rem;
-                height: 15rem;
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 3rem;
+                margin-left: 1rem;
             }
 
             .grandephoto2 h4 {
-                position: relative;
-                top: 10rem;
+                margin-left: 2rem;
+                font-size: 1.8rem;
             }
+
+
 
             .grandephoto2 img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
+                width: 100%;
+                height: 12rem;
+
             }
 
+            /* Activité mobile Petite Photo 3 */
+
             .petitephoto3 {
-                position: absolute;
-                top: 312rem;
-                left: 2.2rem;
-                width: 33rem;
-                height: 15rem;
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 3rem;
+                margin-left: 1rem;
             }
 
             .petitephoto3 img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
+                width: 100%;
+                height: 12rem;
             }
 
-            .petitephoto4 {
-                position: absolute;
-                top: 335rem;
-                left: 2.2rem;
-                width: 33rem;
-                height: 15rem;
+            .petitephoto3 h4 {
+                margin-left: 2rem;
+                font-size: 1.8rem;
+            }
+
+
+             /* Activité mobile Petite Photo 4 */
+
+             .petitephoto4 {
+                position: relative;
+                width: 35rem;
+                height: 18rem;
+                margin-top: 3rem;
+                margin-left: 1rem;
             }
 
             .petitephoto4 img {
-                width: 33rem;
-                height: 10rem;
-                object-fit: cover;
-            } */
+                width: 100%;
+                height: 12rem;
+            }
 
-            /* Footer mobile
+            .petitephoto4 h4 {
+                margin-left: 2rem;
+                font-size: 1.8rem;
+            }
+
+            /* Footer mobile */
+
             .backtest {
-                display: flex;
-                width: 40rem;
-                height: 50rem;
+                width: 60rem;
+                height: 60rem;
                 background: #F2F2F2;
-                margin-top: 400rem;
+                position: relative;
+                margin-top: 5rem;
+
             }
 
-            .footerleft h3 {
-                position: relative;
-                right: 18rem;
-                font-size: 2rem;
+            .footerleft  {
+                margin-top: 3rem;
+                margin-left: 3rem;
+              
             }
 
-            .footerleft p {
-                position: relative;
-                right: 18rem;
-                font-size: 1.7rem;
+           
+
+            .footercenter  {
+                
+                margin-bottom: 8rem;
+                margin-left: -27rem;
             }
 
-            .footercenter h3 {
-                position: relative;
-                right: 78rem;
-                top: 20rem;
-                white-space: nowrap;
-                font-size: 2rem;
-            }
+          
 
-            .footercenter p {
-                position: relative;
-                right: 78rem;
-                top: 20rem;
-                font-size: 1.7rem;
-            }
-
-            .footerright h3 {
-                position: relative;
-                right: 148rem;
-                top: 32rem;
-                font-size: 2rem;
-            }
-
-            .footerright p {
-                position: relative;
-                right: 148rem;
-                top: 32rem;
-                white-space: nowrap;
-                font-size: 1.7rem;
-            } */
+            .footerright  {
+                margin-left: -52rem;
+                margin-top: 33rem;
+            } 
         }
-
-    }
