@@ -2476,7 +2476,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .location img {
@@ -2493,7 +2493,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .locationp2 img {
@@ -2510,7 +2510,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .locationp3 img {
@@ -2529,7 +2529,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .locationp4 img {
@@ -2548,7 +2548,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .locationp5 img {
@@ -2565,7 +2565,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -2rem;
+                margin-left: -1rem;
             }
 
             .locationp6 img {
@@ -2598,7 +2598,7 @@
                 width: 35rem;
                 height: 18rem;
                 margin-top: 185rem;
-                margin-left: 1rem;
+                margin-left: 3rem;
 
             }
 
@@ -2619,9 +2619,11 @@
 
             .petitephoto1 {
                 position: relative;
+                top: 8rem;
+                left: 0rem;
                 width: 35rem;
                 height: 18rem;
-                margin-top: 3rem;
+                margin-top: -5rem;
                 margin-left: 1rem;
             }
 
@@ -2644,8 +2646,8 @@
                 position: relative;
                 width: 35rem;
                 height: 18rem;
-                margin-top: 3rem;
-                margin-left: 1rem;
+                top: -2rem;
+                left: -9rem;
             }
 
             .petitephoto2 h4 {
@@ -2667,8 +2669,8 @@
                 position: relative;
                 width: 35rem;
                 height: 18rem;
-                margin-top: 3rem;
-                margin-left: 1rem;
+                margin-top: 1rem;
+                margin-left: 6rem;
             }
 
             .grandephoto2 h4 {
@@ -2690,8 +2692,8 @@
                 position: relative;
                 width: 35rem;
                 height: 18rem;
-                margin-top: 3rem;
-                margin-left: 1rem;
+                margin-top: -7rem;
+                margin-left: 9rem;
             }
 
             .petitephoto3 img {
@@ -2711,8 +2713,8 @@
                 position: relative;
                 width: 35rem;
                 height: 18rem;
-                margin-top: 3rem;
-                margin-left: 1rem;
+                margin-top: 13rem;
+                margin-left: 9rem;
             }
 
             .petitephoto4 img {
