@@ -1267,66 +1267,67 @@
 
         @media screen and (max-width:1366px) {
 
-            /* Menu Desktop */
-            .menu {
+               /* Menu Desktop */
+               .menu {
                 margin-left: 130rem;
             }
 
-
-            /* Container Hébergement */
-
-            .container {
-                margin-left: 5rem;
-            }
-
-            /* Container Populaire */
-
-            .container2 {
-                margin-left: 98rem;
-            }
+            /* Icone Dekstop */
 
             .icone1 {
                 margin-left: -6rem;
             }
 
-          
+            /* Container POpulaire */
 
-            /* Grande photo 2 Media Desktop */
-
-            .grandephoto2 {
-                margin-left: 65rem;
+            .container2 {
+                margin-left: 98rem;
             }
 
+              /* Grande Photo 1 Media Desktop */
 
-            /* Petite photo 2 media desktop */
-
-            .petitephoto1 {
-                margin-left: 38rem;
+              .grandephoto{
+                width: 30rem;
+             
             }
 
-            /* Petite photo 2 Media Desktop */
+             /* Grande Photo 2 Media Desktop */
 
-            .petitephoto2 {
-                margin-left: 37rem;
-                margin-top: 13rem;
+             .grandephoto2{
+                margin-left: 75rem;
+                width: 35rem;
             }
+
+            /* Petite photo 1 Media Desktop */
+
+            .petitephoto1{
+                margin-left: 40rem;
+                width: 30rem;
+            }
+
+              /* Petite photo 2 Media Desktop */
+
+              .petitephoto2{
+                margin-left: 40rem;
+                width: 30rem;
+              }
 
             /* Petite photo 3 Media Desktop */
+
             .petitephoto3 {
-                margin-left: 103rem;
+                width: 30rem;
+                margin-left: 116rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
-                margin-left: 102rem;
+                width: 30rem;
+                margin-left: 116rem;
             }
 
-            /* Grande photo 2  */
-            .grandephoto2 {
-                margin-top: -55rem;
-                margin-left: 67rem;
-            }
+
+        }
 
             /* Footer Media Desktop */
 
@@ -1338,8 +1339,8 @@
             }
 
 
-
-        }
+        
+        
 
 
         @media screen and (max-width:1280px) {
