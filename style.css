@@ -305,7 +305,6 @@
         .location i {
             position: relative;
             bottom: 1rem;
-            right: rem;
             margin-bottom: -28rem;
             font-size: 1.3rem;
             color: #0065fc;
@@ -1071,16 +1070,42 @@
                 margin-left: 98rem;
             }
 
+              /* Grande Photo 1 Media Desktop */
+
+              .grandephoto{
+                width: 35rem;
+            }
+
+             /* Grande Photo 2 Media Desktop */
+
+             .grandephoto2{
+                width: 35rem;
+            }
+
+            /* Petite photo 1 Media Desktop */
+
+            .petitephoto1{
+                width: 30rem;
+            }
+
+              /* Petite photo 2 Media Desktop */
+
+              .petitephoto2{
+                  width: 30rem;
+              }
+
             /* Petite photo 3 Media Desktop */
 
             .petitephoto3 {
-                margin-left: 110rem;
+                width: 30rem;
+                margin-left: 116rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
-                margin-left: 110rem;
+                width: 30rem;
+                margin-left: 116rem;
             }
 
 
@@ -1113,6 +1138,8 @@
             .icone1 {
                 margin-left: -6rem;
             }
+
+          
 
             /* Grande photo 2 Media Desktop */
 
@@ -2074,6 +2101,7 @@
             .icone2 i {
                 position: relative;
                 left: 5rem;
+                border-radius: 0 1.2rem 1.2rem 0;
                 background: #0065fc;
                 font-size: 1.3rem;
             }
