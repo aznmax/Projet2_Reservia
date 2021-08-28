@@ -1429,13 +1429,14 @@
         /* Container POpulaire */
 
         .container2 {
-            margin-left: 93rem;
+            width: 37rem;
+            margin-left: 92rem;
         }
 
           /* Grande Photo 1 Media Desktop */
 
           .grandephoto{
-            width: 28rem;
+            width: 29rem;
             position: relative;
             right: 2rem;
          
@@ -1444,44 +1445,40 @@
          /* Grande Photo 2 Media Desktop */
 
          .grandephoto2{
-            margin-left: 76rem;
-            width: 35rem;
-            position: relative;
-            right: 13rem;
+            margin-left: 70rem;
+            width: 29rem;
+            
         }
 
         /* Petite photo 1 Media Desktop */
 
         .petitephoto1{
-            margin-left: 40rem;
+            margin-left: 37rem;
             width: 28rem;
-            position: relative;
-            right: 8rem;
+           
         }
 
           /* Petite photo 2 Media Desktop */
 
           .petitephoto2{
-            margin-left: 40rem;
+            margin-left: 37rem;
             width: 28rem;
-            position: relative;
-            right: 8rem;
+
           }
 
         /* Petite photo 3 Media Desktop */
 
         .petitephoto3 {
             width: 28rem;
-            margin-left: 109rem;
-            position: relative;
-            right: 8rem;
+            margin-left: 105rem;
+           
         }
 
         /* Petite photo 4 Media Desktop */
 
         .petitephoto4 {
             width: 28rem;
-            margin-left: 109rem;
+            margin-left: 105rem;
 
             
         }
