@@ -1381,14 +1381,14 @@
 
             .petitephoto3 {
                 width: 20%;
-                margin-left: 115rem;
+                margin-left: 116rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
                 width: 20%;
-                margin-left: 115rem;
+                margin-left: 116rem;
             }
 
 
@@ -2020,6 +2020,8 @@
             .grandephoto {
                 width: 60rem;
                 height: 25rem;
+                margin-top: 2rem;
+                margin-left: 9rem;
 
             }
 
@@ -2032,8 +2034,8 @@
             .petitephoto1 {
                 width: 60rem;
                 height: 25rem;
-                margin-top: 5rem;
-                margin-left: 3.5rem;
+                margin-top: -5rem;
+                margin-left: 15rem;
             }
 
             /* Activité Marseille Petite Photo 2 Ipad  */
@@ -2041,8 +2043,7 @@
             .petitephoto2 {
                 width: 60rem;
                 height: 25rem;
-                margin-top: 5rem;
-                margin-left: 3.5rem;
+                margin-left:15rem;
             }
 
             .petitephoto2 img {
@@ -2057,7 +2058,7 @@
                 width: 60rem;
                 height: 25rem;
                 margin-top: 5rem;
-                margin-left: 3.5rem;
+                margin-left: 20rem;
             }
 
             .grandephoto2 img {
@@ -2070,8 +2071,8 @@
             .petitephoto3 {
                 width: 60rem;
                 height: 25rem;
-                margin-top: 5rem;
-                margin-left: 3.5rem;
+                margin-top: -6rem;
+                margin-left: 15rem;
             }
 
             .petitephoto3 img {
@@ -2085,8 +2086,8 @@
             .petitephoto4 {
                 width: 60rem;
                 height: 25rem;
-                margin-top: 5rem;
-                margin-left: 3.5rem;
+                margin-top: 15rem;
+                margin-left: 15rem;
             }
 
             .petitephoto4 img {
