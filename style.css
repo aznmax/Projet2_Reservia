@@ -1053,12 +1053,69 @@
             font-size: 1.5rem;
         }
 
+        /* Media Querie Desktop 1920 * 1080 */
+
+        @media screen and (max-width:1920px){
+
+            /* Container 2  */
+            .container2{
+                
+                margin-left: 98rem;
+            }
+
+             /* Grande Photo 1 Media Desktop */
+  
+             .grandephoto{
+                width: 30rem;
+             
+            }
+
+             /* Grande Photo 2 Media Desktop */
+
+             .grandephoto2{
+                margin-left: 75rem;
+                width: 35rem;
+            }
+
+            /* Petite photo 1 Media Desktop */
+
+            .petitephoto1{
+                margin-left: 40rem;
+                width: 30rem;
+            }
+
+              /* Petite photo 2 Media Desktop */
+
+              .petitephoto2{
+                margin-left: 40rem;
+                width: 30rem;
+              }
+
+            /* Petite photo 3 Media Desktop */
+
+            .petitephoto3 {
+                width: 30rem;
+                margin-left: 116rem;
+            }
+
+            /* Petite photo 4 Media Desktop */
+
+            .petitephoto4 {
+                width: 30rem;
+                margin-left: 116rem;
+            }
+
+
+
+
+
+        }
+
 
         /* Media Querie Desktop 1680 * 1050 */
 
-        @media screen and (max-width:1680){
-
-            @media screen and (max-width:1600px){
+      
+           @media screen and (max-width:1600px){
 
                 /* Menu Desktop */
                 .menu {
@@ -1121,7 +1178,7 @@
   
   
           }
-        }
+        
 
 
 
@@ -1213,6 +1270,7 @@
             /* Container POpulaire */
 
             .container2 {
+                width: 43rem;
                 margin-left: 98rem;
             }
 
@@ -1281,7 +1339,8 @@
             /* Container POpulaire */
 
             .container2 {
-                margin-left: 98rem;
+                width: 40rem;
+                margin-left: 96rem;
             }
 
               /* Grande Photo 1 Media Desktop */
@@ -1315,15 +1374,15 @@
             /* Petite photo 3 Media Desktop */
 
             .petitephoto3 {
-                width: 30rem;
-                margin-left: 116rem;
+                width: 28rem;
+                margin-left: 117rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
-                width: 30rem;
-                margin-left: 116rem;
+                width: 28rem;
+                margin-left: 117rem;
             }
 
 
@@ -1379,7 +1438,7 @@
          /* Grande Photo 2 Media Desktop */
 
          .grandephoto2{
-            margin-left: 75rem;
+            margin-left: 76rem;
             width: 35rem;
             position: relative;
             right: 13rem;
@@ -1407,17 +1466,18 @@
 
         .petitephoto3 {
             width: 28rem;
-            margin-left: 116rem;
+            margin-left: 109rem;
             position: relative;
-            right: 17rem;
+            right: 8rem;
         }
 
         /* Petite photo 4 Media Desktop */
 
         .petitephoto4 {
             width: 28rem;
-            position: relative;
-            right: 17rem;
+            margin-left: 109rem;
+
+            
         }
 
 
