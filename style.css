@@ -1346,117 +1346,81 @@
         @media screen and (max-width:1280px) {
 
 
-            /* Menu  Responsive  Desktop 1280px */
-            .menu {
-                margin-left: 125rem;
-            }
+           /* Menu Desktop */
+           .menu {
+            margin-left: 130rem;
+        }
 
-            .icone1 {
-                margin-left: -9rem;
-            }
+        /* Icone Dekstop */
 
-            /* Container Hébergement Desktop 1280px */
+        .icone1 {
+            margin-left: -6rem;
+        }
 
-            .container {
-                margin-left: 3rem;
-            }
+        .container{
+            margin-left: 2rem;
+        }
 
-            /* Container Populaire Desktop 1280px  */
-            .container2 {
-                width: 25%;
-                height: 70rem;
-                margin-left: 95rem;
-                margin-top: -67rem;
-                background: #f2f2f2;
-                border-radius: 3rem;
-            }
+        /* Container POpulaire */
 
-            /* Logement Populaire 1  */
+        .container2 {
+            margin-left: 93rem;
+        }
 
+          /* Grande Photo 1 Media Desktop */
 
-            .logementpop1 {
-                width: 70%;
-                height: 13rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: 4rem;
-                margin-top: 1rem;
-                padding: 2rem;
-            }
+          .grandephoto{
+            width: 28rem;
+            position: relative;
+            right: 2rem;
+         
+        }
 
+         /* Grande Photo 2 Media Desktop */
 
+         .grandephoto2{
+            margin-left: 75rem;
+            width: 35rem;
+            position: relative;
+            right: 13rem;
+        }
 
-            .logementpop1 img {
-                border-bottom-left-radius: 2rem;
-                border-top-left-radius: 2rem;
-                width: 15rem;
-                height: 17rem;
-                object-fit: cover;
-                margin-left: -1.9rem;
-                margin-top: -2rem;
-            }
+        /* Petite photo 1 Media Desktop */
 
-            .logementpop1 h3 {
+        .petitephoto1{
+            margin-left: 40rem;
+            width: 28rem;
+            position: relative;
+            right: 8rem;
+        }
 
-                font-size: 1.6rem;
-                font-weight: bolder;
-                margin-left: 15rem;
-                margin-top: -15rem;
-            }
+          /* Petite photo 2 Media Desktop */
 
-            .logementpop1 p {
-                margin-left: 15rem;
-                margin-top: -1rem;
-                font-size: 1.3rem;
-                font-weight: bolder;
-            }
+          .petitephoto2{
+            margin-left: 40rem;
+            width: 28rem;
+            position: relative;
+            right: 8rem;
+          }
 
-            .logementpop1 i {
-                position: relative;
-                bottom: 0.5rem;
-                left: 15rem;
-                font-size: 1.3rem;
-                font-weight: bolder;
-                color: #0065fc;
-            }
+        /* Petite photo 3 Media Desktop */
 
+        .petitephoto3 {
+            width: 28rem;
+            margin-left: 116rem;
+            position: relative;
+            right: 17rem;
+        }
 
+        /* Petite photo 4 Media Desktop */
 
-            /* Grande photo 2 Media Responsive  Desktop 1280px */
-
-            .grandephoto2 {
-                margin-left: 65rem;
-            }
+        .petitephoto4 {
+            width: 28rem;
+            position: relative;
+            right: 17rem;
+        }
 
 
-            /* Petite photo 2 media Responsive  Desktop 1280px*/
-
-            .petitephoto1 {
-                margin-left: 38rem;
-            }
-
-            /* Petite photo 2 Media Desktop */
-
-            .petitephoto2 {
-                margin-left: 37rem;
-                margin-top: 13rem;
-            }
-
-            /* Petite photo 3 Media Desktop */
-            .petitephoto3 {
-                margin-left: 100rem;
-            }
-
-            /* Petite photo 4 Media Desktop */
-
-            .petitephoto4 {
-                margin-left: 100rem;
-            }
-
-            /* Grande photo 2  */
-            .grandephoto2 {
-                margin-top: -55rem;
-            }
 
 
 
