@@ -1336,11 +1336,17 @@
                 margin-left: -6rem;
             }
 
-            /* Container POpulaire */
+            /* Container Hébergement */
+
+            .container{
+            margin-left: 3rem;
+            }
+
+            /* Container Populaire */
 
             .container2 {
                 width: 40rem;
-                margin-left: 96rem;
+                margin-left: 94rem;
             }
 
               /* Grande Photo 1 Media Desktop */
@@ -1375,14 +1381,14 @@
 
             .petitephoto3 {
                 width: 28rem;
-                margin-left: 117rem;
+                margin-left: 115rem;
             }
 
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
                 width: 28rem;
-                margin-left: 117rem;
+                margin-left: 115rem;
             }
 
 
