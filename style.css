@@ -1312,9 +1312,20 @@
             /* Petite photo 4 Media Desktop */
 
             .petitephoto4 {
-                width: 30rem;
-                margin-left: 116rem;
+                width: 28rem;
+            height: 25rem;
+                margin-left: 117rem;
+                margin-top: 13rem;
             }
+
+            .petitephoto4 img {
+                width: 100%;
+                height: 20rem;
+                object-fit: cover;
+                border-top-left-radius: 2rem;
+                border-top-right-radius: 2rem;
+            }
+    
 
 
 
@@ -1478,9 +1489,20 @@
 
         .petitephoto4 {
             width: 28rem;
+            height: 25rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-left: 105rem;
+            margin-top: 13rem;
 
             
+        }
+
+        .petitephoto4 img {
+            width: 100%;
+            height: 20rem;
+            object-fit: cover;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
         }
 
 
