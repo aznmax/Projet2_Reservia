@@ -2401,8 +2401,8 @@
 
             .icone1 {
                 position: relative;
-                left: 32rem;
-                bottom: 3.2rem;
+                left: 16rem;
+                top: -1.3rem;
             }
 
             .logementpop1 {
@@ -2490,7 +2490,7 @@
 
             .container .titre {
                 margin-top: 5rem;
-                margin-left: 5rem;
+                margin-left: 7rem;
             }
 
 
@@ -2498,7 +2498,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -1rem;
+                margin-left: -2rem;
             }
 
             .location img {
@@ -2515,7 +2515,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -1rem;
+                margin-left: -2rem;
             }
 
             .locationp2 img {
@@ -2532,7 +2532,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -1rem;
+                margin-left: -2rem;
             }
 
             .locationp3 img {
@@ -2551,7 +2551,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -1rem;
+                margin-left: -2rem;
             }
 
             .locationp4 img {
@@ -2570,7 +2570,7 @@
                 width: 25rem;
                 height: 10rem;
                 margin-top: 5rem;
-                margin-left: -1rem;
+                margin-left: -2rem;
             }
 
             .locationp5 img {
@@ -2605,7 +2605,7 @@
                 position: absolute;
                 top: 299rem;
                 white-space: nowrap;
-                left: -7rem;
+                left: -5rem;
             }
 
             /* Activité à Marseille mobile */
