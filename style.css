@@ -1,2782 +1,2782 @@
-        * ::before,
-        ::after {
-            box-sizing: border-box;
-        }
+* ::before,
+::after {
+    box-sizing: border-box;
+}
 
-        body {
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 100vh;
-            overflow-x: hidden;
-        }
-
-
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
 
 
-        html {
-            font-family: Raleway;
-            font-size: 10px;
-        }
 
-        /* Header Menu & Logo Desktop  */
 
+html {
+    font-family: Raleway;
+    font-size: 10px;
+}
+
+/* Header Menu & Logo Desktop  */
+
+.menu {
+    font-size: 1.8rem;
+    margin-left: 150rem;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu :nth-child(1) {
+    list-style: none;
+    margin-left: -10rem;
+    margin-top: 2rem;
+
+}
+
+
+
+.menu :nth-child(2) {
+    list-style: none;
+    margin-left: 7rem;
+    margin-top: -2rem;
+
+}
+
+.menu :nth-child(3) {
+    list-style: none;
+    margin-left: 18rem;
+    margin-top: -2rem;
+}
+
+.couleur a {
+    color: #0065fc;
+
+}
+
+.couleur:nth-child(2) a {
+    color: black;
+}
+
+.couleur:hover a {
+    border-top: 5px solid #0065fc;
+}
+
+.logo {
+    margin-top: -5rem;
+    margin-left: 5rem;
+}
+
+/* Titre et Sous Titre Desktop */
+
+.titre {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 1.8rem;
+}
+
+.titre2header {
+    opacity: 0;
+}
+
+.informations {
+    margin-top: -5rem;
+    margin-left: 5rem;
+    font-size: 1.6rem;
+}
+
+/* Barre de recherche Desktop */
+
+.iconeparent {
+
+    display: flex;
+    margin-left: 4rem;
+}
+
+.iconeparent i {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    background: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background: #0065fc;
+    color: white;
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+}
+
+
+
+.icone2 {
+    display: none;
+}
+
+/* Filtre de recherche Desktop */
+
+.filter {
+    margin-top: 1.5rem;
+    margin-left: -15.5rem;
+    display: flex;
+    font-size: 1.8rem;
+}
+
+.filter h4 {
+    font-size: 1.8rem;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.css_ul_liste_filtres {
+    margin-right: 3rem;
+    display: flex;
+    list-style: none;
+
+}
+
+.css_ul_liste_filtres li span i:hover {
+    top: 3px;
+}
+
+.css_ul_liste_filtres li:hover {
+    top: 3px;
+}
+
+.css_ul_liste_filtres li {
+    padding: 0.6rem;
+    border: 2px solid #dedede;
+    background: white;
+    margin-right: 2rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.css_ul_liste_filtres li:nth-child(1) {
+    width: 15rem;
+}
+
+.css_ul_liste_filtres li:nth-child(2) {
+    width: 11.5rem;
+}
+
+.css_ul_liste_filtres li:nth-child(3) {
+    width: 15rem;
+}
+
+.css_ul_liste_filtres li:nth-child(4) {
+    width: 20rem;
+}
+
+.css_ul_liste_filtres span {
+    margin-left: 0.5rem;
+}
+
+.css_ul_liste_filtres li i {
+    width: 3rem;
+    height: 3rem;
+    background: #DEEBFF;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.5rem;
+    background: #DEEBFF;
+    color: #0065fc;
+}
+
+/* Informations complémentaires Desktop */
+
+.icone span {
+    font-size: 1.6rem;
+}
+
+.icone i {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    color: #0065fc;
+    font-size: 1.9rem;
+    background: white;
+}
+
+.numero2 {
+    opacity: 0;
+}
+
+.numero1 {
+    margin-left: 0.5rem;
+    margin-top: 15rem;
+    white-space: nowrap;
+
+}
+
+
+
+
+
+/* Container 1 -- Hébergement à Marseille */
+
+.container {
+    width: 88rem;
+    height: 70rem;
+    background: #F2F2F2;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3rem;
+
+
+}
+
+.titre h2 {
+    margin-top: -0.5rem;
+    margin-left: -2rem;
+    font-size: 2.2rem;
+
+}
+
+.click {
+    text-decoration: none;
+}
+
+.location {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-left: -1rem;
+    margin-top: 4rem;
+    padding: 5rem;
+
+}
+
+.location img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    margin-top: -5rem;
+    margin-left: -5rem;
+    height: 14rem;
+    object-fit: cover;
+
+}
+
+.location h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: -4rem;
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+
+}
+
+.location p {
+    margin-top: -2rem;
+    margin-left: -4rem;
+    color: black;
+    font-size: 1.3rem;
+    right: 2rem;
+}
+
+.location i {
+    position: relative;
+    bottom: 1rem;
+    margin-bottom: -28rem;
+    font-size: 1.3rem;
+    color: #0065fc;
+
+}
+
+.location i:nth-child(8) {
+    color: #dedede;
+}
+
+/* Location 2 */
+
+.locationp2 {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: -22.5rem;
+    margin-left: 27rem;
+    padding: 5rem;
+}
+
+.locationp2 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    height: 14rem;
+    margin-top: -5rem;
+    margin-left: -5rem;
+}
+
+
+.locationp2 h5 {
+    margin-top: 1rem;
+    margin-left: -3rem;
+    font-size: 1.5rem;
+}
+
+.locationp2 p {
+    margin-top: -2rem;
+    margin-left: -3rem;
+    color: black;
+    color: black;
+    font-size: 1.3rem;
+
+}
+
+.locationp2 i {
+    position: relative;
+    right: 3rem;
+    bottom: 1rem;
+    font-size: 1.3rem;
+    color: #0065fc;
+
+}
+
+.click2 {
+    text-decoration: none;
+}
+
+/* Location 3  */
+
+.locationp3 {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: -22rem;
+    margin-left: 55rem;
+    padding: 5rem;
+}
+
+.locationp3 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    height: 14rem;
+    margin-right: 2rem;
+    object-fit: cover;
+    margin-left: 0.3rem;
+}
+
+.locationp3 img {
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.locationp3 h5 {
+
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: black;
+    margin-top: 1rem;
+    margin-left: -4rem;
+    font-weight: bold;
+
+}
+
+.locationp3 p {
+    margin-top: -2rem;
+    margin-left: -4rem;
+    color: black;
+    font-size: 1.3rem;
+    right: 2rem;
+}
+
+.locationp3 i {
+    position: relative;
+    bottom: 1rem;
+    right: 4rem;
+    font-size: 1.3rem;
+    color: #0065fc;
+}
+
+.locationp3 i:nth-child(8) {
+    color: #dedede;
+}
+
+.click {
+    text-decoration: none;
+}
+
+.locationp4 {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-left: -1rem;
+    padding: 5rem;
+}
+
+.locationp4 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    height: 14rem;
+    object-fit: cover;
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.locationp4 h5 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: -4rem;
+}
+
+.locationp4 p {
+    margin-top: -2rem;
+    margin-left: -4rem;
+    color: black;
+    font-size: 1.3rem;
+
+}
+
+.locationp4 i {
+    position: relative;
+    bottom: 1rem;
+    right: 4rem;
+    color: #0065fc;
+    font-size: 1.3rem;
+}
+
+.locationp4 i:nth-child(7) {
+    color: #dedede;
+}
+
+.locationp4 i:nth-child(8) {
+    color: #dedede;
+}
+
+.click4 {
+    text-decoration: none;
+}
+
+/* Location 5 */
+
+.locationp5 {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: -22rem;
+    margin-left: 27rem;
+    padding: 5rem;
+}
+
+.locationp5 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    height: 14rem;
+    object-fit: cover;
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.locationp5 h5 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: -4rem;
+}
+
+.locationp5 p {
+    margin-top: -2rem;
+    margin-left: -4rem;
+    color: black;
+    font-size: 1.3rem;
+
+}
+
+.locationp5 i {
+    position: relative;
+    bottom: 1rem;
+    right: 4rem;
+    font-size: 1.3rem;
+    color: #0065fc;
+}
+
+.locationp5 i:nth-child(8) {
+    color: #dedede;
+}
+
+.click5 {
+    text-decoration: none;
+}
+
+.locationp6 {
+    width: 15rem;
+    height: 12rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: -22rem;
+    margin-left: 55rem;
+    padding: 5rem;
+}
+
+.locationp6 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 25rem;
+    height: 14rem;
+    object-fit: cover;
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.locationp6 h5 {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: -4rem;
+}
+
+.locationp6 p {
+    margin-top: -2.5rem;
+    margin-left: -4rem;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.locationp6 i {
+    position: relative;
+    right: 4rem;
+    top: -1.3rem;
+    color: #0065fc;
+    font-size: 1.3rem;
+}
+
+.click6 {
+    text-decoration: none;
+}
+
+/* Afficher plus Desktop */
+
+.infosup {
+    margin-top: -8rem;
+    margin-left: 7rem;
+    font-size: 1.5rem;
+}
+
+
+/* Les plus populaire Desktop */
+
+.container2 {
+    position: relative;
+    width: 25%;
+    height: 70rem;
+    margin-left: 105rem;
+    margin-top: -67rem;
+    background: #f2f2f2;
+    border-radius: 3rem;
+}
+
+
+
+
+
+.icone1 {
+    position: relative;
+    left: 36rem;
+    top: -0.5rem;
+    font-size: 2rem;
+
+}
+
+.populaire h2 {
+
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+
+
+}
+
+.populaire h2 {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+/* Logement Populaire 1  Desktop */
+
+.logementpop1 {
+    width: 70%;
+    height: 13rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+
+.logementpop1 img {
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    width: 15rem;
+    height: 17rem;
+    object-fit: cover;
+    margin-left: -1.9rem;
+    margin-top: -2rem;
+}
+
+.logementpop1 h3 {
+
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-left: 15rem;
+    margin-top: -15rem;
+}
+
+.logementpop1 p {
+    margin-left: 15rem;
+    margin-top: -1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.logementpop1 i {
+    position: relative;
+    bottom: 0.5rem;
+    left: 15rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #0065fc;
+}
+
+/* Logement Populaire 2  */
+
+.logementpop2 {
+    width: 70%;
+    height: 13rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+.logementpop2 img {
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    width: 15rem;
+    height: 17rem;
+    object-fit: cover;
+    margin-top: -2rem;
+    margin-left: -2rem;
+}
+
+.logementpop2 h3 {
+    margin-left: 15rem;
+    margin-top: -15rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.logementpop2 p {
+    margin-left: 15rem;
+    margin-top: -1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.logementpop2 i {
+    position: relative;
+    bottom: 0.5rem;
+    left: 15rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #0065fc;
+}
+
+.logementpop2 i:nth-child(8) {
+    color: #dedede;
+}
+
+
+.logementpop3 {
+    width: 70%;
+    height: 13rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    padding: 2rem;
+    top: 8rem;
+}
+
+.logementpop3 img {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    position: relative;
+    bottom: 1.5rem;
+    right: 2rem;
+    margin-left: 0.3rem;
+}
+
+.logementpop3 h3 {
+    margin-left: 15rem;
+    margin-top: -15rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.logementpop3 p {
+    margin-left: 15rem;
+    margin-top: -1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.logementpop3 i {
+    position: relative;
+    bottom: 0.5rem;
+    left: 15rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #0065fc;
+}
+
+.logementpop3 i:nth-child(8) {
+    color: #dedede;
+}
+
+/* Activité à Marseille Desktop */
+/* Activité à Marseille */
+
+.titre3 {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+
+/* Grande Photo 1 activité Marseille Desktop */
+
+.grandephoto {
+    width: 19%;
+    height: 45rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 4rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.grandephoto h4 {
+    margin-left: 2rem;
+    margin-top: -28.5rem;
+    font-size: 1.5rem;
+}
+
+
+.grandephoto img {
+    margin-bottom: 30rem;
+    width: 100%;
+    object-fit: cover;
+    height: 40rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+
+
+/* Grande Photo 2 activité Marseille Desktop */
+
+.grandephoto2 {
+   width: 19%;
+   height: 45rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: -45rem;
+    margin-left: 78rem;
+    border-radius: 2rem;
+    position: relative;
+    right: 5rem;
+
+}
+
+
+.grandephoto2 img {
+    margin-bottom: 30rem;
+    width: 100%;
+    object-fit: cover;
+    height: 40rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+
+}
+
+.grandephoto2 h4 {
+    margin-top: -28.5rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Petite Photo 1 Desktop */
+
+.petitephoto1 {
+    width: 16%;
+    height: 25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: -55rem;
+    margin-left: 44rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 10rem;
+    right: 3rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto1 img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto1 h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Petite Photo2 Desktop */
+
+.petitephoto2 {
+    width: 16%;
+    height: 17rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 44rem;
+    margin-top: 13rem;
+    border-radius: 2rem;
+    position: relative;
+    right: 3rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto2 img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto2 h4 {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+/* Petite Photo 2 Desktop */
+
+.petitephoto3 {
+    width: 18%;
+    height: 17rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: -55rem;
+    margin-left: 118rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 10rem;
+    right: 8rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto3 img {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto3 h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* Petite Photo 3  */
+
+.petitephoto4 {
+    width: 18%;
+    height: 17rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-left: 118rem;
+    margin-top: 21rem;
+    position: relative;
+    right: 8rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto4 img {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.petitephoto4 h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Footer Desktop */
+
+
+.backtest {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    background: #f1f1f1f1;
+    margin-top: -2rem;
+}
+
+
+.footerleft {
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+
+.footerleft h3 {
+    position: relative;
+    top: 5rem;
+    font-size: 1.8rem;
+}
+
+.footerleft p {
+    position: relative;
+    top: 5rem;
+    font-size: 1.5rem;
+}
+
+.footercenter {
+    position: absolute;
+    left: 90rem;
+    bottom: 10rem;
+
+}
+
+.footercenter h3 {
+    position: relative;
+    right: 35rem;
+    font-size: 1.8rem;
+}
+
+.footercenter p {
+    position: relative;
+    right: 35rem;
+    font-size: 1.5rem;
+}
+
+.footercenter h3 {
+    font-size: 1.8rem;
+}
+
+.footercenter p {
+    font-size: 1.5rem;
+}
+
+
+
+.footerright h3 {
+    position: relative;
+    left: 110rem;
+    bottom: 10rem;
+    font-size: 1.8rem;
+}
+
+.footerright p {
+    position: relative;
+    left: 110rem;
+    bottom: 10rem;
+    font-size: 1.5rem;
+}
+
+.footerright h3 {
+
+    font-size: 1.8rem;
+}
+
+.footerright p {
+    font-size: 1.5rem;
+}
+
+/* Media Querie Desktop 1920 * 1080 */
+
+@media screen and (max-width:1920px){
+
+    /* Container 2  */
+    .container2{
+        
+        margin-left: 98rem;
+    }
+
+     /* Grande Photo 1 Media Desktop */
+
+     .grandephoto{
+        width: 30rem;
+     
+    }
+
+     /* Grande Photo 2 Media Desktop */
+
+     .grandephoto2{
+        margin-left: 75rem;
+        width: 35rem;
+    }
+
+    /* Petite photo 1 Media Desktop */
+
+    .petitephoto1{
+        margin-left: 40rem;
+        width: 30rem;
+    }
+
+      /* Petite photo 2 Media Desktop */
+
+      .petitephoto2{
+        margin-left: 40rem;
+        width: 30rem;
+      }
+
+    /* Petite photo 3 Media Desktop */
+
+    .petitephoto3 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
+
+    /* Petite photo 4 Media Desktop */
+
+    .petitephoto4 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
+
+
+
+
+
+}
+
+
+/* Media Querie Desktop 1680 * 1050 */
+
+
+   @media screen and (max-width:1600px){
+
+        /* Menu Desktop */
         .menu {
-            font-size: 1.8rem;
-            margin-left: 150rem;
-            display: flex;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        .menu a {
-            text-decoration: none;
-            color: black;
-        }
-
-        .menu :nth-child(1) {
-            list-style: none;
-            margin-left: -10rem;
-            margin-top: 2rem;
-
-        }
-
-
-
-        .menu :nth-child(2) {
-            list-style: none;
-            margin-left: 7rem;
-            margin-top: -2rem;
-
-        }
-
-        .menu :nth-child(3) {
-            list-style: none;
-            margin-left: 18rem;
-            margin-top: -2rem;
-        }
-
-        .couleur a {
-            color: #0065fc;
-
-        }
-
-        .couleur:nth-child(2) a {
-            color: black;
-        }
-
-        .couleur:hover a {
-            border-top: 5px solid #0065fc;
-        }
-
-        .logo {
-            margin-top: -5rem;
-            margin-left: 5rem;
-        }
-
-        /* Titre et Sous Titre Desktop */
-
-        .titre {
-            margin-top: 5rem;
-            margin-left: 5rem;
-            font-size: 1.8rem;
-        }
-
-        .titre2header {
-            opacity: 0;
-        }
-
-        .informations {
-            margin-top: -5rem;
-            margin-left: 5rem;
-            font-size: 1.6rem;
-        }
-
-        /* Barre de recherche Desktop */
-
-        .iconeparent {
-
-            display: flex;
-            margin-left: 4rem;
-        }
-
-        .iconeparent i {
-            display: flex;
-            width: 4rem;
-            height: 4rem;
-            font-size: 1.8rem;
-            background: #f2f2f2;
-            justify-content: center;
-            align-items: center;
-            border-top-left-radius: 0.9rem;
-            border-bottom-left-radius: 0.9rem;
-        }
-
-        button {
-            display: flex;
-            align-items: center;
-            background: #0065fc;
-            color: white;
-            cursor: pointer;
-            font-size: 1.8rem;
-            border-top-right-radius: 1.2rem;
-            border-bottom-right-radius: 1.2rem;
-        }
-
-
-
-        .icone2 {
-            display: none;
-        }
-
-        /* Filtre de recherche Desktop */
-
-        .filter {
-            margin-top: 1.5rem;
-            margin-left: -15.5rem;
-            display: flex;
-            font-size: 1.8rem;
-        }
-
-        .filter h4 {
-            font-size: 1.8rem;
-            margin-left: 20rem;
-            margin-top: 3rem;
-        }
-
-        .css_ul_liste_filtres {
-            margin-right: 3rem;
-            display: flex;
-            list-style: none;
-
-        }
-
-        .css_ul_liste_filtres li span i:hover {
-            top: 3px;
-        }
-
-        .css_ul_liste_filtres li:hover {
-            top: 3px;
-        }
-
-        .css_ul_liste_filtres li {
-            padding: 0.6rem;
-            border: 2px solid #dedede;
-            background: white;
-            margin-right: 2rem;
-            border-radius: 5rem;
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-
-        .css_ul_liste_filtres li:nth-child(1) {
-            width: 15rem;
-        }
-
-        .css_ul_liste_filtres li:nth-child(2) {
-            width: 11.5rem;
-        }
-
-        .css_ul_liste_filtres li:nth-child(3) {
-            width: 15rem;
-        }
-
-        .css_ul_liste_filtres li:nth-child(4) {
-            width: 20rem;
-        }
-
-        .css_ul_liste_filtres span {
-            margin-left: 0.5rem;
-        }
-
-        .css_ul_liste_filtres li i {
-            width: 3rem;
-            height: 3rem;
-            background: #DEEBFF;
-            border-radius: 3rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            right: 0.5rem;
-            background: #DEEBFF;
-            color: #0065fc;
-        }
-
-        /* Informations complémentaires Desktop */
-
-        .icone span {
-            font-size: 1.6rem;
-        }
-
-        .icone i {
-            margin-top: 2rem;
-            margin-left: 4rem;
-            color: #0065fc;
-            font-size: 1.9rem;
-            background: white;
-        }
-
-        .numero2 {
-            opacity: 0;
-        }
-
-        .numero1 {
-            margin-left: 0.5rem;
-            margin-top: 15rem;
-            white-space: nowrap;
-
-        }
-
-
-
-
-
-        /* Container 1 -- Hébergement à Marseille */
-
-        .container {
-            width: 88rem;
-            height: 70rem;
-            background: #F2F2F2;
-            margin-left: 5rem;
-            margin-top: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            border-radius: 3rem;
-
-
-        }
-
-        .titre h2 {
-            margin-top: -0.5rem;
-            margin-left: -2rem;
-            font-size: 2.2rem;
-
-        }
-
-        .click {
-            text-decoration: none;
-        }
-
-        .location {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: -1rem;
-            margin-top: 4rem;
-            padding: 5rem;
-
-        }
-
-        .location img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-            height: 14rem;
-            object-fit: cover;
-
-        }
-
-        .location h5 {
-            font-size: 1.5rem;
-            margin-top: 1rem;
-            margin-left: -4rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-
-        }
-
-        .location p {
-            margin-top: -2rem;
-            margin-left: -4rem;
-            color: black;
-            font-size: 1.3rem;
-            right: 2rem;
-        }
-
-        .location i {
-            position: relative;
-            bottom: 1rem;
-            margin-bottom: -28rem;
-            font-size: 1.3rem;
-            color: #0065fc;
-
-        }
-
-        .location i:nth-child(8) {
-            color: #dedede;
-        }
-
-        /* Location 2 */
-
-        .locationp2 {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: -22.5rem;
-            margin-left: 27rem;
-            padding: 5rem;
-        }
-
-        .locationp2 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            height: 14rem;
-            margin-top: -5rem;
-            margin-left: -5rem;
-        }
-
-
-        .locationp2 h5 {
-            margin-top: 1rem;
-            margin-left: -3rem;
-            font-size: 1.5rem;
-        }
-
-        .locationp2 p {
-            margin-top: -2rem;
-            margin-left: -3rem;
-            color: black;
-            color: black;
-            font-size: 1.3rem;
-
-        }
-
-        .locationp2 i {
-            position: relative;
-            right: 3rem;
-            bottom: 1rem;
-            font-size: 1.3rem;
-            color: #0065fc;
-
-        }
-
-        .click2 {
-            text-decoration: none;
-        }
-
-        /* Location 3  */
-
-        .locationp3 {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: -22rem;
-            margin-left: 55rem;
-            padding: 5rem;
-        }
-
-        .locationp3 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            height: 14rem;
-            margin-right: 2rem;
-            object-fit: cover;
-            margin-left: 0.3rem;
-        }
-
-        .locationp3 img {
-            margin-left: -5rem;
-            margin-top: -5rem;
-        }
-
-        .locationp3 h5 {
-
-            font-size: 1.5rem;
-            white-space: nowrap;
-            color: black;
-            margin-top: 1rem;
-            margin-left: -4rem;
-            font-weight: bold;
-
-        }
-
-        .locationp3 p {
-            margin-top: -2rem;
-            margin-left: -4rem;
-            color: black;
-            font-size: 1.3rem;
-            right: 2rem;
-        }
-
-        .locationp3 i {
-            position: relative;
-            bottom: 1rem;
-            right: 4rem;
-            font-size: 1.3rem;
-            color: #0065fc;
-        }
-
-        .locationp3 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        .click {
-            text-decoration: none;
-        }
-
-        .locationp4 {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: 4rem;
-            margin-left: -1rem;
-            padding: 5rem;
-        }
-
-        .locationp4 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            height: 14rem;
-            object-fit: cover;
-            margin-left: -5rem;
-            margin-top: -5rem;
-        }
-
-        .locationp4 h5 {
-            font-size: 1.5rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-            margin-top: 1rem;
-            margin-left: -4rem;
-        }
-
-        .locationp4 p {
-            margin-top: -2rem;
-            margin-left: -4rem;
-            color: black;
-            font-size: 1.3rem;
-
-        }
-
-        .locationp4 i {
-            position: relative;
-            bottom: 1rem;
-            right: 4rem;
-            color: #0065fc;
-            font-size: 1.3rem;
-        }
-
-        .locationp4 i:nth-child(7) {
-            color: #dedede;
-        }
-
-        .locationp4 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        .click4 {
-            text-decoration: none;
-        }
-
-        /* Location 5 */
-
-        .locationp5 {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: -22rem;
-            margin-left: 27rem;
-            padding: 5rem;
-        }
-
-        .locationp5 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            height: 14rem;
-            object-fit: cover;
-            margin-left: -5rem;
-            margin-top: -5rem;
-        }
-
-        .locationp5 h5 {
-            font-size: 1.5rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-            margin-top: 1rem;
-            margin-left: -4rem;
-        }
-
-        .locationp5 p {
-            margin-top: -2rem;
-            margin-left: -4rem;
-            color: black;
-            font-size: 1.3rem;
-
-        }
-
-        .locationp5 i {
-            position: relative;
-            bottom: 1rem;
-            right: 4rem;
-            font-size: 1.3rem;
-            color: #0065fc;
-        }
-
-        .locationp5 i:nth-child(8) {
-            color: #dedede;
-        }
-
-        .click5 {
-            text-decoration: none;
-        }
-
-        .locationp6 {
-            width: 15rem;
-            height: 12rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: -22rem;
-            margin-left: 55rem;
-            padding: 5rem;
-        }
-
-        .locationp6 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 25rem;
-            height: 14rem;
-            object-fit: cover;
-            margin-left: -5rem;
-            margin-top: -5rem;
-        }
-
-        .locationp6 h5 {
-            font-size: 1.8rem;
-            white-space: nowrap;
-            color: black;
-            font-weight: bold;
-            margin-top: 1rem;
-            margin-left: -4rem;
-        }
-
-        .locationp6 p {
-            margin-top: -2.5rem;
-            margin-left: -4rem;
-            color: black;
-            font-size: 1.3rem;
-        }
-
-        .locationp6 i {
-            position: relative;
-            right: 4rem;
-            top: -1.3rem;
-            color: #0065fc;
-            font-size: 1.3rem;
-        }
-
-        .click6 {
-            text-decoration: none;
-        }
-
-        /* Afficher plus Desktop */
-
-        .infosup {
-            margin-top: -8rem;
-            margin-left: 7rem;
-            font-size: 1.5rem;
-        }
-
-
-        /* Les plus populaire Desktop */
-
-        .container2 {
-            position: relative;
-            width: 25%;
-            height: 70rem;
-            margin-left: 105rem;
-            margin-top: -67rem;
-            background: #f2f2f2;
-            border-radius: 3rem;
-        }
-
+          margin-left: 130rem;
+      }
 
+      /* Icone Dekstop */
 
+      .icone1 {
+          margin-left: -6rem;
+      }
 
+      /* Container POpulaire */
 
-        .icone1 {
-            position: relative;
-            left: 36rem;
-            top: -0.5rem;
-            font-size: 2rem;
+      .container2 {
+          margin-left: 98rem;
+      }
 
-        }
-
-        .populaire h2 {
-
-            position: relative;
-            top: 3rem;
-            left: 2rem;
-
-
-        }
-
-        .populaire h2 {
-            font-size: 2rem;
-            margin-left: 2rem;
-        }
-
-        /* Logement Populaire 1  Desktop */
-
-        .logementpop1 {
-            width: 70%;
-            height: 13rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: 4rem;
-            margin-top: 1rem;
-            padding: 2rem;
-        }
-
-
-
-        .logementpop1 img {
-            border-bottom-left-radius: 2rem;
-            border-top-left-radius: 2rem;
-            width: 15rem;
-            height: 17rem;
-            object-fit: cover;
-            margin-left: -1.9rem;
-            margin-top: -2rem;
-        }
-
-        .logementpop1 h3 {
-
-            font-size: 1.6rem;
-            font-weight: bolder;
-            margin-left: 15rem;
-            margin-top: -15rem;
-        }
-
-        .logementpop1 p {
-            margin-left: 15rem;
-            margin-top: -1rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-        }
+        /* Grande Photo 1 Media Desktop */
 
-        .logementpop1 i {
-            position: relative;
-            bottom: 0.5rem;
-            left: 15rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-            color: #0065fc;
-        }
+        .grandephoto{
+          width: 30rem;
+       
+      }
 
-        /* Logement Populaire 2  */
-
-        .logementpop2 {
-            width: 70%;
-            height: 13rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-top: 4rem;
-            margin-left: 4rem;
-            padding: 2rem;
-        }
+       /* Grande Photo 2 Media Desktop */
 
-        .logementpop2 img {
-            border-bottom-left-radius: 2rem;
-            border-top-left-radius: 2rem;
-            width: 15rem;
-            height: 17rem;
-            object-fit: cover;
-            margin-top: -2rem;
-            margin-left: -2rem;
-        }
+       .grandephoto2{
+          margin-left: 75rem;
+          width: 35rem;
+      }
 
-        .logementpop2 h3 {
-            margin-left: 15rem;
-            margin-top: -15rem;
-            font-size: 1.6rem;
-            font-weight: bolder;
-        }
+      /* Petite photo 1 Media Desktop */
 
-        .logementpop2 p {
-            margin-left: 15rem;
-            margin-top: -1rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-        }
+      .petitephoto1{
+          margin-left: 40rem;
+          width: 30rem;
+      }
 
-        .logementpop2 i {
-            position: relative;
-            bottom: 0.5rem;
-            left: 15rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-            color: #0065fc;
-        }
+        /* Petite photo 2 Media Desktop */
 
-        .logementpop2 i:nth-child(8) {
-            color: #dedede;
+        .petitephoto2{
+          margin-left: 40rem;
+          width: 30rem;
         }
 
+      /* Petite photo 3 Media Desktop */
 
-        .logementpop3 {
-            width: 70%;
-            height: 13rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: 4rem;
-            margin-top: 4rem;
-            padding: 2rem;
-            top: 8rem;
-        }
+      .petitephoto3 {
+          width: 30rem;
+          margin-left: 116rem;
+      }
 
-        .logementpop3 img {
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            width: 16rem;
-            height: 16rem;
-            object-fit: cover;
-            position: relative;
-            bottom: 1.5rem;
-            right: 2rem;
-            margin-left: 0.3rem;
-        }
+      /* Petite photo 4 Media Desktop */
 
-        .logementpop3 h3 {
-            margin-left: 15rem;
-            margin-top: -15rem;
-            font-size: 1.6rem;
-            font-weight: bolder;
-        }
+      .petitephoto4 {
+          width: 30rem;
+          margin-left: 116rem;
+      }
 
-        .logementpop3 p {
-            margin-left: 15rem;
-            margin-top: -1rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-        }
 
-        .logementpop3 i {
-            position: relative;
-            bottom: 0.5rem;
-            left: 15rem;
-            font-size: 1.3rem;
-            font-weight: bolder;
-            color: #0065fc;
-        }
+  }
 
-        .logementpop3 i:nth-child(8) {
-            color: #dedede;
-        }
 
-        /* Activité à Marseille Desktop */
-        /* Activité à Marseille */
 
-        .titre3 {
-            margin-top: 5rem;
-            margin-left: 4rem;
-            font-size: 1.5rem;
-        }
 
-        /* Grande Photo 1 activité Marseille Desktop */
-
-        .grandephoto {
-            width: 19%;
-            height: 45rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-left: 4rem;
-            border-top-right-radius: 2rem;
-            border-top-left-radius: 2rem;
-            border-bottom-left-radius: 2rem;
-            border-bottom-right-radius: 2rem;
-        }
+/* Media Querie Desktop 1600*900 */
 
-        .grandephoto h4 {
-            margin-left: 2rem;
-            margin-top: -28.5rem;
-            font-size: 1.5rem;
-        }
+@media screen and (max-width:1600px){
 
+      /* Menu Desktop */
+      .menu {
+        margin-left: 130rem;
+    }
 
-        .grandephoto img {
-            margin-bottom: 30rem;
-            width: 100%;
-            object-fit: cover;
-            height: 40rem;
-            border-top-right-radius: 2rem;
-            border-top-left-radius: 2rem;
-        }
+    /* Icone Dekstop */
 
+    .icone1 {
+        margin-left: -6rem;
+    }
 
+    /* Container POpulaire */
 
-        /* Grande Photo 2 activité Marseille Desktop */
+    .container2 {
+        margin-left: 98rem;
+    }
 
-        .grandephoto2 {
-           width: 19%;
-           height: 45rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-top: -45rem;
-            margin-left: 78rem;
-            border-radius: 2rem;
-            position: relative;
-            right: 5rem;
+      /* Grande Photo 1 Media Desktop */
 
-        }
+      .grandephoto{
+        width: 30rem;
+     
+    }
 
+     /* Grande Photo 2 Media Desktop */
 
-        .grandephoto2 img {
-            margin-bottom: 30rem;
-            width: 100%;
-            object-fit: cover;
-            height: 40rem;
-            border-top-right-radius: 2rem;
-            border-top-left-radius: 2rem;
+     .grandephoto2{
+        margin-left: 75rem;
+        width: 35rem;
+    }
 
-        }
+    /* Petite photo 1 Media Desktop */
 
-        .grandephoto2 h4 {
-            margin-top: -28.5rem;
-            margin-left: 2rem;
-            font-size: 1.5rem;
-        }
+    .petitephoto1{
+        margin-left: 40rem;
+        width: 30rem;
+    }
 
-        /* Petite Photo 1 Desktop */
-
-        .petitephoto1 {
-            width: 16%;
-            height: 25rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-top: -55rem;
-            margin-left: 44rem;
-            border-radius: 2rem;
-            position: relative;
-            top: 10rem;
-            right: 3rem;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+      /* Petite photo 2 Media Desktop */
 
-        .petitephoto1 img {
-            width: 100%;
-            height: 20rem;
-            object-fit: cover;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+      .petitephoto2{
+        margin-left: 40rem;
+        width: 30rem;
+      }
 
-        .petitephoto1 h4 {
-            margin-left: 2rem;
-            margin-top: 1rem;
-            font-size: 1.5rem;
-        }
+    /* Petite photo 3 Media Desktop */
 
-        /* Petite Photo2 Desktop */
-
-        .petitephoto2 {
-            width: 16%;
-            height: 17rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-left: 44rem;
-            margin-top: 13rem;
-            border-radius: 2rem;
-            position: relative;
-            right: 3rem;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+    .petitephoto3 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
 
-        .petitephoto2 img {
-            width: 100%;
-            height: 12rem;
-            object-fit: cover;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+    /* Petite photo 4 Media Desktop */
 
-        .petitephoto2 h4 {
-            margin-left: 2rem;
-            font-size: 1.5rem;
-        }
+    .petitephoto4 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
 
-        /* Petite Photo 2 Desktop */
-
-        .petitephoto3 {
-            width: 18%;
-            height: 17rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-top: -55rem;
-            margin-left: 118rem;
-            border-radius: 2rem;
-            position: relative;
-            top: 10rem;
-            right: 8rem;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
 
-        .petitephoto3 img {
-            width: 100%;
-            height: 13rem;
-            object-fit: cover;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+}
 
-        .petitephoto3 h4 {
-            margin-left: 2rem;
-            margin-top: 1rem;
-            font-size: 1.5rem;
-        }
 
 
-        /* Petite Photo 3  */
-
-        .petitephoto4 {
-            width: 18%;
-            height: 17rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            border-radius: 2rem;
-            margin-left: 118rem;
-            margin-top: 21rem;
-            position: relative;
-            right: 8rem;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
 
-        .petitephoto4 img {
-            width: 100%;
-            height: 13rem;
-            object-fit: cover;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
+/* Media Querie Desktop 1440*900 */
 
-        .petitephoto4 h4 {
-            margin-left: 2rem;
-            margin-top: 1rem;
-            font-size: 1.5rem;
-        }
 
-        /* Footer Desktop */
+@media screen and (max-width: 1440px) {
 
+    /* Menu Desktop */
+    .menu {
+        margin-left: 130rem;
+    }
 
-        .backtest {
-            position: relative;
-            width: 100%;
-            height: 25rem;
-            background: #f1f1f1f1;
-            margin-top: -2rem;
-        }
+    /* Icone Dekstop */
 
+    .icone1 {
+        margin-left: -6rem;
+    }
 
-        .footerleft {
-            margin-left: 5rem;
-            margin-top: 10rem;
+    /* Container POpulaire */
 
-        }
+    .container2 {
+        width: 43rem;
+        margin-left: 98rem;
+    }
 
-        .footerleft h3 {
-            position: relative;
-            top: 5rem;
-            font-size: 1.8rem;
-        }
+      /* Grande Photo 1 Media Desktop */
 
-        .footerleft p {
-            position: relative;
-            top: 5rem;
-            font-size: 1.5rem;
-        }
+      .grandephoto{
+        width: 30rem;
+     
+    }
 
-        .footercenter {
-            position: absolute;
-            left: 90rem;
-            bottom: 10rem;
+     /* Grande Photo 2 Media Desktop */
 
-        }
+     .grandephoto2{
+        margin-left: 75rem;
+        width: 35rem;
+    }
 
-        .footercenter h3 {
-            position: relative;
-            right: 35rem;
-            font-size: 1.8rem;
-        }
+    /* Petite photo 1 Media Desktop */
 
-        .footercenter p {
-            position: relative;
-            right: 35rem;
-            font-size: 1.5rem;
-        }
+    .petitephoto1{
+        margin-left: 40rem;
+        width: 30rem;
+    }
 
-        .footercenter h3 {
-            font-size: 1.8rem;
-        }
+      /* Petite photo 2 Media Desktop */
 
-        .footercenter p {
-            font-size: 1.5rem;
-        }
+      .petitephoto2{
+        margin-left: 40rem;
+        width: 30rem;
+      }
 
+    /* Petite photo 3 Media Desktop */
 
+    .petitephoto3 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
 
-        .footerright h3 {
-            position: relative;
-            left: 110rem;
-            bottom: 10rem;
-            font-size: 1.8rem;
-        }
+    /* Petite photo 4 Media Desktop */
 
-        .footerright p {
-            position: relative;
-            left: 110rem;
-            bottom: 10rem;
-            font-size: 1.5rem;
-        }
+    .petitephoto4 {
+        width: 28rem;
+    height: 25rem;
+        margin-left: 117rem;
+        margin-top: 13rem;
+    }
 
-        .footerright h3 {
+    .petitephoto4 img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
 
-            font-size: 1.8rem;
-        }
 
-        .footerright p {
-            font-size: 1.5rem;
-        }
 
-        /* Media Querie Desktop 1920 * 1080 */
 
-        @media screen and (max-width:1920px){
 
-            /* Container 2  */
-            .container2{
-                
-                margin-left: 98rem;
-            }
+}
 
-             /* Grande Photo 1 Media Desktop */
-  
-             .grandephoto{
-                width: 30rem;
-             
-            }
 
-             /* Grande Photo 2 Media Desktop */
 
-             .grandephoto2{
-                margin-left: 75rem;
-                width: 35rem;
-            }
+@media screen and (max-width:1366px) {
 
-            /* Petite photo 1 Media Desktop */
+       /* Menu Desktop */
+       .menu {
+        margin-left: 130rem;
+    }
 
-            .petitephoto1{
-                margin-left: 40rem;
-                width: 30rem;
-            }
+    /* Icone Dekstop */
 
-              /* Petite photo 2 Media Desktop */
+    .icone1 {
+        margin-left: -6rem;
+    }
 
-              .petitephoto2{
-                margin-left: 40rem;
-                width: 30rem;
-              }
+    /* Container Hébergement */
 
-            /* Petite photo 3 Media Desktop */
+    .container{
+    margin-left: 3rem;
+    }
 
-            .petitephoto3 {
-                width: 30rem;
-                margin-left: 116rem;
-            }
+    /* Container Populaire */
 
-            /* Petite photo 4 Media Desktop */
+    .container2 {
+        width: 25%;
+        margin-left: 94rem;
+    }
 
-            .petitephoto4 {
-                width: 30rem;
-                margin-left: 116rem;
-            }
+      /* Grande Photo 1 Media Desktop */
 
+      .grandephoto{
+        width: 30rem;
+     
+    }
 
+     /* Grande Photo 2 Media Desktop */
 
+     .grandephoto2{
+        margin-left: 75rem;
+        width: 35rem;
+    }
 
+    /* Petite photo 1 Media Desktop */
 
-        }
+    .petitephoto1{
+        margin-left: 40rem;
+        width: 30rem;
+    }
 
+      /* Petite photo 2 Media Desktop */
 
-        /* Media Querie Desktop 1680 * 1050 */
-
-      
-           @media screen and (max-width:1600px){
-
-                /* Menu Desktop */
-                .menu {
-                  margin-left: 130rem;
-              }
-  
-              /* Icone Dekstop */
-  
-              .icone1 {
-                  margin-left: -6rem;
-              }
-  
-              /* Container POpulaire */
-  
-              .container2 {
-                  margin-left: 98rem;
-              }
-  
-                /* Grande Photo 1 Media Desktop */
-  
-                .grandephoto{
-                  width: 30rem;
-               
-              }
-  
-               /* Grande Photo 2 Media Desktop */
-  
-               .grandephoto2{
-                  margin-left: 75rem;
-                  width: 35rem;
-              }
-  
-              /* Petite photo 1 Media Desktop */
-  
-              .petitephoto1{
-                  margin-left: 40rem;
-                  width: 30rem;
-              }
-  
-                /* Petite photo 2 Media Desktop */
-  
-                .petitephoto2{
-                  margin-left: 40rem;
-                  width: 30rem;
-                }
-  
-              /* Petite photo 3 Media Desktop */
-  
-              .petitephoto3 {
-                  width: 30rem;
-                  margin-left: 116rem;
-              }
-  
-              /* Petite photo 4 Media Desktop */
-  
-              .petitephoto4 {
-                  width: 30rem;
-                  margin-left: 116rem;
-              }
-  
-  
-          }
-        
-
-
-
-        /* Media Querie Desktop 1600*900 */
-
-        @media screen and (max-width:1600px){
-
-              /* Menu Desktop */
-              .menu {
-                margin-left: 130rem;
-            }
-
-            /* Icone Dekstop */
-
-            .icone1 {
-                margin-left: -6rem;
-            }
-
-            /* Container POpulaire */
-
-            .container2 {
-                margin-left: 98rem;
-            }
-
-              /* Grande Photo 1 Media Desktop */
-
-              .grandephoto{
-                width: 30rem;
-             
-            }
-
-             /* Grande Photo 2 Media Desktop */
-
-             .grandephoto2{
-                margin-left: 75rem;
-                width: 35rem;
-            }
-
-            /* Petite photo 1 Media Desktop */
-
-            .petitephoto1{
-                margin-left: 40rem;
-                width: 30rem;
-            }
-
-              /* Petite photo 2 Media Desktop */
-
-              .petitephoto2{
-                margin-left: 40rem;
-                width: 30rem;
-              }
-
-            /* Petite photo 3 Media Desktop */
-
-            .petitephoto3 {
-                width: 30rem;
-                margin-left: 116rem;
-            }
-
-            /* Petite photo 4 Media Desktop */
-
-            .petitephoto4 {
-                width: 30rem;
-                margin-left: 116rem;
-            }
+      .petitephoto2{
+        margin-left: 40rem;
+        width: 30rem;
+      }
 
+    /* Petite photo 3 Media Desktop */
 
-        }
+    .petitephoto3 {
+        width: 19%;
+        margin-left: 115rem;
+    }
 
+    /* Petite photo 4 Media Desktop */
 
+    .petitephoto4 {
+        width: 19%;
+        margin-left: 115rem;
+    }
 
 
-        /* Media Querie Desktop 1440*900 */
+}
 
+    /* Footer Media Desktop */
 
-        @media screen and (max-width: 1440px) {
+    .backtest {
+        position: relative;
+        width: 120%;
+        height: 25rem;
 
-            /* Menu Desktop */
-            .menu {
-                margin-left: 130rem;
-            }
+    }
 
-            /* Icone Dekstop */
 
-            .icone1 {
-                margin-left: -6rem;
-            }
 
-            /* Container POpulaire */
 
-            .container2 {
-                width: 43rem;
-                margin-left: 98rem;
-            }
 
-              /* Grande Photo 1 Media Desktop */
 
-              .grandephoto{
-                width: 30rem;
-             
-            }
+@media screen and (max-width:1280px) {
 
-             /* Grande Photo 2 Media Desktop */
 
-             .grandephoto2{
-                margin-left: 75rem;
-                width: 35rem;
-            }
+   /* Menu Desktop */
+   .menu {
+    margin-left: 123rem;
+}
 
-            /* Petite photo 1 Media Desktop */
+/* Icone Dekstop */
 
-            .petitephoto1{
-                margin-left: 40rem;
-                width: 30rem;
-            }
+.icone1 {
+    margin-left: -6rem;
+}
 
-              /* Petite photo 2 Media Desktop */
+.container{
+    margin-left: 2rem;
+}
 
-              .petitephoto2{
-                margin-left: 40rem;
-                width: 30rem;
-              }
+/* Container POpulaire */
 
-            /* Petite photo 3 Media Desktop */
+.container2 {
+    width: 34rem;
+    margin-left: 92rem;
+}
 
-            .petitephoto3 {
-                width: 30rem;
-                margin-left: 116rem;
-            }
+  /* Grande Photo 1 Media Desktop */
 
-            /* Petite photo 4 Media Desktop */
+  .grandephoto{
+    width: 29rem;
+    position: relative;
+    right: 2rem;
+ 
+}
 
-            .petitephoto4 {
-                width: 28rem;
-            height: 25rem;
-                margin-left: 117rem;
-                margin-top: 13rem;
-            }
+ /* Grande Photo 2 Media Desktop */
 
-            .petitephoto4 img {
-                width: 100%;
-                height: 20rem;
-                object-fit: cover;
-                border-top-left-radius: 2rem;
-                border-top-right-radius: 2rem;
-            }
+ .grandephoto2{
+    margin-left: 70rem;
+    width: 29rem;
     
+}
+
+/* Petite photo 1 Media Desktop */
+
+.petitephoto1{
+    margin-left: 37rem;
+    width: 28rem;
+   
+}
+
+  /* Petite photo 2 Media Desktop */
+
+  .petitephoto2{
+    margin-left: 37rem;
+    width: 28rem;
+
+  }
+
+/* Petite photo 3 Media Desktop */
+
+.petitephoto3 {
+    width: 28rem;
+    margin-left: 105rem;
+   
+}
+
+/* Petite photo 4 Media Desktop */
+
+.petitephoto4 {
+    width: 28rem;
+    height: 25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 105rem;
+    margin-top: 13rem;
+
+    
+}
+
+.petitephoto4 img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
 
 
 
 
-        }
+
+}
+
+
+/* Responsive Ipad */
+
+@media screen and (max-width: 768px) {
+
+
+    html,
+    body {
+        font-family: Railways;
+        overflow-x: hidden;
+    }
 
 
 
-        @media screen and (max-width:1366px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
 
-               /* Menu Desktop */
-               .menu {
-                margin-left: 130rem;
-            }
-
-            /* Icone Dekstop */
-
-            .icone1 {
-                margin-left: -6rem;
-            }
-
-            /* Container Hébergement */
-
-            .container{
-            margin-left: 3rem;
-            }
-
-            /* Container Populaire */
-
-            .container2 {
-                width: 25%;
-                margin-left: 94rem;
-            }
-
-              /* Grande Photo 1 Media Desktop */
-
-              .grandephoto{
-                width: 30rem;
-             
-            }
-
-             /* Grande Photo 2 Media Desktop */
-
-             .grandephoto2{
-                margin-left: 75rem;
-                width: 35rem;
-            }
-
-            /* Petite photo 1 Media Desktop */
-
-            .petitephoto1{
-                margin-left: 40rem;
-                width: 30rem;
-            }
-
-              /* Petite photo 2 Media Desktop */
-
-              .petitephoto2{
-                margin-left: 40rem;
-                width: 30rem;
-              }
-
-            /* Petite photo 3 Media Desktop */
-
-            .petitephoto3 {
-                width: 19%;
-                margin-left: 115rem;
-            }
-
-            /* Petite photo 4 Media Desktop */
-
-            .petitephoto4 {
-                width: 19%;
-                margin-left: 115rem;
-            }
+    /* Logo & Menu iPad */
 
 
-        }
+    .logo {
+        position: absolute;
+        margin-left: 8rem;
+        margin-top: -6rem;
+        display: flex;
+    }
 
-            /* Footer Media Desktop */
+    .menu {
+        margin-left: 75rem;
+        margin-top: 3rem;
+    }
 
-            .backtest {
-                position: relative;
-                width: 120%;
-                height: 25rem;
-
-            }
+    .titre h3 {
+        margin-top: -5rem;
+    }
 
 
+
+    .iconeparent {
+
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 9rem;
+
+    }
+
+    .iconeparent i {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        background: #f2f2f2;
+        justify-content: center;
+        margin-left: -0.5rem;
+        align-items: center;
+        border-top-left-radius: 0.9rem;
+        border-bottom-left-radius: 0.9rem;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        background: #0065fc;
+        color: white;
+        margin-left: 0rem;
+        cursor: pointer;
+        font-size: 1.8rem;
+        border-top-right-radius: 1.2rem;
+        border-bottom-right-radius: 1.2rem;
+    }
+
+
+    /* Filtre de Recherche Ipad */
+
+    .icone2 {
+        display: none;
+    }
+
+    .filter h4 {
+        font-size: 2.1rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
+    }
+
+    .css_ul_liste_filtres {
+        margin-right: 3rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .css_ul_liste_filtres li span i:hover {
+        top: 3px;
+    }
+
+    .css_ul_liste_filtres li:hover {
+        top: 3px;
+    }
+
+    .css_ul_liste_filtres li {
+        margin-left: 1rem;
+        padding: 0.6rem;
+        border: 2px solid #dedede;
+        background: white;
+        margin-right: 2rem;
+        border-radius: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .css_ul_liste_filtres li:nth-child(1) {
+        width: 15rem;
+        margin-left: -9rem;
+    }
+
+    .css_ul_liste_filtres li:nth-child(2) {
+        width: 11.5rem;
+    }
+
+    .css_ul_liste_filtres li:nth-child(3) {
+        width: 15rem;
+        margin-top: 12rem;
+        margin-left: -35rem;
+    }
+
+    .css_ul_liste_filtres li:nth-child(4) {
+        width: 20rem;
+        margin-top: 12rem;
+    }
+
+    .css_ul_liste_filtres span {
+        margin-left: 0.5rem;
+    }
+
+    .css_ul_liste_filtres li i {
+        width: 3rem;
+        height: 3rem;
+        background: #DEEBFF;
+        border-radius: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 0.5rem;
+        background: #DEEBFF;
+        color: #0065fc;
+    }
+
+    /* Hébergement titre Ipad */
+
+    .titre h2 {
+        font-size: 2.5rem;
+    }
+
+
+    /* Hébergement Location P1 ipad*/
+
+    .container {
+        width: 70rem;
+        height: 180rem;
+        margin-top: 2rem;
+    }
+
+    .location {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .location img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .location h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .location p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .location i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .location i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Hébergement Location P2 */
+
+    .locationp2 {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .locationp2 img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .locationp2 h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .locationp2 p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .locationp2 i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .locationp2 i:nth-child(8) {
+        color: #dedede;
+    }
+
+
+    /* Hébergement Location P3 ipad */
+
+
+    .locationp3 {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .locationp3 img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .locationp3 h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .locationp3 p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .locationp3 i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .locationp3 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Hébergement Location P4 ipad */
+
+    .locationp4 {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .locationp4 img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .locationp4 h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .locationp4 p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .locationp4 i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .locationp4 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Hébergement  location P5 ipad  */
+
+    .locationp5 {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .locationp5 img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .locationp5 h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .locationp5 p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .locationp5 i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .locationp5 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Hébergement Location P6 ipad */
+
+    .locationp6 {
+        width: 50rem;
+        height: 14rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 2rem;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        padding: 5rem;
+
+    }
+
+    .locationp6 img {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        width: 60rem;
+        margin-top: -5rem;
+        margin-left: -5rem;
+        height: 14rem;
+        object-fit: cover;
+
+    }
+
+    .locationp6 h5 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-left: -3rem;
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .locationp6 p {
+        margin-top: -3rem;
+        margin-left: -3rem;
+        color: black;
+        font-size: 1.5rem;
+
+    }
+
+    .locationp6 i {
+        position: relative;
+        bottom: 1rem;
+        right: 2.8rem;
+        margin-bottom: -28rem;
+        font-size: 1.5rem;
+        color: #0065fc;
+    }
+
+    .locationp4 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Information Supplémentaire Ipad */
+
+    .infosup {
+        font-size: 1.8rem;
+        margin-left: 8rem;
+    }
+
+    /* Container 2 Ipad  */
+
+    .container2 {
+        width: 70rem;
+        height: 80rem;
+        margin-top: 8rem;
+        margin-left: 3.5rem;
+    }
+
+    .populaire h2 {
+        margin-left: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    .icone1 {
+        margin-left: 18rem;
+    }
+
+    /* Activité Marseille iPad Grande Photo */
+
+    .grandephoto {
+        width: 60rem;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: 9rem;
+
+    }
+
+    .grandephoto img {
+        width: 100%;
+        height: 20rem;
+
+    }
+
+    .petitephoto1 {
+        width: 60rem;
+        height: 25rem;
+        margin-top: -5rem;
+        margin-left: 10rem;
+    }
+
+    /* Activité Marseille Petite Photo 2 Ipad  */
+
+    .petitephoto2 {
+        width: 60rem;
+        height: 25rem;
+        margin-left:10rem;
+    }
+
+    .petitephoto2 img {
+        width: 100%;
+        height: 20rem;
+
+    }
+
+    /* Activité Marseille iPad Grande Photo 2 */
+
+    .grandephoto2 {
+        width: 60rem;
+        height: 25rem;
+        margin-top: 5rem;
+        margin-left: 12rem;
+    }
+
+    .grandephoto2 img {
+        width: 100%;
+        height: 20rem;
+
+    }
+
+    /* Activité Marseille Petite Photo 3 iPad */
+    .petitephoto3 {
+        width: 60rem;
+        height: 25rem;
+        margin-top: -6rem;
+        margin-left: 15rem;
+    }
+
+    .petitephoto3 img {
+        width: 100%;
+        height: 20rem;
+
+    }
+
+    /* Activité Marseille Petite Photo 4 ipad */
+
+    .petitephoto4 {
+        width: 60rem;
+        height: 25rem;
+        margin-top: 15rem;
+        margin-left: 15rem;
+    }
+
+    .petitephoto4 img {
+        width: 100%;
+        height: 20rem;
+
+    }
+
+    /* Footer Ipad  */
+
+    .backtest {
+        position: relative;
+        width: 100%;
+        height: 35rem;
+        background: #f1f1f1f1;
+        margin-top: -2rem;
+    }
+
+
+    .footerleft {
+        margin-left: 5rem;
+        margin-top: 10rem;
+
+    }
+
+    .footerleft h3 {
+        position: relative;
+        top: 5rem;
+        font-size: 2rem;
+    }
+
+    .footerleft p {
+        position: relative;
+        top: 5rem;
+        font-size: 1.6rem;
+    }
+
+    .footercenter {
+        position: absolute;
+        left: 65rem;
+        white-space: nowrap;
+        bottom: 19rem;
+
+    }
+
+    .footercenter h3 {
+        position: relative;
+        right: 35rem;
+        font-size: 2.1rem;
+    }
+
+    .footercenter p {
+        position: relative;
+        right: 35rem;
+        font-size: 3rem;
+    }
+
+    .footercenter h3 {
+        font-size: 2rem;
+    }
+
+    .footercenter p {
+        font-size: 1.6rem;
+    }
+
+
+
+    .footerright h3 {
+        position: relative;
+        left: 55rem;
+        bottom: 10rem;
+        font-size: 2rem;
+    }
+
+    .footerright p {
+        position: relative;
+        left: 55rem;
+        bottom: 10rem;
+        font-size: 1.6rem;
+    }
+
+    .footerright h3 {
+
+        font-size: 1.8rem;
+    }
+
+    .footerright p {
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* Responsive iPhone 8 iPhone X  */
+
+@media only screen and (max-width:375px) {
+
+    html,
+    body {
+        font-family: Railways;
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+    /* Menu & Logo mobile*/
+
+
+
+    .menu {
+        margin-left: 40rem;
+        margin-top: 3rem;
+    }
+
+    .menu .navbar :nth-child(2) {
+        margin-top: -2rem;
+        margin-left: 12.6rem;
+    }
+
+    .menu .navbar :nth-child(3) {
+        margin-top: -6rem;
+        margin-left: 13rem;
+    }
+
+    .logo {
+        position: absolute;
+        top: 7rem;
+        left: -4rem;
+    }
+
+    /* Titre & Sous Titre mobile */
+    .titre {
+        font-size: 1.6rem;
+        margin-left: 4rem;
+        opacity: 1;
+        margin-top: 8rem;
+
+
+    }
+
+    .informations {
+        margin-top: -5rem;
+        margin-left: 4rem;
+        white-space: nowrap;
+    }
+
+    .iconeparent {
+        position: relative;
+        bottom: 6rem;
+    }
+
+    /* Barre de Recherche mobile */
+
+    input {
+        border-radius: 0.5rem;
+        position: relative;
+        right: 3rem;
+        top: 4rem;
+        display: flex;
+    }
+
+    button {
+        display: none;
+    }
+
+    .icone2 {
+        position: relative;
+        top: 4rem;
+        right: 10rem;
+        display: flex;
+        justify-content: end;
+        align-content: flex-end;
+        color: #f2f2f2;
+        font-size: 1rem;
+    }
+
+    .iconegeo i {
+        display: flex;
+        position: relative;
+        top: 4rem;
+        right: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .icone2 i {
+        position: relative;
+        left: 5rem;
+        border-radius: 0 1.2rem 1.2rem 0;
+        background: #0065fc;
+        font-size: 1.3rem;
+    }
+
+    /* Filtre de Recherche mobile */
+
+    .filter {
+        position: absolute;
+        display: block;
+        top: 5rem;
+        left: 3rem;
+    }
+
+    .filter h4 {
+        margin-top: 22rem;
+        margin-left: 13.5rem;
+        font-size: 2rem;
+
+    }
+
+    .css_ul_liste_filtres {
+        margin-left: 25rem;
+        top: -7.5rem;
+    }
+
+    .css_ul_liste_filtres {
+        position: relative;
+        width: 27rem;
+        left: -6rem;
+    }
+
+    .css_ul_liste_filtres :nth-child(2) {
+        position: relative;
+        left: -1rem;
+    }
+
+    .css_ul_liste_filtres :nth-child(3) {
+        position: relative;
+        left: 3rem;
+
+    }
+
+    .css_ul_liste_filtres :nth-child(4) {
+        position: relative;
+        left: -15rem;
+        top: 6rem;
+
+    }
+
+    /* Informations supplémentaire mobile */
+
+    .icone span {
+        position: absolute;
+        top: 32rem;
+        right: 45rem;
+        left: 2rem;
+        font-size: 1.9rem;
+        display: block;
+        font-size: 1.7rem;
+
+
+    }
+
+    .icone span i {
+        position: relative;
+        margin-top: 20rem;
+        margin-left: 0.2rem;
+    }
+
+
+
+    .numero1 {
+        opacity: 0;
+    }
+
+    .numero2 {
+        opacity: 1;
+        position: relative;
+        margin-top: 20rem;
+        margin-left: 3rem;
+        white-space: nowrap;
+    }
+
+
+    /* Logement Populaire mobile */
+
+    .container2 {
+        width: 45rem;
+        height: 68rem;
+        margin-top: 32rem;
+        margin-left: -2rem;
+    }
+
+
+
+
+    .icone1 {
+        position: relative;
+        left: 16rem;
+        top: -1.3rem;
+    }
+
+    .logementpop1 {
+
+        width: 30rem;
+    }
+
+
+
+    .logementpop1 h3 {
+
+        font-size: 1.7rem;
+        white-space: nowrap;
+    }
+
+    .logementpop1 p {
+
+        font-size: 1.5rem;
+    }
+
+    .logementpop1 i {
+        position: relative;
+        color: #0065fc;
+    }
+
+    .logementpop2 {
+        margin-top: 1rem;
+        width: 30rem;
+    }
+
+    .logementpop2 h3 {
+        font-size: 1.7rem;
+        white-space: nowrap;
+    }
+
+    .logementpop2 p {
+
+        font-size: 1.5rem;
+    }
+
+    .logementpop2 i {
+
+        color: #0065fc;
+    }
+
+    .logementpop2 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    .logementpop3 {
+        margin-top: 2rem;
+        width: 30rem;
+    }
+
+    .logementpop3 h3 {
+
+        font-size: 1.7rem;
+        white-space: nowrap;
+    }
+
+    .logementpop3 p {
+
+        font-size: 1.5rem;
+    }
+
+    .logementpop3 i {
+        position: relative;
+        bottom: 0rem;
+        color: #0065fc;
+    }
+
+    .logementpop3 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Hébergement à Marseille mobile*/
+
+    .container {
+        position: absolute;
+        top: 130rem;
+        left: -5rem;
+        width: 50rem;
+        height: 168rem;
+    }
+
+    .container .titre {
+        margin-top: 5rem;
+        margin-left: 7rem;
+    }
+
+
+    .location {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .location img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .location i:nth-child(8) {
+        color: #dedede;
+    }
+
+    .locationp2 {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .locationp2 img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .locationp2 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    .locationp3 {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .locationp3 img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .locationp3 i:nth-child(8) {
+        color: #dedede;
+    }
+
+
+
+    .locationp4 {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .locationp4 img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .locationp4 i:nth-child(8) {
+        color: #dedede;
+    }
+
+
+
+    .locationp5 {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .locationp5 img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .locationp5 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    .locationp6 {
+        width: 25rem;
+        height: 10rem;
+        margin-top: 5rem;
+        margin-left: -3.5rem;
+    }
+
+    .locationp6 img {
+        width: 140%;
+        height: 12rem;
+
+    }
+
+    .locationp6 i:nth-child(8) {
+        color: #dedede;
+    }
+
+    /* Afficher Plus mobile */
+    .infosup {
+        position: absolute;
+        top: 299rem;
+        white-space: nowrap;
+        left: -5rem;
+    }
+
+    /* Activité à Marseille mobile */
+    .titre3 {
+        position: absolute;
+        top: 300rem;
+        left: 3rem;
+    }
+
+    .grandephoto {
+        position: relative;
+        width: 35rem;
+        height: 18rem;
+        margin-top: 185rem;
+        margin-left: 2.8rem;
+
+    }
+
+    .grandephoto img {
+        width: 100%;
+        height: 12rem;
+
+    }
+
+
+
+    .grandephoto h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+    /* Activité mobile Petite Photo1 iPhone  */
+
+    .petitephoto1 {
+        position: relative;
+        top: 8rem;
+        left: 0rem;
+        width: 35rem;
+        height: 18rem;
+        margin-top: -5rem;
+        margin-left: 0.8rem;
+    }
+
+    .petitephoto1 h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+
+
+    .petitephoto1 img {
+        width: 100%;
+        height: 12rem;
+
+    }
+
+    /* Activité mobile Petite Photo2 iPhone */
+
+    .petitephoto2 {
+        position: relative;
+        width: 35rem;
+        height: 18rem;
+        top: -2rem;
+        left: -9.2rem;
+    }
+
+    .petitephoto2 h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+
+
+    .petitephoto2 img {
+        width: 100%;
+        height: 12rem;
+
+    }
+
+    /* Activité mobile Grande Photo 2  */
+
+    .grandephoto2 {
+        position: relative;
+        width: 35rem;
+        height: 18rem;
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+
+    .grandephoto2 h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+
+
+    .grandephoto2 img {
+        width: 100%;
+        height: 12rem;
+
+    }
+
+    /* Activité mobile Petite Photo 3 */
+
+    .petitephoto3 {
+        position: relative;
+        width: 35rem;
+        height: 18rem;
+        margin-top: -7rem;
+        margin-left: 8.5rem;
+    }
+
+    .petitephoto3 img {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .petitephoto3 h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+
+     /* Activité mobile Petite Photo 4 */
+
+     .petitephoto4 {
+        position: relative;
+        width: 35rem;
+        height: 18rem;
+        margin-top: 13rem;
+        margin-left: 9rem;
+    }
+
+    .petitephoto4 img {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .petitephoto4 h4 {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+    /* Footer mobile */
+
+    .backtest {
+        width: 60rem;
+        height:58rem;
+        background: #F2F2F2;
+        position: relative;
+        margin-top: -5rem;
         
-        
 
+    }
 
-        @media screen and (max-width:1280px) {
 
+   
 
-           /* Menu Desktop */
-           .menu {
-            margin-left: 123rem;
-        }
+    .footercenter  {
+        position: relative;
+        left: 40rem;
+        top: 8rem;
+    }
 
-        /* Icone Dekstop */
+    .footerright{
+        position: relative;
+        right: 50rem;
+        bottom: -22rem;
+    }
 
-        .icone1 {
-            margin-left: -6rem;
-        }
+  
 
-        .container{
-            margin-left: 2rem;
-        }
-
-        /* Container POpulaire */
-
-        .container2 {
-            width: 34rem;
-            margin-left: 92rem;
-        }
-
-          /* Grande Photo 1 Media Desktop */
-
-          .grandephoto{
-            width: 29rem;
-            position: relative;
-            right: 2rem;
-         
-        }
-
-         /* Grande Photo 2 Media Desktop */
-
-         .grandephoto2{
-            margin-left: 70rem;
-            width: 29rem;
-            
-        }
-
-        /* Petite photo 1 Media Desktop */
-
-        .petitephoto1{
-            margin-left: 37rem;
-            width: 28rem;
-           
-        }
-
-          /* Petite photo 2 Media Desktop */
-
-          .petitephoto2{
-            margin-left: 37rem;
-            width: 28rem;
-
-          }
-
-        /* Petite photo 3 Media Desktop */
-
-        .petitephoto3 {
-            width: 28rem;
-            margin-left: 105rem;
-           
-        }
-
-        /* Petite photo 4 Media Desktop */
-
-        .petitephoto4 {
-            width: 28rem;
-            height: 25rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-left: 105rem;
-            margin-top: 13rem;
-
-            
-        }
-
-        .petitephoto4 img {
-            width: 100%;
-            height: 20rem;
-            object-fit: cover;
-            border-top-left-radius: 2rem;
-            border-top-right-radius: 2rem;
-        }
-
-
-
-
-
-        }
-
-
-        /* Responsive Ipad */
-
-        @media screen and (max-width: 768px) {
-
-
-            html,
-            body {
-                font-family: Railways;
-                overflow-x: hidden;
-            }
-
-
-
-            body {
-                height: 100vh;
-                width: 100%;
-                position: relative;
-            }
-
-            /* Logo & Menu iPad */
-
-
-            .logo {
-                position: absolute;
-                margin-left: 8rem;
-                margin-top: -6rem;
-                display: flex;
-            }
-
-            .menu {
-                margin-left: 75rem;
-                margin-top: 3rem;
-            }
-
-            .titre h3 {
-                margin-top: -5rem;
-            }
-
-
-
-            .iconeparent {
-
-                display: flex;
-                margin-top: 4rem;
-                margin-left: 9rem;
-
-            }
-
-            .iconeparent i {
-                display: flex;
-                width: 4rem;
-                height: 4rem;
-                font-size: 1.8rem;
-                background: #f2f2f2;
-                justify-content: center;
-                margin-left: -0.5rem;
-                align-items: center;
-                border-top-left-radius: 0.9rem;
-                border-bottom-left-radius: 0.9rem;
-            }
-
-            button {
-                display: flex;
-                align-items: center;
-                background: #0065fc;
-                color: white;
-                margin-left: 0rem;
-                cursor: pointer;
-                font-size: 1.8rem;
-                border-top-right-radius: 1.2rem;
-                border-bottom-right-radius: 1.2rem;
-            }
-
-
-            /* Filtre de Recherche Ipad */
-
-            .icone2 {
-                display: none;
-            }
-
-            .filter h4 {
-                font-size: 2.1rem;
-                margin-left: 20rem;
-                margin-top: 3rem;
-            }
-
-            .css_ul_liste_filtres {
-                margin-right: 3rem;
-                margin-top: 2rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-            }
-
-            .css_ul_liste_filtres li span i:hover {
-                top: 3px;
-            }
-
-            .css_ul_liste_filtres li:hover {
-                top: 3px;
-            }
-
-            .css_ul_liste_filtres li {
-                margin-left: 1rem;
-                padding: 0.6rem;
-                border: 2px solid #dedede;
-                background: white;
-                margin-right: 2rem;
-                border-radius: 5rem;
-                display: flex;
-                align-items: center;
-            }
-
-            .css_ul_liste_filtres li:nth-child(1) {
-                width: 15rem;
-                margin-left: -9rem;
-            }
-
-            .css_ul_liste_filtres li:nth-child(2) {
-                width: 11.5rem;
-            }
-
-            .css_ul_liste_filtres li:nth-child(3) {
-                width: 15rem;
-                margin-top: 12rem;
-                margin-left: -35rem;
-            }
-
-            .css_ul_liste_filtres li:nth-child(4) {
-                width: 20rem;
-                margin-top: 12rem;
-            }
-
-            .css_ul_liste_filtres span {
-                margin-left: 0.5rem;
-            }
-
-            .css_ul_liste_filtres li i {
-                width: 3rem;
-                height: 3rem;
-                background: #DEEBFF;
-                border-radius: 3rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                right: 0.5rem;
-                background: #DEEBFF;
-                color: #0065fc;
-            }
-
-            /* Hébergement titre Ipad */
-
-            .titre h2 {
-                font-size: 2.5rem;
-            }
-
-
-            /* Hébergement Location P1 ipad*/
-
-            .container {
-                width: 70rem;
-                height: 180rem;
-                margin-top: 2rem;
-            }
-
-            .location {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .location img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .location h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .location p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .location i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .location i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Hébergement Location P2 */
-
-            .locationp2 {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .locationp2 img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .locationp2 h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .locationp2 p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .locationp2 i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .locationp2 i:nth-child(8) {
-                color: #dedede;
-            }
-
-
-            /* Hébergement Location P3 ipad */
-
-
-            .locationp3 {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .locationp3 img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .locationp3 h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .locationp3 p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .locationp3 i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .locationp3 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Hébergement Location P4 ipad */
-
-            .locationp4 {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .locationp4 img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .locationp4 h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .locationp4 p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .locationp4 i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .locationp4 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Hébergement  location P5 ipad  */
-
-            .locationp5 {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .locationp5 img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .locationp5 h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .locationp5 p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .locationp5 i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .locationp5 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Hébergement Location P6 ipad */
-
-            .locationp6 {
-                width: 50rem;
-                height: 14rem;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                border-radius: 2rem;
-                margin-left: -3rem;
-                margin-top: 3rem;
-                padding: 5rem;
-
-            }
-
-            .locationp6 img {
-                border-top-left-radius: 1.5rem;
-                border-top-right-radius: 1.5rem;
-                width: 60rem;
-                margin-top: -5rem;
-                margin-left: -5rem;
-                height: 14rem;
-                object-fit: cover;
-
-            }
-
-            .locationp6 h5 {
-                font-size: 2rem;
-                margin-top: 1rem;
-                margin-left: -3rem;
-                white-space: nowrap;
-                color: black;
-                font-weight: bold;
-
-            }
-
-            .locationp6 p {
-                margin-top: -3rem;
-                margin-left: -3rem;
-                color: black;
-                font-size: 1.5rem;
-
-            }
-
-            .locationp6 i {
-                position: relative;
-                bottom: 1rem;
-                right: 2.8rem;
-                margin-bottom: -28rem;
-                font-size: 1.5rem;
-                color: #0065fc;
-            }
-
-            .locationp4 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Information Supplémentaire Ipad */
-
-            .infosup {
-                font-size: 1.8rem;
-                margin-left: 8rem;
-            }
-
-            /* Container 2 Ipad  */
-
-            .container2 {
-                width: 70rem;
-                height: 80rem;
-                margin-top: 8rem;
-                margin-left: 3.5rem;
-            }
-
-            .populaire h2 {
-                margin-left: 3.5rem;
-                font-size: 2.5rem;
-            }
-
-            .icone1 {
-                margin-left: 18rem;
-            }
-
-            /* Activité Marseille iPad Grande Photo */
-
-            .grandephoto {
-                width: 60rem;
-                height: 25rem;
-                margin-top: 2rem;
-                margin-left: 9rem;
-
-            }
-
-            .grandephoto img {
-                width: 100%;
-                height: 20rem;
-
-            }
-
-            .petitephoto1 {
-                width: 60rem;
-                height: 25rem;
-                margin-top: -5rem;
-                margin-left: 10rem;
-            }
-
-            /* Activité Marseille Petite Photo 2 Ipad  */
-
-            .petitephoto2 {
-                width: 60rem;
-                height: 25rem;
-                margin-left:10rem;
-            }
-
-            .petitephoto2 img {
-                width: 100%;
-                height: 20rem;
-
-            }
-
-            /* Activité Marseille iPad Grande Photo 2 */
-
-            .grandephoto2 {
-                width: 60rem;
-                height: 25rem;
-                margin-top: 5rem;
-                margin-left: 12rem;
-            }
-
-            .grandephoto2 img {
-                width: 100%;
-                height: 20rem;
-
-            }
-
-            /* Activité Marseille Petite Photo 3 iPad */
-            .petitephoto3 {
-                width: 60rem;
-                height: 25rem;
-                margin-top: -6rem;
-                margin-left: 15rem;
-            }
-
-            .petitephoto3 img {
-                width: 100%;
-                height: 20rem;
-
-            }
-
-            /* Activité Marseille Petite Photo 4 ipad */
-
-            .petitephoto4 {
-                width: 60rem;
-                height: 25rem;
-                margin-top: 15rem;
-                margin-left: 15rem;
-            }
-
-            .petitephoto4 img {
-                width: 100%;
-                height: 20rem;
-
-            }
-
-            /* Footer Ipad  */
-
-            .backtest {
-                position: relative;
-                width: 100%;
-                height: 35rem;
-                background: #f1f1f1f1;
-                margin-top: -2rem;
-            }
-
-
-            .footerleft {
-                margin-left: 5rem;
-                margin-top: 10rem;
-
-            }
-
-            .footerleft h3 {
-                position: relative;
-                top: 5rem;
-                font-size: 2rem;
-            }
-
-            .footerleft p {
-                position: relative;
-                top: 5rem;
-                font-size: 1.6rem;
-            }
-
-            .footercenter {
-                position: absolute;
-                left: 65rem;
-                white-space: nowrap;
-                bottom: 19rem;
-
-            }
-
-            .footercenter h3 {
-                position: relative;
-                right: 35rem;
-                font-size: 2.1rem;
-            }
-
-            .footercenter p {
-                position: relative;
-                right: 35rem;
-                font-size: 3rem;
-            }
-
-            .footercenter h3 {
-                font-size: 2rem;
-            }
-
-            .footercenter p {
-                font-size: 1.6rem;
-            }
-
-
-
-            .footerright h3 {
-                position: relative;
-                left: 55rem;
-                bottom: 10rem;
-                font-size: 2rem;
-            }
-
-            .footerright p {
-                position: relative;
-                left: 55rem;
-                bottom: 10rem;
-                font-size: 1.6rem;
-            }
-
-            .footerright h3 {
-
-                font-size: 1.8rem;
-            }
-
-            .footerright p {
-                font-size: 1.5rem;
-            }
-
-
-
-
-
-
-        }
-
-
-
-        /* Responsive iPhone 8 iPhone X  */
-
-        @media only screen and (max-width:375px) {
-
-            html,
-            body {
-                font-family: Railways;
-                overflow-x: hidden;
-            }
-
-            body {
-                position: relative
-            }
-
-            /* Menu & Logo mobile*/
-
-
-
-            .menu {
-                margin-left: 40rem;
-                margin-top: 3rem;
-            }
-
-            .menu .navbar :nth-child(2) {
-                margin-top: -2rem;
-                margin-left: 12.6rem;
-            }
-
-            .menu .navbar :nth-child(3) {
-                margin-top: -6rem;
-                margin-left: 13rem;
-            }
-
-            .logo {
-                position: absolute;
-                top: 7rem;
-                left: -4rem;
-            }
-
-            /* Titre & Sous Titre mobile */
-            .titre {
-                font-size: 1.6rem;
-                margin-left: 4rem;
-                opacity: 1;
-                margin-top: 8rem;
-
-
-            }
-
-            .informations {
-                margin-top: -5rem;
-                margin-left: 4rem;
-                white-space: nowrap;
-            }
-
-            .iconeparent {
-                position: relative;
-                bottom: 6rem;
-            }
-
-            /* Barre de Recherche mobile */
-
-            input {
-                border-radius: 0.5rem;
-                position: relative;
-                right: 3rem;
-                top: 4rem;
-                display: flex;
-            }
-
-            button {
-                display: none;
-            }
-
-            .icone2 {
-                position: relative;
-                top: 4rem;
-                right: 10rem;
-                display: flex;
-                justify-content: end;
-                align-content: flex-end;
-                color: #f2f2f2;
-                font-size: 1rem;
-            }
-
-            .iconegeo i {
-                display: flex;
-                position: relative;
-                top: 4rem;
-                right: 3rem;
-                font-size: 1.4rem;
-            }
-
-            .icone2 i {
-                position: relative;
-                left: 5rem;
-                border-radius: 0 1.2rem 1.2rem 0;
-                background: #0065fc;
-                font-size: 1.3rem;
-            }
-
-            /* Filtre de Recherche mobile */
-
-            .filter {
-                position: absolute;
-                display: block;
-                top: 5rem;
-                left: 3rem;
-            }
-
-            .filter h4 {
-                margin-top: 22rem;
-                margin-left: 13.5rem;
-                font-size: 2rem;
-
-            }
-
-            .css_ul_liste_filtres {
-                margin-left: 25rem;
-                top: -7.5rem;
-            }
-
-            .css_ul_liste_filtres {
-                position: relative;
-                width: 27rem;
-                left: -6rem;
-            }
-
-            .css_ul_liste_filtres :nth-child(2) {
-                position: relative;
-                left: -1rem;
-            }
-
-            .css_ul_liste_filtres :nth-child(3) {
-                position: relative;
-                left: 3rem;
-
-            }
-
-            .css_ul_liste_filtres :nth-child(4) {
-                position: relative;
-                left: -15rem;
-                top: 6rem;
-
-            }
-
-            /* Informations supplémentaire mobile */
-
-            .icone span {
-                position: absolute;
-                top: 32rem;
-                right: 45rem;
-                left: 2rem;
-                font-size: 1.9rem;
-                display: block;
-                font-size: 1.7rem;
-
-
-            }
-
-            .icone span i {
-                position: relative;
-                margin-top: 20rem;
-                margin-left: 0.2rem;
-            }
-
-
-
-            .numero1 {
-                opacity: 0;
-            }
-
-            .numero2 {
-                opacity: 1;
-                position: relative;
-                margin-top: 20rem;
-                margin-left: 3rem;
-                white-space: nowrap;
-            }
-
-
-            /* Logement Populaire mobile */
-
-            .container2 {
-                width: 45rem;
-                height: 68rem;
-                margin-top: 32rem;
-                margin-left: -2rem;
-            }
-
-
-
-
-            .icone1 {
-                position: relative;
-                left: 16rem;
-                top: -1.3rem;
-            }
-
-            .logementpop1 {
-
-                width: 30rem;
-            }
-
-
-
-            .logementpop1 h3 {
-
-                font-size: 1.7rem;
-                white-space: nowrap;
-            }
-
-            .logementpop1 p {
-
-                font-size: 1.5rem;
-            }
-
-            .logementpop1 i {
-                position: relative;
-                color: #0065fc;
-            }
-
-            .logementpop2 {
-                margin-top: 1rem;
-                width: 30rem;
-            }
-
-            .logementpop2 h3 {
-                font-size: 1.7rem;
-                white-space: nowrap;
-            }
-
-            .logementpop2 p {
-
-                font-size: 1.5rem;
-            }
-
-            .logementpop2 i {
-
-                color: #0065fc;
-            }
-
-            .logementpop2 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            .logementpop3 {
-                margin-top: 2rem;
-                width: 30rem;
-            }
-
-            .logementpop3 h3 {
-
-                font-size: 1.7rem;
-                white-space: nowrap;
-            }
-
-            .logementpop3 p {
-
-                font-size: 1.5rem;
-            }
-
-            .logementpop3 i {
-                position: relative;
-                bottom: 0rem;
-                color: #0065fc;
-            }
-
-            .logementpop3 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Hébergement à Marseille mobile*/
-
-            .container {
-                position: absolute;
-                top: 130rem;
-                left: -5rem;
-                width: 50rem;
-                height: 168rem;
-            }
-
-            .container .titre {
-                margin-top: 5rem;
-                margin-left: 7rem;
-            }
-
-
-            .location {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .location img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .location i:nth-child(8) {
-                color: #dedede;
-            }
-
-            .locationp2 {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .locationp2 img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .locationp2 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            .locationp3 {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .locationp3 img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .locationp3 i:nth-child(8) {
-                color: #dedede;
-            }
-
-
-
-            .locationp4 {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .locationp4 img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .locationp4 i:nth-child(8) {
-                color: #dedede;
-            }
-
-
-
-            .locationp5 {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .locationp5 img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .locationp5 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            .locationp6 {
-                width: 25rem;
-                height: 10rem;
-                margin-top: 5rem;
-                margin-left: -2.5rem;
-            }
-
-            .locationp6 img {
-                width: 140%;
-                height: 12rem;
-
-            }
-
-            .locationp6 i:nth-child(8) {
-                color: #dedede;
-            }
-
-            /* Afficher Plus mobile */
-            .infosup {
-                position: absolute;
-                top: 299rem;
-                white-space: nowrap;
-                left: -5rem;
-            }
-
-            /* Activité à Marseille mobile */
-            .titre3 {
-                position: absolute;
-                top: 300rem;
-                left: 3rem;
-            }
-
-            .grandephoto {
-                position: relative;
-                width: 35rem;
-                height: 18rem;
-                margin-top: 185rem;
-                margin-left: 3rem;
-
-            }
-
-            .grandephoto img {
-                width: 100%;
-                height: 12rem;
-
-            }
-
-
-
-            .grandephoto h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-            /* Activité mobile Petite Photo1 iPhone  */
-
-            .petitephoto1 {
-                position: relative;
-                top: 8rem;
-                left: 0rem;
-                width: 35rem;
-                height: 18rem;
-                margin-top: -5rem;
-                margin-left: 1rem;
-            }
-
-            .petitephoto1 h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-
-
-            .petitephoto1 img {
-                width: 100%;
-                height: 12rem;
-
-            }
-
-            /* Activité mobile Petite Photo2 iPhone */
-
-            .petitephoto2 {
-                position: relative;
-                width: 35rem;
-                height: 18rem;
-                top: -2rem;
-                left: -9rem;
-            }
-
-            .petitephoto2 h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-
-
-            .petitephoto2 img {
-                width: 100%;
-                height: 12rem;
-
-            }
-
-            /* Activité mobile Grande Photo 2  */
-
-            .grandephoto2 {
-                position: relative;
-                width: 35rem;
-                height: 18rem;
-                margin-top: 1rem;
-                margin-left: 6rem;
-            }
-
-            .grandephoto2 h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-
-
-            .grandephoto2 img {
-                width: 100%;
-                height: 12rem;
-
-            }
-
-            /* Activité mobile Petite Photo 3 */
-
-            .petitephoto3 {
-                position: relative;
-                width: 35rem;
-                height: 18rem;
-                margin-top: -7rem;
-                margin-left: 9rem;
-            }
-
-            .petitephoto3 img {
-                width: 100%;
-                height: 12rem;
-            }
-
-            .petitephoto3 h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-
-             /* Activité mobile Petite Photo 4 */
-
-             .petitephoto4 {
-                position: relative;
-                width: 35rem;
-                height: 18rem;
-                margin-top: 13rem;
-                margin-left: 9rem;
-            }
-
-            .petitephoto4 img {
-                width: 100%;
-                height: 12rem;
-            }
-
-            .petitephoto4 h4 {
-                margin-left: 2rem;
-                font-size: 1.8rem;
-            }
-
-            /* Footer mobile */
-
-            .backtest {
-                width: 60rem;
-                height:58rem;
-                background: #F2F2F2;
-                position: relative;
-                margin-top: -5rem;
-                
-
-            }
-
-
-           
-
-            .footercenter  {
-                position: relative;
-                left: 40rem;
-                top: 8rem;
-            }
-
-            .footerright{
-                position: relative;
-                right: 50rem;
-                bottom: -22rem;
-            }
-
-          
-
-          
-        }
+  
+}
