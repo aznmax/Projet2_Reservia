@@ -2393,7 +2393,7 @@ button {
         width: 45rem;
         height: 68rem;
         margin-top: 32rem;
-        margin-left: -2rem;
+        margin-left: -2.5rem;
     }
 
 
@@ -2408,6 +2408,7 @@ button {
     .logementpop1 {
 
         width: 30rem;
+        margin-left:3.5rem;
     }
 
 
@@ -2429,6 +2430,7 @@ button {
     }
 
     .logementpop2 {
+        margin-left: 3.5rem;
         margin-top: 1rem;
         width: 30rem;
     }
@@ -2453,6 +2455,7 @@ button {
     }
 
     .logementpop3 {
+        margin-left: 3.5rem;
         margin-top: 2rem;
         width: 30rem;
     }
@@ -2646,7 +2649,7 @@ button {
         width: 35rem;
         height: 18rem;
         margin-top: -5rem;
-        margin-left: 0.8rem;
+        margin-left: 0.5rem;
     }
 
     .petitephoto1 h4 {
@@ -2669,7 +2672,7 @@ button {
         width: 35rem;
         height: 18rem;
         top: -2rem;
-        left: -9.2rem;
+        left: -9.5rem;
     }
 
     .petitephoto2 h4 {
@@ -2692,7 +2695,7 @@ button {
         width: 35rem;
         height: 18rem;
         margin-top: 1rem;
-        margin-left: 6rem;
+        margin-left: 5.5rem;
     }
 
     .grandephoto2 h4 {
@@ -2736,7 +2739,7 @@ button {
         width: 35rem;
         height: 18rem;
         margin-top: 13rem;
-        margin-left: 9rem;
+        margin-left: 8.5rem;
     }
 
     .petitephoto4 img {
