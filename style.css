@@ -1,4 +1,4 @@
-* ::before,
+K* ::before,
 ::after {
     box-sizing: border-box;
 }
@@ -1101,14 +1101,6 @@ input{
         display: flex;
     }
     
-}
-
- 
-
- 
-
-
-
     
     body{
        overflow-x: hidden;
@@ -1118,73 +1110,72 @@ input{
        
         
     }
-
     
-
+    
+    
     /* Container 2  */
     .container2{
         width: 45rem;
         margin-left: 98rem;
     }
-
+    
      /* Grande Photo 1 Media Desktop */
-
+    
      .grandephoto{
         width: 30rem;
      
     }
-
+    
      /* Grande Photo 2 Media Desktop */
-
+    
      .grandephoto2{
         margin-left: 75rem;
         width: 35rem;
     }
-
+    
     /* Petite photo 1 Media Desktop */
-
+    
     .petitephoto1{
         margin-left: 40rem;
         width: 30rem;
     }
-
+    
       /* Petite photo 2 Media Desktop */
-
+    
       .petitephoto2{
         margin-left: 40rem;
         width: 30rem;
       }
-
+    
     /* Petite photo 3 Media Desktop */
-
+    
     .petitephoto3 {
         width: 30rem;
         margin-left: 116rem;
     }
-
+    
     /* Petite photo 4 Media Desktop */
-
+    
     .petitephoto4 {
         width: 30rem;
         margin-left: 116rem;
     }
-
+    
     .backtest{
         position: fixed;
       
        
     }
 
- 
+
+}
 
 
-
-/* Media Queries Desktop 1680px */
+/* Media Queries Desktop 1680px 1050px */
 
 @media screen and (max-width:1680px){
 
     html{
-
         overflow-x: hidden;
     }
 
@@ -1194,52 +1185,45 @@ input{
     }
 
 
-main{
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 23rem;
-    width: fit-content;
-}
+/* Logo Content */
 
 .logo{
-    margin-left: auto;
+    margin-left: 19.5rem;
+}
+
+    
+/* Main Content */
+
+main{
+    margin-left: 15rem;
     margin-right: auto;
-    margin-left: 28rem;
     width: fit-content;
 }
 
-.menu{
-    margin-left: 125rem;
-}
-
-/* Premier Container */
-
-.container{
-margin-left: 6rem;
-
-}
-
-
-
-/* Deuxieme Container */
-
-.container2{
-    margin-left: 96rem;
-}
+/* Section Content */
 
 section{
     margin-left: auto;
     margin-right: auto;
-    margin-left: 20rem;
     width: fit-content;
 }
+
+
+    
+}
+
+ 
+
+ 
 
 
 
 
 
  
-}
+
+
+
 
 
 
@@ -1306,27 +1290,6 @@ section{
           width: 30rem;
           margin-left: 116rem;
       }
-
-      
-      .logo{
-          margin-left: 17rem;
-      }
-    
-
-      main{
-        margin-left: auto;
-        margin-right: auto;
-        margin-left: 12rem;
-        width: fit-content;
-    }
-
-      
-section{
-    margin-left: auto;
-    margin-right: auto;
-
-    width: fit-content;
-}
 
 
   }
@@ -1488,6 +1451,21 @@ section{
 
 @media screen and (max-width:1366px) {
 
+    /* Logo Desktop */
+    
+    .logo{
+        margin-left: 7.5rem;
+    }
+
+
+    /* Main Dekstop */
+
+
+
+    main{
+        margin-left: 3rem;
+    }
+
        /* Menu Desktop */
        .menu {
         margin-left: 130rem;
@@ -1508,7 +1486,7 @@ section{
     /* Container Populaire */
 
     .container2 {
-        width: 25%;
+        width: 28%;
         margin-left: 94rem;
     }
 
@@ -1573,6 +1551,16 @@ section{
 
 @media screen and (max-width:1280px) {
 
+    .logo{
+        margin-left: 4.8rem;
+    }
+
+    main{
+        margin-left: 0rem;
+        margin-right: auto;
+        width: fit-content;
+    }
+
 
    /* Menu Desktop */
    .menu {
@@ -1588,6 +1576,7 @@ section{
 .container{
     margin-left: 2rem;
 }
+
 
 /* Container POpulaire */
 
@@ -2936,4 +2925,5 @@ section{
 
   
 }
+
 
