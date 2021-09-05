@@ -1,4 +1,4 @@
-K* ::before,
+* ::before,
 ::after {
     box-sizing: border-box;
 }
@@ -1091,6 +1091,12 @@ button {
         width: fit-content;
     }
 
+/* Infosup content */
+
+.infosup{
+    margin-left: -12rem;
+}
+
 
 /* Input content */
 
@@ -1206,6 +1212,10 @@ section{
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+}
+
+.infosup{
+    margin-left: -63rem;
 }
 
 
@@ -1449,7 +1459,7 @@ section{
 
 
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width:1367px) {
 
     /* Logo Desktop */
     
@@ -1469,6 +1479,12 @@ section{
        /* Menu Desktop */
        .menu {
         margin-left: 130rem;
+    }
+
+    /* Infosup Content */
+
+    .infosup{
+        margin-left: -58rem;
     }
 
     /* Icone Dekstop */
