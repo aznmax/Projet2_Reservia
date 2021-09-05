@@ -4,12 +4,12 @@
 }
 
 body {
- 
+    
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    
 }
 
 
@@ -1058,24 +1058,72 @@ button {
 
 @media screen and (max-width:1920px){
 
-   html{
-       
-       overflow-x: hidden;
-       width: 100%;
-       height: 100vh;
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+
+/* Logo Content */
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-left: 27.5rem;
+
 }
 
-body{
-        margin-left: auto;
+
+/* Main Content */
+
+    main{
+        margin-left: 23rem;
         margin-right: auto;
         width: fit-content;
-      
     }
+
+/* Section Content */
+
+    section{
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 20rem;
+        width: fit-content;
+    }
+
+
+/* Input content */
+
+input{
+
+  
+        border-radius: 0.5rem;    
+        display: flex;
+    }
+    
+}
+
+ 
+
+ 
+
+
+
+    
+    body{
+       overflow-x: hidden;
+        width: 100%;
+        height: 100vh;
+      
+       
+        
+    }
+
     
 
     /* Container 2  */
     .container2{
-        
+        width: 45rem;
         margin-left: 98rem;
     }
 
@@ -1122,18 +1170,80 @@ body{
     }
 
     .backtest{
-        width:100%;
-        margin-right: auto;
+        position: fixed;
+      
+       
+    }
+
+ 
+
+
+
+/* Media Queries Desktop 1680px */
+
+@media screen and (max-width:1680px){
+
+    html{
+
+        overflow-x: hidden;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
     }
 
 
+main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 23rem;
+    width: fit-content;
+}
 
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 28rem;
+    width: fit-content;
+}
 
+.menu{
+    margin-left: 125rem;
+}
+
+/* Premier Container */
+
+.container{
+margin-left: 6rem;
 
 }
 
 
-/* Media Querie Desktop 1680 * 1050 */
+
+/* Deuxieme Container */
+
+.container2{
+    margin-left: 96rem;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20rem;
+    width: fit-content;
+}
+
+
+
+
+
+ 
+}
+
+
+
+/* Media Querie Desktop 1600 * 1050 */
 
 
    @media screen and (max-width:1600px){
@@ -1196,6 +1306,27 @@ body{
           width: 30rem;
           margin-left: 116rem;
       }
+
+      
+      .logo{
+          margin-left: 17rem;
+      }
+    
+
+      main{
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 12rem;
+        width: fit-content;
+    }
+
+      
+section{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+}
 
 
   }
