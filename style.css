@@ -4,6 +4,7 @@
 }
 
 body {
+ 
     padding: 0;
     margin: 0;
     width: 100%;
@@ -1057,11 +1058,20 @@ button {
 
 @media screen and (max-width:1920px){
 
-    body{
+   html{
+       
+       overflow-x: hidden;
+       width: 100%;
+       height: 100vh;
+}
+
+body{
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
+      
     }
+    
 
     /* Container 2  */
     .container2{
@@ -1109,6 +1119,11 @@ button {
     .petitephoto4 {
         width: 30rem;
         margin-left: 116rem;
+    }
+
+    .backtest{
+        width:100%;
+        margin-right: auto;
     }
 
 
@@ -2790,3 +2805,4 @@ button {
 
   
 }
+
