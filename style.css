@@ -1057,6 +1057,12 @@ button {
 
 @media screen and (max-width:1920px){
 
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
     /* Container 2  */
     .container2{
         
