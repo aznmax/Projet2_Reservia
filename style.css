@@ -4,12 +4,12 @@
 }
 
 body {
-    
+
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100vh;
-    
+
 }
 
 
@@ -152,6 +152,7 @@ button {
     margin-right: 3rem;
     display: flex;
     list-style: none;
+    
 
 }
 
@@ -164,6 +165,7 @@ button {
 }
 
 .css_ul_liste_filtres li {
+    
     padding: 0.6rem;
     border: 2px solid #dedede;
     background: white;
@@ -172,22 +174,28 @@ button {
     display: flex;
     align-items: center;
     position: relative;
+    white-space: nowrap;
 }
 
+
 .css_ul_liste_filtres li:nth-child(1) {
-    width: 15rem;
+    width: 16rem;
+    height: 3rem;
 }
 
 .css_ul_liste_filtres li:nth-child(2) {
-    width: 11.5rem;
+    width: 12rem;
+    height: 3rem;
 }
 
 .css_ul_liste_filtres li:nth-child(3) {
-    width: 15rem;
+    width: 16rem;
+    height: 3rem;
 }
 
 .css_ul_liste_filtres li:nth-child(4) {
-    width: 20rem;
+    width: 22rem;
+    height: 3rem;
 }
 
 .css_ul_liste_filtres span {
@@ -195,17 +203,22 @@ button {
 }
 
 .css_ul_liste_filtres li i {
-    width: 3rem;
-    height: 3rem;
+width: 3rem;
+height: 3rem;
     background: #DEEBFF;
     border-radius: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 0.5rem;
+    right: 1rem;
     background: #DEEBFF;
     color: #0065fc;
+}
+
+.css_ul_liste_filtres li i{
+    width: 3.8rem;
+height: 3.8rem;
 }
 
 /* Informations complémentaires Desktop */
@@ -826,8 +839,8 @@ button {
 /* Grande Photo 2 activité Marseille Desktop */
 
 .grandephoto2 {
-   width: 19%;
-   height: 45rem;
+    width: 19%;
+    height: 45rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: -45rem;
     margin-left: 78rem;
@@ -1056,122 +1069,224 @@ button {
 
 /* Media Querie Desktop 1920 * 1080 */
 
-@media screen and (max-width:1920px){
+@media screen and (max-width:1920px) {
 
-    body{
+    body {
+        font-family: "Raleway";
         height: 100vh;
         width: 100%;
     }
 
-/* Logo Content */
+    /* Logo Content */
 
-.logo{
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    margin-left: 27.5rem;
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        margin-left: 27.5rem;
 
-}
+    }
 
 
-/* Main Content */
+    /* Main Content */
 
-    main{
+    main {
         margin-left: 23rem;
         margin-right: auto;
         width: fit-content;
     }
 
-/* Section Content */
 
-    section{
+    /* Effet Navbar Content */
+
+    .couleur:hover a {
+        border-top: 5px solid #0065fc;
+        padding-top: 3.6rem;
+    }
+
+    
+    
+
+    /* Menu S'inscrire Content */
+
+    .navbar :nth-child(2) {
+
+        margin-left: 9rem;
+    }
+
+    .navbar :nth-child(3) {
+        margin-top: -2.1rem;
+        margin-left: 23rem;
+    }
+
+
+    /* Section Content */
+
+    section {
         margin-left: auto;
         margin-right: auto;
         margin-left: 20rem;
         width: fit-content;
     }
 
-/* Infosup content */
+    /* Infosup content */
 
-.infosup{
-    margin-left: -12rem;
-}
+    .infosup {
+        margin-left: -12rem;
+    }
 
 
-/* Input content */
+    /* Input content */
 
-input{
+    input {
 
-  
-        border-radius: 0.5rem;    
+        border-radius: 0.5rem;
         display: flex;
     }
-    
-    
-    body{
-       overflow-x: hidden;
+
+
+    body {
+        overflow-x: hidden;
         width: 100%;
         height: 100vh;
-      
-       
-        
+
+
+
     }
-    
-    
-    
+
+
+
+    /* Location Media Queries */
+
+    .location {
+        padding-bottom: 6rem;
+
+
+    }
+
+
+    .location i {
+        position: relative;
+        left: -4rem;
+
+    }
+
+
+
+
+
+
+
+    .locationp2 {
+        padding-bottom: 6rem;
+        margin-top: -23rem;
+
+    }
+
+    .locationp2 i {
+        position: relative;
+        left: -3rem;
+    }
+
+    .locationp3 {
+        padding-bottom: 6rem;
+        margin-top: -23rem;
+    }
+
+    .locationp4 {
+        padding-bottom: 6rem;
+    }
+
+    .locationp5 {
+        padding-bottom: 6rem;
+        margin-top: -23rem;
+    }
+
+    .locationp6 {
+        padding-bottom: 6rem;
+        margin-top: -23rem;
+    }
+
+
+
+
+
+
+    /* Etoiles media Querys */
+
+
+
+
+
+
     /* Container 2  */
-    .container2{
+    .container2 {
         width: 45rem;
         margin-left: 98rem;
     }
-    
-     /* Grande Photo 1 Media Desktop */
-    
-     .grandephoto{
+
+    /* Grande Photo 1 Media Desktop */
+
+    .grandephoto {
         width: 30rem;
-     
+
     }
-    
-     /* Grande Photo 2 Media Desktop */
-    
-     .grandephoto2{
-        margin-left: 75rem;
+
+    /* Grande Photo 2 Media Desktop */
+
+    .grandephoto2 {
+        margin-left: 77rem;
         width: 35rem;
     }
-    
+
     /* Petite photo 1 Media Desktop */
-    
-    .petitephoto1{
+
+    .petitephoto1 {
         margin-left: 40rem;
         width: 30rem;
     }
-    
-      /* Petite photo 2 Media Desktop */
-    
-      .petitephoto2{
+
+    /* Petite photo 2 Media Desktop */
+
+    .petitephoto2 {
         margin-left: 40rem;
         width: 30rem;
-      }
-    
+    }
+
     /* Petite photo 3 Media Desktop */
-    
+
     .petitephoto3 {
         width: 30rem;
-        margin-left: 116rem;
+        margin-left: 120rem;
     }
-    
+
     /* Petite photo 4 Media Desktop */
-    
+
     .petitephoto4 {
         width: 30rem;
-        margin-left: 116rem;
+        margin-left: 120rem;
     }
-    
-    .backtest{
+
+    .backtest {
         position: fixed;
-      
-       
+
+
     }
+
+    .footerleft {
+        margin-left: 24rem;
+    }
+
+    .footercenter {
+        margin-left: 13rem;
+    }
+
+    .footerright {
+        margin-left: 7rem;
+    }
+
+
+
 
 
 }
@@ -1179,58 +1294,58 @@ input{
 
 /* Media Queries Desktop 1680px 1050px */
 
-@media screen and (max-width:1680px){
+@media screen and (max-width:1680px) {
 
-    html{
+    html {
         overflow-x: hidden;
     }
 
-    body{
+    body {
         width: 100%;
         height: 100vh;
     }
 
 
-/* Logo Content */
+    /* Logo Content */
 
-.logo{
-    margin-left: 19.5rem;
+    .logo {
+        margin-left: 19.5rem;
+    }
+
+
+    /* Main Content */
+
+    main {
+        margin-left: 15rem;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    /* Section Content */
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .infosup {
+        margin-left: -63rem;
+    }
+
+
+
 }
 
-    
-/* Main Content */
-
-main{
-    margin-left: 15rem;
-    margin-right: auto;
-    width: fit-content;
-}
-
-/* Section Content */
-
-section{
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-
-.infosup{
-    margin-left: -63rem;
-}
-
-
-    
-}
-
- 
-
- 
 
 
 
 
 
- 
+
+
+
+
 
 
 
@@ -1240,79 +1355,10 @@ section{
 /* Media Querie Desktop 1600 * 1050 */
 
 
-   @media screen and (max-width:1600px){
+@media screen and (max-width:1600px) {
 
-        /* Menu Desktop */
-        .menu {
-          margin-left: 130rem;
-      }
-
-      /* Icone Dekstop */
-
-      .icone1 {
-          margin-left: -6rem;
-      }
-
-      /* Container POpulaire */
-
-      .container2 {
-          margin-left: 98rem;
-      }
-
-        /* Grande Photo 1 Media Desktop */
-
-        .grandephoto{
-          width: 30rem;
-       
-      }
-
-       /* Grande Photo 2 Media Desktop */
-
-       .grandephoto2{
-          margin-left: 75rem;
-          width: 35rem;
-      }
-
-      /* Petite photo 1 Media Desktop */
-
-      .petitephoto1{
-          margin-left: 40rem;
-          width: 30rem;
-      }
-
-        /* Petite photo 2 Media Desktop */
-
-        .petitephoto2{
-          margin-left: 40rem;
-          width: 30rem;
-        }
-
-      /* Petite photo 3 Media Desktop */
-
-      .petitephoto3 {
-          width: 30rem;
-          margin-left: 116rem;
-      }
-
-      /* Petite photo 4 Media Desktop */
-
-      .petitephoto4 {
-          width: 30rem;
-          margin-left: 116rem;
-      }
-
-
-  }
-
-
-
-
-/* Media Querie Desktop 1600*900 */
-
-@media screen and (max-width:1600px){
-
-      /* Menu Desktop */
-      .menu {
+    /* Menu Desktop */
+    .menu {
         margin-left: 130rem;
     }
 
@@ -1328,33 +1374,102 @@ section{
         margin-left: 98rem;
     }
 
-      /* Grande Photo 1 Media Desktop */
+    /* Grande Photo 1 Media Desktop */
 
-      .grandephoto{
+    .grandephoto {
         width: 30rem;
-     
+
     }
 
-     /* Grande Photo 2 Media Desktop */
+    /* Grande Photo 2 Media Desktop */
 
-     .grandephoto2{
+    .grandephoto2 {
         margin-left: 75rem;
         width: 35rem;
     }
 
     /* Petite photo 1 Media Desktop */
 
-    .petitephoto1{
+    .petitephoto1 {
         margin-left: 40rem;
         width: 30rem;
     }
 
-      /* Petite photo 2 Media Desktop */
+    /* Petite photo 2 Media Desktop */
 
-      .petitephoto2{
+    .petitephoto2 {
         margin-left: 40rem;
         width: 30rem;
-      }
+    }
+
+    /* Petite photo 3 Media Desktop */
+
+    .petitephoto3 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
+
+    /* Petite photo 4 Media Desktop */
+
+    .petitephoto4 {
+        width: 30rem;
+        margin-left: 116rem;
+    }
+
+
+}
+
+
+
+
+/* Media Querie Desktop 1600*900 */
+
+@media screen and (max-width:1600px) {
+
+    /* Menu Desktop */
+    .menu {
+        margin-left: 130rem;
+    }
+
+    /* Icone Dekstop */
+
+    .icone1 {
+        margin-left: -6rem;
+    }
+
+    /* Container POpulaire */
+
+    .container2 {
+        margin-left: 98rem;
+    }
+
+    /* Grande Photo 1 Media Desktop */
+
+    .grandephoto {
+        width: 30rem;
+
+    }
+
+    /* Grande Photo 2 Media Desktop */
+
+    .grandephoto2 {
+        margin-left: 75rem;
+        width: 35rem;
+    }
+
+    /* Petite photo 1 Media Desktop */
+
+    .petitephoto1 {
+        margin-left: 40rem;
+        width: 30rem;
+    }
+
+    /* Petite photo 2 Media Desktop */
+
+    .petitephoto2 {
+        margin-left: 40rem;
+        width: 30rem;
+    }
 
     /* Petite photo 3 Media Desktop */
 
@@ -1399,33 +1514,33 @@ section{
         margin-left: 98rem;
     }
 
-      /* Grande Photo 1 Media Desktop */
+    /* Grande Photo 1 Media Desktop */
 
-      .grandephoto{
+    .grandephoto {
         width: 30rem;
-     
+
     }
 
-     /* Grande Photo 2 Media Desktop */
+    /* Grande Photo 2 Media Desktop */
 
-     .grandephoto2{
+    .grandephoto2 {
         margin-left: 75rem;
         width: 35rem;
     }
 
     /* Petite photo 1 Media Desktop */
 
-    .petitephoto1{
+    .petitephoto1 {
         margin-left: 40rem;
         width: 30rem;
     }
 
-      /* Petite photo 2 Media Desktop */
+    /* Petite photo 2 Media Desktop */
 
-      .petitephoto2{
+    .petitephoto2 {
         margin-left: 40rem;
         width: 30rem;
-      }
+    }
 
     /* Petite photo 3 Media Desktop */
 
@@ -1438,7 +1553,7 @@ section{
 
     .petitephoto4 {
         width: 28rem;
-    height: 25rem;
+        height: 25rem;
         margin-left: 117rem;
         margin-top: 13rem;
     }
@@ -1462,8 +1577,8 @@ section{
 @media screen and (max-width:1367px) {
 
     /* Logo Desktop */
-    
-    .logo{
+
+    .logo {
         margin-left: 7.5rem;
     }
 
@@ -1472,18 +1587,18 @@ section{
 
 
 
-    main{
+    main {
         margin-left: 3rem;
     }
 
-       /* Menu Desktop */
-       .menu {
+    /* Menu Desktop */
+    .menu {
         margin-left: 130rem;
     }
 
     /* Infosup Content */
 
-    .infosup{
+    .infosup {
         margin-left: -58rem;
     }
 
@@ -1495,8 +1610,8 @@ section{
 
     /* Container Hébergement */
 
-    .container{
-    margin-left: 3rem;
+    .container {
+        margin-left: 3rem;
     }
 
     /* Container Populaire */
@@ -1506,33 +1621,33 @@ section{
         margin-left: 94rem;
     }
 
-      /* Grande Photo 1 Media Desktop */
+    /* Grande Photo 1 Media Desktop */
 
-      .grandephoto{
+    .grandephoto {
         width: 30rem;
-     
+
     }
 
-     /* Grande Photo 2 Media Desktop */
+    /* Grande Photo 2 Media Desktop */
 
-     .grandephoto2{
+    .grandephoto2 {
         margin-left: 75rem;
         width: 35rem;
     }
 
     /* Petite photo 1 Media Desktop */
 
-    .petitephoto1{
+    .petitephoto1 {
         margin-left: 40rem;
         width: 30rem;
     }
 
-      /* Petite photo 2 Media Desktop */
+    /* Petite photo 2 Media Desktop */
 
-      .petitephoto2{
+    .petitephoto2 {
         margin-left: 40rem;
         width: 30rem;
-      }
+    }
 
     /* Petite photo 3 Media Desktop */
 
@@ -1551,14 +1666,14 @@ section{
 
 }
 
-    /* Footer Media Desktop */
+/* Footer Media Desktop */
 
-    .backtest {
-        position: relative;
-        width: 120%;
-        height: 25rem;
+.backtest {
+    position: relative;
+    width: 120%;
+    height: 25rem;
 
-    }
+}
 
 
 
@@ -1567,100 +1682,100 @@ section{
 
 @media screen and (max-width:1280px) {
 
-    .logo{
+    .logo {
         margin-left: 4.8rem;
     }
 
-    main{
+    main {
         margin-left: 0rem;
         margin-right: auto;
         width: fit-content;
     }
 
 
-   /* Menu Desktop */
-   .menu {
-    margin-left: 123rem;
-}
+    /* Menu Desktop */
+    .menu {
+        margin-left: 123rem;
+    }
 
-/* Icone Dekstop */
+    /* Icone Dekstop */
 
-.icone1 {
-    margin-left: -6rem;
-}
+    .icone1 {
+        margin-left: -6rem;
+    }
 
-.container{
-    margin-left: 2rem;
-}
+    .container {
+        margin-left: 2rem;
+    }
 
 
-/* Container POpulaire */
+    /* Container POpulaire */
 
-.container2 {
-    width: 34rem;
-    margin-left: 92rem;
-}
+    .container2 {
+        width: 34rem;
+        margin-left: 92rem;
+    }
 
-  /* Grande Photo 1 Media Desktop */
+    /* Grande Photo 1 Media Desktop */
 
-  .grandephoto{
-    width: 29rem;
-    position: relative;
-    right: 2rem;
- 
-}
+    .grandephoto {
+        width: 29rem;
+        position: relative;
+        right: 2rem;
 
- /* Grande Photo 2 Media Desktop */
+    }
 
- .grandephoto2{
-    margin-left: 70rem;
-    width: 29rem;
-    
-}
+    /* Grande Photo 2 Media Desktop */
 
-/* Petite photo 1 Media Desktop */
+    .grandephoto2 {
+        margin-left: 70rem;
+        width: 29rem;
 
-.petitephoto1{
-    margin-left: 37rem;
-    width: 28rem;
-   
-}
+    }
 
-  /* Petite photo 2 Media Desktop */
+    /* Petite photo 1 Media Desktop */
 
-  .petitephoto2{
-    margin-left: 37rem;
-    width: 28rem;
+    .petitephoto1 {
+        margin-left: 37rem;
+        width: 28rem;
 
-  }
+    }
 
-/* Petite photo 3 Media Desktop */
+    /* Petite photo 2 Media Desktop */
 
-.petitephoto3 {
-    width: 28rem;
-    margin-left: 105rem;
-   
-}
+    .petitephoto2 {
+        margin-left: 37rem;
+        width: 28rem;
 
-/* Petite photo 4 Media Desktop */
+    }
 
-.petitephoto4 {
-    width: 28rem;
-    height: 25rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-left: 105rem;
-    margin-top: 13rem;
+    /* Petite photo 3 Media Desktop */
 
-    
-}
+    .petitephoto3 {
+        width: 28rem;
+        margin-left: 105rem;
 
-.petitephoto4 img {
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-}
+    }
+
+    /* Petite photo 4 Media Desktop */
+
+    .petitephoto4 {
+        width: 28rem;
+        height: 25rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-left: 105rem;
+        margin-top: 13rem;
+
+
+    }
+
+    .petitephoto4 img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
 
 
 
@@ -1699,7 +1814,7 @@ section{
     }
 
     .menu {
-        margin-left: 75rem;
+        margin-left: 70rem;
         margin-top: 3rem;
     }
 
@@ -1808,8 +1923,9 @@ section{
     }
 
     .css_ul_liste_filtres li i {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
+        margin-left: -1rem;
         background: #DEEBFF;
         border-radius: 3rem;
         display: flex;
@@ -2220,7 +2336,7 @@ section{
     .petitephoto2 {
         width: 60rem;
         height: 25rem;
-        margin-left:10rem;
+        margin-left: 10rem;
     }
 
     .petitephoto2 img {
@@ -2304,7 +2420,7 @@ section{
 
     .footercenter {
         position: absolute;
-        left: 65rem;
+        left: 55rem;
         white-space: nowrap;
         bottom: 19rem;
 
@@ -2334,14 +2450,14 @@ section{
 
     .footerright h3 {
         position: relative;
-        left: 55rem;
+        left: 46rem;
         bottom: 10rem;
         font-size: 2rem;
     }
 
     .footerright p {
         position: relative;
-        left: 55rem;
+        left: 46rem;
         bottom: 10rem;
         font-size: 1.6rem;
     }
@@ -2472,11 +2588,12 @@ section{
         display: block;
         top: 5rem;
         left: 3rem;
+        
     }
 
     .filter h4 {
         margin-top: 22rem;
-        margin-left: 13.5rem;
+        margin-left: 15rem;
         font-size: 2rem;
 
     }
@@ -2484,17 +2601,20 @@ section{
     .css_ul_liste_filtres {
         margin-left: 25rem;
         top: -7.5rem;
+        
     }
 
     .css_ul_liste_filtres {
         position: relative;
-        width: 27rem;
-        left: -6rem;
+        width: 10rem;
+        left: 3rem;
+     
     }
 
     .css_ul_liste_filtres :nth-child(2) {
         position: relative;
         left: -1rem;
+     
     }
 
     .css_ul_liste_filtres :nth-child(3) {
@@ -2507,6 +2627,18 @@ section{
         position: relative;
         left: -15rem;
         top: 6rem;
+
+    }
+
+    .css_ul_liste_filtres i{
+        width: 4rem;
+        height: 4rem;
+        position: relative;
+        left: -1rem;
+        width: 5rem;
+        height: 5rem;
+        
+
 
     }
 
@@ -2566,7 +2698,7 @@ section{
     .logementpop1 {
 
         width: 30rem;
-        margin-left:3.5rem;
+        margin-left: 3.5rem;
     }
 
 
@@ -2890,9 +3022,9 @@ section{
     }
 
 
-     /* Activité mobile Petite Photo 4 */
+    /* Activité mobile Petite Photo 4 */
 
-     .petitephoto4 {
+    .petitephoto4 {
         position: relative;
         width: 35rem;
         height: 18rem;
@@ -2914,32 +3046,30 @@ section{
 
     .backtest {
         width: 60rem;
-        height:58rem;
+        height: 58rem;
         background: #F2F2F2;
         position: relative;
         margin-top: -5rem;
-        
+
 
     }
 
 
-   
 
-    .footercenter  {
+
+    .footercenter {
         position: relative;
-        left: 40rem;
+        left: 27rem;
         top: 8rem;
     }
 
-    .footerright{
+    .footerright {
         position: relative;
-        right: 50rem;
+        left: -53rem;
         bottom: -22rem;
     }
 
-  
 
-  
+
+
 }
-
-
